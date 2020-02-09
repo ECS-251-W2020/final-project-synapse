@@ -1,2 +1,3 @@
-# tsvd_java
-Source code for our TSVD  for Java implementation
+# TSVD for Java
+Source code for our TSVD  for Java implementation. 
+Copyright University of California Davis.
