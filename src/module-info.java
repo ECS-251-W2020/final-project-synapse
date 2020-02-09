@@ -1,0 +1,3 @@
+module tsvd {
+	exports datarace;
+}
