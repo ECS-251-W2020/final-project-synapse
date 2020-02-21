@@ -14,5 +14,4 @@ public class TSVThread extends Thread{
 		listObject.setListAddtime(new Timestamp(System.currentTimeMillis()));
 		list.add(listObject);
 	}
-
 }
