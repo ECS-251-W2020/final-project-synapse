@@ -5,32 +5,37 @@ import java.sql.Timestamp;
 public class Trap {
 	Timestamp createTime;
 	String callingFunction;
-	String callingThreadNum;
 	String ObjectID;
 	int delay;
+	String operationId;
+	String threadId;
 	
-	public Trap() {
+	public Trap(String thread_id, String objectId, String operation_id) {
 		this.createTime = new Timestamp(System.currentTimeMillis());
+		this.threadId = thread_id;
+		this.ObjectID = objectId;
+		this.operationId = operation_id;
 	}
 	
+	public String getOperationId() {
+		return operationId;
+	}
+
+	public String getThreadId() {
+		return threadId;
+	}
+
 	public Timestamp getCreateTime() {
 		return createTime;
 	}
-	public void setCreateTime(Timestamp createTime) {
-		this.createTime = createTime;
-	}
+
 	public String getCallingFunction() {
 		return callingFunction;
 	}
 	public void setCallingFunction(String callingFunction) {
 		this.callingFunction = callingFunction;
 	}
-	public String getCallingThreadNum() {
-		return callingThreadNum;
-	}
-	public void setCallingThreadNum(String callingThreadNum) {
-		this.callingThreadNum = callingThreadNum;
-	}
+
 	public String getObjectID() {
 		return ObjectID;
 	}
