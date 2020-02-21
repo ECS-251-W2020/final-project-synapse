@@ -13,7 +13,7 @@ public class Configuration {
 	public static void init() {
 		//numThreads = 2;
 		Properties prop = new Properties();
-		String fileName = "conf/config.properties";
+		String fileName = "conf\\config.properties";
 		InputStream is = null;
 		try {
 		    is = new FileInputStream(fileName);
