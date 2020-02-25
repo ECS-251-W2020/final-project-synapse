@@ -45,15 +45,17 @@ public class MonitorTransformer implements ClassFileTransformer {
         if (className.equals("com/company/ClassToMonitor")){
             System.out.println(className);
             ClassPool pool = ClassPool.getDefault();
-//            try {
-//                CtClass cc = pool.get("com.company.ClassToMonitor");
+            try {
+                CtClass cc = pool.get("com.company.ClassToMonitor");
 //                CtMethod method = cc.getDeclaredMethod("foo");
 //                method.insertBefore("com.company.Monitor.counter++");
 //                return cc.toBytecode();
 //            } catch (NotFoundException | CannotCompileException | IOException e) {
+            } catch (NotFoundException e) {
 //                e.printStackTrace();
-//            }
-//            return classfileBuffer;
+                System.out.println("Sum Ting Wong");
+            }
+            return classfileBuffer;
 
         }
         return null;
