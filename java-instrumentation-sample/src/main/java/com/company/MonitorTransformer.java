@@ -5,9 +5,6 @@ import java.lang.instrument.ClassFileTransformer;
 import java.lang.instrument.IllegalClassFormatException;
 import java.security.ProtectionDomain;
 import java.lang.Object;
-import javassist.bytecode.AnnotationsAttribute;
-import javassist.bytecode.MethodInfo;
-import javassist.bytecode.annotation.Annotation;
 
 import javassist.*;
 
@@ -48,19 +45,16 @@ public class MonitorTransformer implements ClassFileTransformer {
         if (className.equals("com/company/ClassToMonitor")){
             System.out.println(className);
             ClassPool pool = ClassPool.getDefault();
-            // Behaviors == methods and constructors.
-            CtMethod behavior = pool.getMethod();
-                    System.out.printf("%s - will collect metrics\n",
-                            behavior.getLongName());
-//            try {
+            try {
+
 //                CtClass cc = pool.get("com.company.ClassToMonitor");
 //                CtMethod method = cc.getDeclaredMethod("foo");
 //                method.insertBefore("com.company.Monitor.counter++");
 //                return cc.toBytecode();
 //            } catch (NotFoundException | CannotCompileException | IOException e) {
-//            } catch (NotFoundException e) {
+            } catch (NotFoundException e) {
 //                e.printStackTrace();
-//                System.out.println("Sum Ting Wong");
+                System.out.println("Sum Ting Wong");
             }
             return classfileBuffer;
 
