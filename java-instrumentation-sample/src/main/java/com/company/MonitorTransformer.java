@@ -15,32 +15,32 @@ public class MonitorTransformer implements ClassFileTransformer {
                             Class<?> classBeingRedefined, ProtectionDomain protectionDomain,
                             byte[] classfileBuffer) throws IllegalClassFormatException {
 
-        ClassPool classPool = ClassPool.getDefault();
+//        ClassPool classPool = ClassPool.getDefault();
 
         System.out.println(className);
 
-        // className can be null, ignoring such classes.
-        if (className == null) {
-            return null;
-        }
-
-        // Javassist uses "." as a separator in class/package names.
-        final String classNameDots = className.replaceAll("/", ".");
-        final CtClass ctClass = classPool.getOrNull(classNameDots);
-
-        // Won't find some classes from java.lang.invoke,
-        // but we're not interested in them anyway.
-        if (ctClass == null) {
-            return null;
-        }
-
-        // A frozen CtClass is a CtClass
-        // that was already converted to Java class.
-        if (ctClass.isFrozen()) {
-            // No longer need to keep the CtClass object in memory.
-            ctClass.detach();
-            return null;
-        }
+//        // className can be null, ignoring such classes.
+//        if (className == null) {
+//            return null;
+//        }
+//
+//        // Javassist uses "." as a separator in class/package names.
+//        final String classNameDots = className.replaceAll("/", ".");
+//        final CtClass ctClass = classPool.getOrNull(classNameDots);
+//
+//        // Won't find some classes from java.lang.invoke,
+//        // but we're not interested in them anyway.
+//        if (ctClass == null) {
+//            return null;
+//        }
+//
+//        // A frozen CtClass is a CtClass
+//        // that was already converted to Java class.
+//        if (ctClass.isFrozen()) {
+//            // No longer need to keep the CtClass object in memory.
+//            ctClass.detach();
+//            return null;
+//        }
 
 //        if (className.equals("com/company/ClassToMonitor")){
 //            ClassPool pool = ClassPool.getDefault();
