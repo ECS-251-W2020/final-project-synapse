@@ -14,11 +14,18 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1Y0cxa9xNLfKBewx0qUCkdQX61J" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../java-instrumentation-sample" />
   </component>
   <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
@@ -80,6 +87,10 @@
       <screen x="0" y="30" width="1536" height="834" />
     </state>
     <state x="566" y="332" width="403" height="237" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.30.1536.834@0.30.1536.834" timestamp="1582083300266" />
+    <state x="549" y="202" key="FileChooserDialogImpl" timestamp="1582592525932">
+      <screen x="0" y="30" width="1536" height="834" />
+    </state>
+    <state x="549" y="202" key="FileChooserDialogImpl/0.30.1536.834@0.30.1536.834" timestamp="1582592525932" />
     <state width="1493" height="213" key="GridCell.Tab.0.bottom" timestamp="1582085601329">
       <screen x="0" y="30" width="1536" height="834" />
     </state>

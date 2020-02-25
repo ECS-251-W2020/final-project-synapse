@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f84bdb9f-7eb8-4651-80a7-8cb47deb3282" name="Default Changelist" comment="" />
+    <list default="true" id="f84bdb9f-7eb8-4651-80a7-8cb47deb3282" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../java-instrumentation-agent/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java-instrumentation-agent/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-instrumentation-agent/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java-instrumentation-agent/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-instrumentation-agent/java-instrumentation-sample.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../java-instrumentation-agent/java-instrumentation-sample.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,7 +20,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/byte-buddy" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="1Y0cxa9xNLfKBewx0qUCkdQX61J" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -26,7 +31,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="findjar.last.used.dir" value="$PROJECT_DIR$" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/lib/javassist.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -141,14 +146,14 @@
       <screen x="0" y="30" width="1536" height="834" />
     </state>
     <state x="451" y="146" key="NewModule_or_Project.wizard/0.30.1536.834@0.30.1536.834" timestamp="1582575520953" />
-    <state x="377" y="30" key="SettingsEditor" timestamp="1582590869443">
+    <state x="377" y="30" key="SettingsEditor" timestamp="1582592538846">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state x="377" y="30" key="SettingsEditor/0.30.1536.834@0.30.1536.834" timestamp="1582590869443" />
-    <state x="465" y="271" key="com.intellij.ide.util.TipDialog" timestamp="1582569540066">
+    <state x="377" y="30" key="SettingsEditor/0.30.1536.834@0.30.1536.834" timestamp="1582592538846" />
+    <state x="465" y="271" key="com.intellij.ide.util.TipDialog" timestamp="1582591822208">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state x="465" y="271" key="com.intellij.ide.util.TipDialog/0.30.1536.834@0.30.1536.834" timestamp="1582569540066" />
+    <state x="465" y="271" key="com.intellij.ide.util.TipDialog/0.30.1536.834@0.30.1536.834" timestamp="1582591822208" />
     <state x="962" y="364" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1582574775829">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
