@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="894f450b-8b66-42c6-8d67-a9726f315d36" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../java-instrumentation-sample/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java-instrumentation-sample/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,22 +70,22 @@
       <screen x="0" y="30" width="1536" height="834" />
     </state>
     <state x="223" y="102" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.30.1536.834@0.30.1536.834" timestamp="1582592813166" />
-    <state width="1493" height="213" key="GridCell.Tab.0.bottom" timestamp="1582592817213">
+    <state width="1493" height="213" key="GridCell.Tab.0.bottom" timestamp="1582594059925">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.bottom/0.30.1536.834@0.30.1536.834" timestamp="1582592817213" />
-    <state width="1493" height="213" key="GridCell.Tab.0.center" timestamp="1582592817212">
+    <state width="1493" height="213" key="GridCell.Tab.0.bottom/0.30.1536.834@0.30.1536.834" timestamp="1582594059925" />
+    <state width="1493" height="213" key="GridCell.Tab.0.center" timestamp="1582594059925">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.center/0.30.1536.834@0.30.1536.834" timestamp="1582592817212" />
-    <state width="1493" height="213" key="GridCell.Tab.0.left" timestamp="1582592817212">
+    <state width="1493" height="213" key="GridCell.Tab.0.center/0.30.1536.834@0.30.1536.834" timestamp="1582594059925" />
+    <state width="1493" height="213" key="GridCell.Tab.0.left" timestamp="1582594059925">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.left/0.30.1536.834@0.30.1536.834" timestamp="1582592817212" />
-    <state width="1493" height="213" key="GridCell.Tab.0.right" timestamp="1582592817213">
+    <state width="1493" height="213" key="GridCell.Tab.0.left/0.30.1536.834@0.30.1536.834" timestamp="1582594059925" />
+    <state width="1493" height="213" key="GridCell.Tab.0.right" timestamp="1582594059925">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.right/0.30.1536.834@0.30.1536.834" timestamp="1582592817213" />
+    <state width="1493" height="213" key="GridCell.Tab.0.right/0.30.1536.834@0.30.1536.834" timestamp="1582594059925" />
     <state x="849" y="271" key="com.intellij.ide.util.TipDialog" timestamp="1582590849189">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
