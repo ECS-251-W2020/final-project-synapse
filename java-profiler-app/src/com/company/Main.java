@@ -12,7 +12,7 @@ public class Main {
         for (int i = 0; i < 10; i++) {
             classToMonitor.foo();
         }
-        System.out.println("after loop");
+        System.out.println("after loop: " + Monitor.counter);
     }
 
 }
