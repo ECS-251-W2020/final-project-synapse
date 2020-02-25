@@ -10,8 +10,8 @@ public class MyFirstAgent {
     public static void premain(String agentArgs, Instrumentation inst) {
 
         System.out.println("Start!");
-//        inst.addTransformer(new MonitorTransformer());
-        inst.addTransformer(new byteBuddyTransformer);
+        inst.addTransformer(new MonitorTransformer());
+//        inst.addTransformer(new byteBuddyTransformer);
     }
 
 }

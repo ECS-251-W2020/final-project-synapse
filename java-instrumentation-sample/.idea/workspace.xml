@@ -27,6 +27,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="findjar.last.used.dir" value="$PROJECT_DIR$" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../java-profiler-app" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -125,10 +126,10 @@
       <screen x="0" y="30" width="1536" height="834" />
     </state>
     <state x="499" y="194" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.30.1536.834@0.30.1536.834" timestamp="1582485235860" />
-    <state x="254" y="41" key="CommitChangelistDialog2" timestamp="1582593191539">
+    <state x="254" y="41" key="CommitChangelistDialog2" timestamp="1582593205708">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state x="254" y="41" key="CommitChangelistDialog2/0.30.1536.834@0.30.1536.834" timestamp="1582593191539" />
+    <state x="254" y="41" key="CommitChangelistDialog2/0.30.1536.834@0.30.1536.834" timestamp="1582593205708" />
     <state x="549" y="164" key="FileChooserDialogImpl" timestamp="1582592710777">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
