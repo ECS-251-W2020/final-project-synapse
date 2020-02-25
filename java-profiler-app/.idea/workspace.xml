@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="894f450b-8b66-42c6-8d67-a9726f315d36" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../java-instrumentation-sample/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java-instrumentation-sample/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-instrumentation-sample/src/main/java/com/company/MonitorTransformer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-instrumentation-sample/src/main/java/com/company/MonitorTransformer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,13 +64,29 @@
       <option name="presentableId" value="Default" />
       <updated>1582085148858</updated>
     </task>
+    <task id="LOCAL-00001" summary="profiler">
+      <created>1582594153654</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1582594153654</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="profiler" />
+    <option name="LAST_COMMIT_MESSAGE" value="profiler" />
   </component>
   <component name="WindowStateProjectService">
     <state x="223" y="102" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582592813166">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
     <state x="223" y="102" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.30.1536.834@0.30.1536.834" timestamp="1582592813166" />
+    <state x="320" y="41" key="CommitChangelistDialog2" timestamp="1582594152343">
+      <screen x="0" y="30" width="1536" height="834" />
+    </state>
+    <state x="320" y="41" key="CommitChangelistDialog2/0.30.1536.834@0.30.1536.834" timestamp="1582594152343" />
     <state width="1493" height="213" key="GridCell.Tab.0.bottom" timestamp="1582594059925">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
