@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f84bdb9f-7eb8-4651-80a7-8cb47deb3282" name="Default Changelist" comment="bytebuddy excluded">
+    <list default="true" id="f84bdb9f-7eb8-4651-80a7-8cb47deb3282" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/company/MonitorTransformer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/MonitorTransformer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/company/MonitorTransformer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/MonitorTransformer.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/java-instrumentation-sample-1.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/java-instrumentation-sample-1.0.1-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../java-profiler-app/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java-profiler-app/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java-profiler-app/out/production/java-sample-ap/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../java-profiler-app/out/production/java-sample-ap/com/company/Main.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -134,7 +133,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582594859235</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="className debug">
+      <created>1582595105935</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1582595105935</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -145,7 +151,8 @@
     <MESSAGE value="byte buddy lib added" />
     <MESSAGE value="exception handling" />
     <MESSAGE value="bytebuddy excluded" />
-    <option name="LAST_COMMIT_MESSAGE" value="bytebuddy excluded" />
+    <MESSAGE value="className debug" />
+    <option name="LAST_COMMIT_MESSAGE" value="className debug" />
   </component>
   <component name="WindowStateProjectService">
     <state x="537" y="107" key="#HTTP_Proxy" timestamp="1582571188452">
@@ -176,30 +183,30 @@
       <screen x="0" y="30" width="1536" height="834" />
     </state>
     <state x="499" y="194" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.30.1536.834@0.30.1536.834" timestamp="1582485235860" />
-    <state x="283" y="38" key="CommitChangelistDialog2" timestamp="1582594952264">
+    <state x="283" y="38" key="CommitChangelistDialog2" timestamp="1582595103727">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state x="283" y="38" key="CommitChangelistDialog2/0.30.1536.834@0.30.1536.834" timestamp="1582594952264" />
+    <state x="283" y="38" key="CommitChangelistDialog2/0.30.1536.834@0.30.1536.834" timestamp="1582595103727" />
     <state x="549" y="164" key="FileChooserDialogImpl" timestamp="1582592710777">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
     <state x="549" y="164" key="FileChooserDialogImpl/0.30.1536.834@0.30.1536.834" timestamp="1582592710777" />
-    <state width="1493" height="213" key="GridCell.Tab.0.bottom" timestamp="1582594956657">
+    <state width="1493" height="213" key="GridCell.Tab.0.bottom" timestamp="1582595338718">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.bottom/0.30.1536.834@0.30.1536.834" timestamp="1582594956657" />
-    <state width="1493" height="213" key="GridCell.Tab.0.center" timestamp="1582594956657">
+    <state width="1493" height="213" key="GridCell.Tab.0.bottom/0.30.1536.834@0.30.1536.834" timestamp="1582595338718" />
+    <state width="1493" height="213" key="GridCell.Tab.0.center" timestamp="1582595338718">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.center/0.30.1536.834@0.30.1536.834" timestamp="1582594956657" />
-    <state width="1493" height="213" key="GridCell.Tab.0.left" timestamp="1582594956657">
+    <state width="1493" height="213" key="GridCell.Tab.0.center/0.30.1536.834@0.30.1536.834" timestamp="1582595338718" />
+    <state width="1493" height="213" key="GridCell.Tab.0.left" timestamp="1582595338718">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.left/0.30.1536.834@0.30.1536.834" timestamp="1582594956657" />
-    <state width="1493" height="213" key="GridCell.Tab.0.right" timestamp="1582594956657">
+    <state width="1493" height="213" key="GridCell.Tab.0.left/0.30.1536.834@0.30.1536.834" timestamp="1582595338718" />
+    <state width="1493" height="213" key="GridCell.Tab.0.right" timestamp="1582595338718">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.right/0.30.1536.834@0.30.1536.834" timestamp="1582594956657" />
+    <state width="1493" height="213" key="GridCell.Tab.0.right/0.30.1536.834@0.30.1536.834" timestamp="1582595338718" />
     <state x="299" y="102" key="Maven.ArtifactSearchDialog" timestamp="1582571137431">
       <screen x="0" y="30" width="1536" height="834" />
     </state>

@@ -17,12 +17,12 @@ public class MonitorTransformer implements ClassFileTransformer {
 
 //        ClassPool classPool = ClassPool.getDefault();
 
-        System.out.println(className);
+//        System.out.println(className);
 
-//        // className can be null, ignoring such classes.
-//        if (className == null) {
-//            return null;
-//        }
+        // className can be null, ignoring such classes.
+        if (className == null) {
+            return null;
+        }
 //
 //        // Javassist uses "." as a separator in class/package names.
 //        final String classNameDots = className.replaceAll("/", ".");
@@ -42,8 +42,9 @@ public class MonitorTransformer implements ClassFileTransformer {
 //            return null;
 //        }
 
-//        if (className.equals("com/company/ClassToMonitor")){
-//            ClassPool pool = ClassPool.getDefault();
+        if (className.equals("com/company/ClassToMonitor")){
+            System.out.println(className);
+            ClassPool pool = ClassPool.getDefault();
 //            try {
 //                CtClass cc = pool.get("com.company.ClassToMonitor");
 //                CtMethod method = cc.getDeclaredMethod("foo");
@@ -53,8 +54,8 @@ public class MonitorTransformer implements ClassFileTransformer {
 //                e.printStackTrace();
 //            }
 //            return classfileBuffer;
-//
-//        }
+
+        }
         return null;
     }
 }
