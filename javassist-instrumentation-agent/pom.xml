@@ -7,6 +7,15 @@
     <groupId>groupId</groupId>
     <artifactId>javassist-instrumentation-agent</artifactId>
     <version>0.1-SNAPSHOT</version>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.javassist</groupId>
+            <artifactId>javassist</artifactId>
+            <version>${javaassist.version}</version>
+        </dependency>
+    </dependencies>
+
     <build>
         <plugins>
             <plugin>
@@ -24,6 +33,7 @@
     <properties>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
+        <javaassist.version>3.26.0-GA</javaassist.version>
     </properties>
 
 </project>
