@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b6bb4058-61a5-421e-ba19-f7a08c3115d6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javassist-instrumentation-agent.iml" beforeDir="false" afterPath="$PROJECT_DIR$/javassist-instrumentation-agent.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_26_0_GA.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +28,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$MAVEN_REPOSITORY$/org/javassist/javassist/3.26.0-GA" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -97,44 +94,56 @@
       <option name="project" value="LOCAL" />
       <updated>1582733073201</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="build agent jar">
+      <created>1582733455241</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1582733455241</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="updated pom.xml" />
     <MESSAGE value="added MANIFEST.MF" />
     <MESSAGE value="updated MANIFEST.MF" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated MANIFEST.MF" />
+    <MESSAGE value="build agent jar" />
+    <option name="LAST_COMMIT_MESSAGE" value="build agent jar" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="382" y="112" key="#Project_Structure" timestamp="1582733181715">
+    <state x="382" y="112" key="#Project_Structure" timestamp="1582733618775">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state x="382" y="112" key="#Project_Structure/0.30.1536.834@0.30.1536.834" timestamp="1582733181715" />
+    <state x="382" y="112" key="#Project_Structure/0.30.1536.834@0.30.1536.834" timestamp="1582733618775" />
     <state x="877" y="139" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1582732045717">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
     <state x="877" y="139" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.30.1536.834@0.30.1536.834" timestamp="1582732045717" />
-    <state x="481" y="41" key="CommitChangelistDialog2" timestamp="1582733072038">
+    <state x="481" y="41" key="CommitChangelistDialog2" timestamp="1582733454158">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state x="481" y="41" key="CommitChangelistDialog2/0.30.1536.834@0.30.1536.834" timestamp="1582733072038" />
-    <state width="723" height="214" key="GridCell.Tab.0.bottom" timestamp="1582733415843">
+    <state x="481" y="41" key="CommitChangelistDialog2/0.30.1536.834@0.30.1536.834" timestamp="1582733454158" />
+    <state x="494" y="195" key="FileChooserDialogImpl" timestamp="1582733513745">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="723" height="214" key="GridCell.Tab.0.bottom/0.30.1536.834@0.30.1536.834" timestamp="1582733415843" />
-    <state width="723" height="214" key="GridCell.Tab.0.center" timestamp="1582733415842">
+    <state x="494" y="195" key="FileChooserDialogImpl/0.30.1536.834@0.30.1536.834" timestamp="1582733513745" />
+    <state width="723" height="214" key="GridCell.Tab.0.bottom" timestamp="1582733630098">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="723" height="214" key="GridCell.Tab.0.center/0.30.1536.834@0.30.1536.834" timestamp="1582733415842" />
-    <state width="723" height="214" key="GridCell.Tab.0.left" timestamp="1582733415842">
+    <state width="723" height="214" key="GridCell.Tab.0.bottom/0.30.1536.834@0.30.1536.834" timestamp="1582733630098" />
+    <state width="723" height="214" key="GridCell.Tab.0.center" timestamp="1582733630097">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="723" height="214" key="GridCell.Tab.0.left/0.30.1536.834@0.30.1536.834" timestamp="1582733415842" />
-    <state width="723" height="214" key="GridCell.Tab.0.right" timestamp="1582733415842">
+    <state width="723" height="214" key="GridCell.Tab.0.center/0.30.1536.834@0.30.1536.834" timestamp="1582733630097" />
+    <state width="723" height="214" key="GridCell.Tab.0.left" timestamp="1582733630097">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="723" height="214" key="GridCell.Tab.0.right/0.30.1536.834@0.30.1536.834" timestamp="1582733415842" />
+    <state width="723" height="214" key="GridCell.Tab.0.left/0.30.1536.834@0.30.1536.834" timestamp="1582733630097" />
+    <state width="723" height="214" key="GridCell.Tab.0.right" timestamp="1582733630097">
+      <screen x="0" y="30" width="1536" height="834" />
+    </state>
+    <state width="723" height="214" key="GridCell.Tab.0.right/0.30.1536.834@0.30.1536.834" timestamp="1582733630097" />
     <state x="0" y="30" key="SettingsEditor" timestamp="1582731677389">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
