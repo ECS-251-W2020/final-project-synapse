@@ -12,7 +12,7 @@
 
 ### TODO for this week
 
-1. Core functionality + instrumenter should be completed
+1. Core functionality with instrumenter should be completed
 
 2. Run TSVD + past work on benchmarks
 
