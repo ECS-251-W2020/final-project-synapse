@@ -48,8 +48,8 @@ public class MonitorTransformer implements ClassFileTransformer {
             try {
                 System.out.print(pool);
                 CtClass cc = pool.get("com.company.ClassToMonitor");
-//                CtMethod method = cc.getDeclaredMethod("foo");
-//                method.insertBefore("com.company.Monitor.counter++");
+                CtMethod method = cc.getDeclaredMethod("foo");
+                method.insertBefore("com.company.Monitor.counter++;");
                 return cc.toBytecode();
             } catch (NotFoundException | CannotCompileException | IOException e) {
 //            } catch (NotFoundException e) {

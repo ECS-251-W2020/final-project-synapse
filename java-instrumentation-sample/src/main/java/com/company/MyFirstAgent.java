@@ -10,7 +10,7 @@ public class MyFirstAgent {
     public static void premain(String agentArgs, Instrumentation inst) {
 
         System.out.println("Start!");
-//        inst.addTransformer(new MonitorTransformer());
+        inst.addTransformer(new MonitorTransformer());
 //        new AgentBuilder.Default()
 //                .type(ElementMatchers.any())
 //                .transform(new ByteBuddyTransformer())
