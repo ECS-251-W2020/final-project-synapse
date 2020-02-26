@@ -2,25 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f84bdb9f-7eb8-4651-80a7-8cb47deb3282" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/byte_buddy_agent_1_10_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/byte-buddy-agent-1.10.8.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-instrumentation-sample.iml" beforeDir="false" afterPath="$PROJECT_DIR$/java-instrumentation-sample.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/MonitorTransformer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/MonitorTransformer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/company/MyFirstAgent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/MyFirstAgent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/byteBuddyTransformer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/ByteBuddyTransformer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/company/MonitorTransformer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/company/MyFirstAgent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/company/byteBuddyTransformer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/java-instrumentation-sample-1.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/java-instrumentation-sample-1.0.1-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java-profiler-app/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java-profiler-app/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java-profiler-app/out/production/java-sample-ap/com/company/ClassToMonitor.class" beforeDir="false" afterPath="$PROJECT_DIR$/../java-profiler-app/out/production/java-sample-ap/com/company/ClassToMonitor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java-profiler-app/out/production/java-sample-ap/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../java-profiler-app/out/production/java-sample-ap/com/company/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java-profiler-app/src/com/company/ClassToMonitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-profiler-app/src/com/company/ClassToMonitor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java-profiler-app/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-profiler-app/src/com/company/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -168,7 +152,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582647284752</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="byte-buddy-agent-1.10.8.jar added">
+      <created>1582706014136</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1582706014136</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -180,7 +171,8 @@
     <MESSAGE value="exception handling" />
     <MESSAGE value="bytebuddy excluded" />
     <MESSAGE value="className debug" />
-    <option name="LAST_COMMIT_MESSAGE" value="className debug" />
+    <MESSAGE value="byte-buddy-agent-1.10.8.jar added" />
+    <option name="LAST_COMMIT_MESSAGE" value="byte-buddy-agent-1.10.8.jar added" />
   </component>
   <component name="WindowStateProjectService">
     <state x="537" y="107" key="#HTTP_Proxy" timestamp="1582571188452">
@@ -215,30 +207,30 @@
       <screen x="0" y="30" width="1536" height="834" />
     </state>
     <state x="499" y="194" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.30.1536.834@0.30.1536.834" timestamp="1582485235860" />
-    <state x="283" y="38" key="CommitChangelistDialog2" timestamp="1582655756360">
+    <state x="283" y="38" key="CommitChangelistDialog2" timestamp="1582706010968">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state x="283" y="38" key="CommitChangelistDialog2/0.30.1536.834@0.30.1536.834" timestamp="1582655756360" />
+    <state x="283" y="38" key="CommitChangelistDialog2/0.30.1536.834@0.30.1536.834" timestamp="1582706010967" />
     <state x="549" y="164" key="FileChooserDialogImpl" timestamp="1582701843315">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
     <state x="549" y="164" key="FileChooserDialogImpl/0.30.1536.834@0.30.1536.834" timestamp="1582701843315" />
-    <state width="1493" height="213" key="GridCell.Tab.0.bottom" timestamp="1582704926920">
+    <state width="1493" height="213" key="GridCell.Tab.0.bottom" timestamp="1582706055348">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.bottom/0.30.1536.834@0.30.1536.834" timestamp="1582704926920" />
-    <state width="1493" height="213" key="GridCell.Tab.0.center" timestamp="1582704926920">
+    <state width="1493" height="213" key="GridCell.Tab.0.bottom/0.30.1536.834@0.30.1536.834" timestamp="1582706055348" />
+    <state width="1493" height="213" key="GridCell.Tab.0.center" timestamp="1582706055347">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.center/0.30.1536.834@0.30.1536.834" timestamp="1582704926920" />
-    <state width="1493" height="213" key="GridCell.Tab.0.left" timestamp="1582704926920">
+    <state width="1493" height="213" key="GridCell.Tab.0.center/0.30.1536.834@0.30.1536.834" timestamp="1582706055347" />
+    <state width="1493" height="213" key="GridCell.Tab.0.left" timestamp="1582706055347">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.left/0.30.1536.834@0.30.1536.834" timestamp="1582704926920" />
-    <state width="1493" height="213" key="GridCell.Tab.0.right" timestamp="1582704926920">
+    <state width="1493" height="213" key="GridCell.Tab.0.left/0.30.1536.834@0.30.1536.834" timestamp="1582706055347" />
+    <state width="1493" height="213" key="GridCell.Tab.0.right" timestamp="1582706055348">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.right/0.30.1536.834@0.30.1536.834" timestamp="1582704926920" />
+    <state width="1493" height="213" key="GridCell.Tab.0.right/0.30.1536.834@0.30.1536.834" timestamp="1582706055348" />
     <state x="299" y="102" key="Maven.ArtifactSearchDialog" timestamp="1582571137431">
       <screen x="0" y="30" width="1536" height="834" />
     </state>

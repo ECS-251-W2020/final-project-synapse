@@ -1,8 +1,8 @@
 package com.company;
 import java.lang.instrument.Instrumentation;
 
-import net.bytebuddy.agent.builder.AgentBuilder;
 import net.bytebuddy.matcher.ElementMatchers;
+import net.bytebuddy.agent.builder.AgentBuilder;
 
 public class MyFirstAgent {
 
@@ -10,7 +10,6 @@ public class MyFirstAgent {
 
         System.out.println("Start!");
 //        inst.addTransformer(new MonitorTransformer());
-//        inst.addTransformer(new byteBuddyTransformer);
         new AgentBuilder.Default()
                 .type(ElementMatchers.any())
                 .transform(new ByteBuddyTransformer())
