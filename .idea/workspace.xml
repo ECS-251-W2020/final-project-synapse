@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e34e5039-ebeb-44cb-94f1-0899058dcea1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/java-instrumentation-sample/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/java-instrumentation-sample/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-instrumentation-sample/src/main/java/com/company/MonitorTransformer.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-instrumentation-sample/src/main/java/com/company/MonitorTransformer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-instrumentation-sample/target/classes/com/company/MonitorTransformer.class" beforeDir="false" afterPath="$PROJECT_DIR$/java-instrumentation-sample/target/classes/com/company/MonitorTransformer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-instrumentation-sample/target/java-instrumentation-sample-1.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/java-instrumentation-sample/target/java-instrumentation-sample-1.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-profiler-app/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/java-profiler-app/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1YKfBktlAGhlObHmig3gM8dsjeb" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e34e5039-ebeb-44cb-94f1-0899058dcea1" name="Default Changelist" comment="" />
+      <created>1582696072468</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582696072468</updated>
+    </task>
+    <servers />
+  </component>
+</project>

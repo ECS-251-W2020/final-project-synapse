@@ -2,11 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="894f450b-8b66-42c6-8d67-a9726f315d36" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-instrumentation-sample/.idea/libraries/byte_buddy_agent_1_10_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-instrumentation-sample/src/lib/byte-buddy-agent-1.10.8.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../java-instrumentation-sample/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java-instrumentation-sample/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-instrumentation-sample/java-instrumentation-sample.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../java-instrumentation-sample/java-instrumentation-sample.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../java-instrumentation-sample/src/main/java/com/company/MonitorTransformer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-instrumentation-sample/src/main/java/com/company/MonitorTransformer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java-instrumentation-sample/src/main/resources/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/../java-instrumentation-sample/src/main/resources/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-instrumentation-sample/src/main/java/com/company/MyFirstAgent.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-instrumentation-sample/src/main/java/com/company/MyFirstAgent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-instrumentation-sample/src/main/java/com/company/byteBuddyTransformer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-instrumentation-sample/src/main/java/com/company/ByteBuddyTransformer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-instrumentation-sample/target/classes/com/company/MonitorTransformer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-instrumentation-sample/target/classes/com/company/MyFirstAgent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-instrumentation-sample/target/classes/com/company/byteBuddyTransformer.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../java-instrumentation-sample/target/java-instrumentation-sample-1.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../java-instrumentation-sample/target/java-instrumentation-sample-1.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-instrumentation-sample/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../java-instrumentation-sample/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-sample-ap/com/company/ClassToMonitor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-sample-ap/com/company/ClassToMonitor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-sample-ap/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-sample-ap/com/company/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/ClassToMonitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/ClassToMonitor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,22 +118,30 @@
       <screen x="0" y="30" width="1536" height="834" />
     </state>
     <state x="320" y="41" key="CommitChangelistDialog2/0.30.1536.834@0.30.1536.834" timestamp="1582647501004" />
-    <state width="1493" height="213" key="GridCell.Tab.0.bottom" timestamp="1582595602676">
+    <state x="549" y="164" key="FileChooserDialogImpl" timestamp="1582701982545">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.bottom/0.30.1536.834@0.30.1536.834" timestamp="1582595602676" />
-    <state width="1493" height="213" key="GridCell.Tab.0.center" timestamp="1582595602676">
+    <state x="549" y="164" key="FileChooserDialogImpl/0.30.1536.834@0.30.1536.834" timestamp="1582701982545" />
+    <state width="1493" height="213" key="GridCell.Tab.0.bottom" timestamp="1582697362482">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.center/0.30.1536.834@0.30.1536.834" timestamp="1582595602676" />
-    <state width="1493" height="213" key="GridCell.Tab.0.left" timestamp="1582595602676">
+    <state width="1493" height="213" key="GridCell.Tab.0.bottom/0.30.1536.834@0.30.1536.834" timestamp="1582697362482" />
+    <state width="1493" height="213" key="GridCell.Tab.0.center" timestamp="1582697362482">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.left/0.30.1536.834@0.30.1536.834" timestamp="1582595602676" />
-    <state width="1493" height="213" key="GridCell.Tab.0.right" timestamp="1582595602676">
+    <state width="1493" height="213" key="GridCell.Tab.0.center/0.30.1536.834@0.30.1536.834" timestamp="1582697362482" />
+    <state width="1493" height="213" key="GridCell.Tab.0.left" timestamp="1582697362481">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.right/0.30.1536.834@0.30.1536.834" timestamp="1582595602676" />
+    <state width="1493" height="213" key="GridCell.Tab.0.left/0.30.1536.834@0.30.1536.834" timestamp="1582697362481" />
+    <state width="1493" height="213" key="GridCell.Tab.0.right" timestamp="1582697362482">
+      <screen x="0" y="30" width="1536" height="834" />
+    </state>
+    <state width="1493" height="213" key="GridCell.Tab.0.right/0.30.1536.834@0.30.1536.834" timestamp="1582697362482" />
+    <state x="451" y="146" key="NewModule_or_Project.wizard" timestamp="1582701984277">
+      <screen x="0" y="30" width="1536" height="834" />
+    </state>
+    <state x="451" y="146" key="NewModule_or_Project.wizard/0.30.1536.834@0.30.1536.834" timestamp="1582701984277" />
     <state x="849" y="271" key="com.intellij.ide.util.TipDialog" timestamp="1582590849189">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
