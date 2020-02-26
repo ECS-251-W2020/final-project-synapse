@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f84bdb9f-7eb8-4651-80a7-8cb47deb3282" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/AllMethod.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-instrumentation-sample.iml" beforeDir="false" afterPath="$PROJECT_DIR$/java-instrumentation-sample.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/company/MyFirstAgent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/MyFirstAgent.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/company/MyFirstAgent.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/MyFirstAgent.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/java-instrumentation-sample-1.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/java-instrumentation-sample-1.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../java-profiler-app/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java-profiler-app/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../javassist-instrumentation-agent/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../javassist-instrumentation-agent/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -35,17 +38,17 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="findjar.last.used.dir" value="$PROJECT_DIR$" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../javassist-instrumentation-agent" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.company" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\coursework quarter 2\OS\project\java-instrumentation-sample\src\lib" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.company" />
     </key>
   </component>
   <component name="RunManager" selected="Application.Main">
@@ -183,7 +186,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582734263658</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="update agent path">
+      <created>1582734923150</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1582734923150</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -199,7 +209,8 @@
     <MESSAGE value="class path edit" />
     <MESSAGE value="add javassist.xml" />
     <MESSAGE value="update dependecies" />
-    <option name="LAST_COMMIT_MESSAGE" value="update dependecies" />
+    <MESSAGE value="update agent path" />
+    <option name="LAST_COMMIT_MESSAGE" value="update agent path" />
   </component>
   <component name="WindowStateProjectService">
     <state x="537" y="107" key="#HTTP_Proxy" timestamp="1582571188452">
@@ -238,42 +249,42 @@
       <screen x="0" y="30" width="1536" height="834" />
     </state>
     <state x="499" y="194" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.30.1536.834@0.30.1536.834" timestamp="1582485235860" />
-    <state x="283" y="38" key="CommitChangelistDialog2" timestamp="1582734262320">
+    <state x="283" y="38" key="CommitChangelistDialog2" timestamp="1582734921048">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state x="283" y="38" key="CommitChangelistDialog2/0.30.1536.834@0.30.1536.834" timestamp="1582734262320" />
+    <state x="283" y="38" key="CommitChangelistDialog2/0.30.1536.834@0.30.1536.834" timestamp="1582734921048" />
     <state x="549" y="164" key="FileChooserDialogImpl" timestamp="1582732839282">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
     <state x="549" y="164" key="FileChooserDialogImpl/0.30.1536.834@0.30.1536.834" timestamp="1582732839282" />
-    <state width="1493" height="213" key="GridCell.Tab.0.bottom" timestamp="1582734699662">
+    <state width="1493" height="213" key="GridCell.Tab.0.bottom" timestamp="1582738962678">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.bottom/0.30.1536.834@0.30.1536.834" timestamp="1582734699662" />
-    <state width="1493" height="213" key="GridCell.Tab.0.center" timestamp="1582734699662">
+    <state width="1493" height="213" key="GridCell.Tab.0.bottom/0.30.1536.834@0.30.1536.834" timestamp="1582738962678" />
+    <state width="1493" height="213" key="GridCell.Tab.0.center" timestamp="1582738962678">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.center/0.30.1536.834@0.30.1536.834" timestamp="1582734699662" />
-    <state width="1493" height="213" key="GridCell.Tab.0.left" timestamp="1582734699662">
+    <state width="1493" height="213" key="GridCell.Tab.0.center/0.30.1536.834@0.30.1536.834" timestamp="1582738962678" />
+    <state width="1493" height="213" key="GridCell.Tab.0.left" timestamp="1582738962678">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.left/0.30.1536.834@0.30.1536.834" timestamp="1582734699662" />
-    <state width="1493" height="213" key="GridCell.Tab.0.right" timestamp="1582734699662">
+    <state width="1493" height="213" key="GridCell.Tab.0.left/0.30.1536.834@0.30.1536.834" timestamp="1582738962678" />
+    <state width="1493" height="213" key="GridCell.Tab.0.right" timestamp="1582738962678">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.right/0.30.1536.834@0.30.1536.834" timestamp="1582734699662" />
-    <state x="299" y="102" key="Maven.ArtifactSearchDialog" timestamp="1582571137431">
+    <state width="1493" height="213" key="GridCell.Tab.0.right/0.30.1536.834@0.30.1536.834" timestamp="1582738962678" />
+    <state x="299" y="102" key="Maven.ArtifactSearchDialog" timestamp="1582737522948">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state x="299" y="102" key="Maven.ArtifactSearchDialog/0.30.1536.834@0.30.1536.834" timestamp="1582571137431" />
+    <state x="299" y="102" key="Maven.ArtifactSearchDialog/0.30.1536.834@0.30.1536.834" timestamp="1582737522948" />
     <state x="451" y="146" key="NewModule_or_Project.wizard" timestamp="1582701844972">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
     <state x="451" y="146" key="NewModule_or_Project.wizard/0.30.1536.834@0.30.1536.834" timestamp="1582701844972" />
-    <state x="377" y="30" key="SettingsEditor" timestamp="1582592538846">
+    <state x="377" y="30" key="SettingsEditor" timestamp="1582738892221">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state x="377" y="30" key="SettingsEditor/0.30.1536.834@0.30.1536.834" timestamp="1582592538846" />
+    <state x="377" y="30" key="SettingsEditor/0.30.1536.834@0.30.1536.834" timestamp="1582738892221" />
     <state x="465" y="271" key="com.intellij.ide.util.TipDialog" timestamp="1582694714505">
       <screen x="0" y="30" width="1536" height="834" />
     </state>

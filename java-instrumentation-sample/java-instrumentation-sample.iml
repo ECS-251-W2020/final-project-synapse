@@ -11,8 +11,8 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="javassist" level="project" />
-    <orderEntry type="module-library">
+    <orderEntry type="library" exported="" name="javassist" level="project" />
+    <orderEntry type="module-library" exported="">
       <library>
         <CLASSES>
           <root url="jar://$MODULE_DIR$/src/lib/javassist.jar!/" />
@@ -23,7 +23,7 @@
     </orderEntry>
     <orderEntry type="library" name="byte-buddy-1.10.7" level="project" />
     <orderEntry type="library" name="byte-buddy-agent-1.10.8" level="project" />
-    <orderEntry type="library" name="Maven: org.javassist:javassist:3.26.0-GA" level="project" />
-    <orderEntry type="library" name="Maven: net.bytebuddy:byte-buddy:1.10.8" level="project" />
+    <orderEntry type="library" exported="" name="Maven: org.javassist:javassist:3.26.0-GA" level="project" />
+    <orderEntry type="library" exported="" name="Maven: net.bytebuddy:byte-buddy:1.10.8" level="project" />
   </component>
 </module>
