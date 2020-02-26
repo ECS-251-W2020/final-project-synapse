@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b6bb4058-61a5-421e-ba19-f7a08c3115d6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../java-instrumentation-sample/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java-instrumentation-sample/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1YLotTn14bi2FWGUtOxO9N3eETr" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../java-app" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\coursework quarter 2\OS\project\javassist-instrumentation-agent\src" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.company" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JAR Application.javassist.jar">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.Main" />
+      <module name="javassist-instrumentation-agent" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="javassist.jar" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/src/lib/javassist.jar" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JAR Application.javassist.jar" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b6bb4058-61a5-421e-ba19-f7a08c3115d6" name="Default Changelist" comment="" />
+      <created>1582731449654</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582731449654</updated>
+    </task>
+    <task id="LOCAL-00001" summary="updated pom.xml">
+      <created>1582732948465</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1582732948465</updated>
+    </task>
+    <task id="LOCAL-00002" summary="added MANIFEST.MF">
+      <created>1582733039905</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1582733039905</updated>
+    </task>
+    <task id="LOCAL-00003" summary="updated MANIFEST.MF">
+      <created>1582733073201</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1582733073201</updated>
+    </task>
+    <task id="LOCAL-00004" summary="build agent jar">
+      <created>1582733455241</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1582733455241</updated>
+    </task>
+    <task id="LOCAL-00005" summary="update pom dependencies">
+      <created>1582733652650</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1582733652650</updated>
+    </task>
+    <task id="LOCAL-00006" summary="update pom dependencies bb">
+      <created>1582734298637</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1582734298637</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="updated pom.xml" />
+    <MESSAGE value="added MANIFEST.MF" />
+    <MESSAGE value="updated MANIFEST.MF" />
+    <MESSAGE value="build agent jar" />
+    <MESSAGE value="update pom dependencies" />
+    <MESSAGE value="update pom dependencies bb" />
+    <option name="LAST_COMMIT_MESSAGE" value="update pom dependencies bb" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="382" y="112" key="#Project_Structure" timestamp="1582733618775">
+      <screen x="0" y="30" width="1536" height="834" />
+    </state>
+    <state x="382" y="112" key="#Project_Structure/0.30.1536.834@0.30.1536.834" timestamp="1582733618775" />
+    <state x="877" y="139" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1582732045717">
+      <screen x="0" y="30" width="1536" height="834" />
+    </state>
+    <state x="877" y="139" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.30.1536.834@0.30.1536.834" timestamp="1582732045717" />
+    <state x="481" y="41" key="CommitChangelistDialog2" timestamp="1582734297734">
+      <screen x="0" y="30" width="1536" height="834" />
+    </state>
+    <state x="481" y="41" key="CommitChangelistDialog2/0.30.1536.834@0.30.1536.834" timestamp="1582734297734" />
+    <state x="494" y="195" key="FileChooserDialogImpl" timestamp="1582733722586">
+      <screen x="0" y="30" width="1536" height="834" />
+    </state>
+    <state x="494" y="195" key="FileChooserDialogImpl/0.30.1536.834@0.30.1536.834" timestamp="1582733722586" />
+    <state width="746" height="213" key="GridCell.Tab.0.bottom" timestamp="1582735214652">
+      <screen x="0" y="30" width="1536" height="834" />
+    </state>
+    <state width="746" height="213" key="GridCell.Tab.0.bottom/0.30.1536.834@0.30.1536.834" timestamp="1582735214652" />
+    <state width="746" height="213" key="GridCell.Tab.0.center" timestamp="1582735214652">
+      <screen x="0" y="30" width="1536" height="834" />
+    </state>
+    <state width="746" height="213" key="GridCell.Tab.0.center/0.30.1536.834@0.30.1536.834" timestamp="1582735214652" />
+    <state width="746" height="213" key="GridCell.Tab.0.left" timestamp="1582735214652">
+      <screen x="0" y="30" width="1536" height="834" />
+    </state>
+    <state width="746" height="213" key="GridCell.Tab.0.left/0.30.1536.834@0.30.1536.834" timestamp="1582735214652" />
+    <state width="746" height="213" key="GridCell.Tab.0.right" timestamp="1582735214652">
+      <screen x="0" y="30" width="1536" height="834" />
+    </state>
+    <state width="746" height="213" key="GridCell.Tab.0.right/0.30.1536.834@0.30.1536.834" timestamp="1582735214652" />
+    <state x="0" y="30" key="SettingsEditor" timestamp="1582734676089">
+      <screen x="0" y="30" width="1536" height="834" />
+    </state>
+    <state x="0" y="30" key="SettingsEditor/0.30.1536.834@0.30.1536.834" timestamp="1582734676089" />
+    <state x="465" y="271" key="com.intellij.ide.util.TipDialog" timestamp="1582737038529">
+      <screen x="0" y="30" width="1536" height="834" />
+    </state>
+    <state x="465" y="271" key="com.intellij.ide.util.TipDialog/0.30.1536.834@0.30.1536.834" timestamp="1582737038529" />
+    <state x="418" y="70" key="new project wizard" timestamp="1582731602134">
+      <screen x="0" y="30" width="1536" height="834" />
+    </state>
+    <state x="418" y="70" key="new project wizard/0.30.1536.834@0.30.1536.834" timestamp="1582731602134" />
+    <state x="814" y="186" key="search.everywhere.popup" timestamp="1582731603502">
+      <screen x="0" y="30" width="1536" height="834" />
+    </state>
+    <state x="814" y="186" key="search.everywhere.popup/0.30.1536.834@0.30.1536.834" timestamp="1582731603502" />
+  </component>
+</project>

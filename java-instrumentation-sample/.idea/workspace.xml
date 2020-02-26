@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="java-instrumentation-sample:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f84bdb9f-7eb8-4651-80a7-8cb47deb3282" name="Default Changelist" comment="add AllMethod.java">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/java_instrumentation_sample_jar/java-instrumentation-sample.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/java_instrumentation_sample_jar/java-instrumentation-sample.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/MonitorTransformer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/MonitorTransformer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/MyFirstAgent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/MyFirstAgent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/MyFirstAgent.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/MyFirstAgent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/java-instrumentation-sample-1.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/java-instrumentation-sample-1.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-profiler-app/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java-profiler-app/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1Y0cxa9xNLfKBewx0qUCkdQX61J" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="findjar.last.used.dir" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../javassist-instrumentation-agent" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\coursework quarter 2\OS\project\java-instrumentation-sample\src\lib" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.company" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.Main" />
+      <module name="java-instrumentation-sample" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="java-instrumentation-sample-1.0-SNAPSHOT.jar" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/target/java-instrumentation-sample-1.0-SNAPSHOT.jar" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="JAR Application.java-instrumentation-sample-1.0-SNAPSHOT.jar" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="JAR Application.java-instrumentation-sample-1.0-SNAPSHOT.jar" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f84bdb9f-7eb8-4651-80a7-8cb47deb3282" name="Default Changelist" comment="" />
+      <created>1582083199090</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582083199090</updated>
+    </task>
+    <task id="LOCAL-00001" summary="build changes">
+      <created>1582592609068</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1582592609068</updated>
+    </task>
+    <task id="LOCAL-00002" summary="byte buddy lib added">
+      <created>1582593207526</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1582593207526</updated>
+    </task>
+    <task id="LOCAL-00003" summary="byte buddy lib added">
+      <created>1582593282353</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1582593282353</updated>
+    </task>
+    <task id="LOCAL-00004" summary="byte buddy lib added">
+      <created>1582594125834</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1582594125834</updated>
+    </task>
+    <task id="LOCAL-00005" summary="exception handling">
+      <created>1582594695395</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1582594695395</updated>
+    </task>
+    <task id="LOCAL-00006" summary="bytebuddy excluded">
+      <created>1582594805516</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1582594805516</updated>
+    </task>
+    <task id="LOCAL-00007" summary="bytebuddy excluded">
+      <created>1582594859235</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1582594859235</updated>
+    </task>
+    <task id="LOCAL-00008" summary="className debug">
+      <created>1582595105935</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1582595105935</updated>
+    </task>
+    <task id="LOCAL-00009" summary="className debug">
+      <created>1582595381772</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1582595381772</updated>
+    </task>
+    <task id="LOCAL-00010" summary="className debug">
+      <created>1582647284752</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1582647284752</updated>
+    </task>
+    <task id="LOCAL-00011" summary="byte-buddy-agent-1.10.8.jar added">
+      <created>1582706014136</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1582706014136</updated>
+    </task>
+    <task id="LOCAL-00012" summary="class path edit">
+      <created>1582707599574</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1582707599574</updated>
+    </task>
+    <task id="LOCAL-00013" summary="add javassist.xml">
+      <created>1582733308120</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1582733308120</updated>
+    </task>
+    <task id="LOCAL-00014" summary="update dependecies">
+      <created>1582734263658</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1582734263658</updated>
+    </task>
+    <task id="LOCAL-00015" summary="update agent path">
+      <created>1582734923150</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1582734923150</updated>
+    </task>
+    <task id="LOCAL-00016" summary="add AllMethod.java">
+      <created>1582739309560</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1582739309560</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/byte-buddy" />
+    </ignored-roots>
+    <MESSAGE value="build changes" />
+    <MESSAGE value="byte buddy lib added" />
+    <MESSAGE value="exception handling" />
+    <MESSAGE value="bytebuddy excluded" />
+    <MESSAGE value="className debug" />
+    <MESSAGE value="byte-buddy-agent-1.10.8.jar added" />
+    <MESSAGE value="class path edit" />
+    <MESSAGE value="add javassist.xml" />
+    <MESSAGE value="update dependecies" />
+    <MESSAGE value="update agent path" />
+    <MESSAGE value="add AllMethod.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="add AllMethod.java" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="537" y="107" key="#HTTP_Proxy" timestamp="1582571188452">
+      <screen x="0" y="30" width="1536" height="834" />
+    </state>
+    <state x="537" y="107" key="#HTTP_Proxy/0.30.1536.834@0.30.1536.834" timestamp="1582571188452" />
+    <state x="0" y="105" key="#Project_Structure" timestamp="1582733261782">
+      <screen x="0" y="30" width="1536" height="834" />
+    </state>
+    <state x="0" y="105" key="#Project_Structure/0.30.1536.834@0.30.1536.834" timestamp="1582733261782" />
+    <state x="499" y="202" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1582083326566">
+      <screen x="0" y="30" width="1536" height="834" />
+    </state>
+    <state x="499" y="202" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.30.1536.834@0.30.1536.834" timestamp="1582083326566" />
+    <state x="223" y="102" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582085040544">
+      <screen x="0" y="30" width="1536" height="834" />
+    </state>
+    <state x="223" y="102" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.30.1536.834@0.30.1536.834" timestamp="1582085040544" />
+    <state x="548" y="152" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1582084884653">
+      <screen x="0" y="30" width="1536" height="834" />
+    </state>
+    <state x="548" y="152" key="#com.intellij.ide.macro.MacrosDialog/0.30.1536.834@0.30.1536.834" timestamp="1582084884653" />
+    <state x="574" y="156" key="#com.intellij.ide.util.MemberChooser" timestamp="1582704898998">
+      <screen x="0" y="30" width="1536" height="834" />
+    </state>
+    <state x="574" y="156" key="#com.intellij.ide.util.MemberChooser/0.30.1536.834@0.30.1536.834" timestamp="1582704898998" />
+    <state x="493" y="136" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1582083362831">
+      <screen x="0" y="30" width="1536" height="834" />
+    </state>
+    <state x="493" y="136" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.30.1536.834@0.30.1536.834" timestamp="1582083362831" />
+    <state x="566" y="332" width="403" height="237" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1582083300266">
+      <screen x="0" y="30" width="1536" height="834" />
+    </state>
+    <state x="566" y="332" width="403" height="237" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.30.1536.834@0.30.1536.834" timestamp="1582083300266" />
+    <state x="499" y="194" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1582485235860">
+      <screen x="0" y="30" width="1536" height="834" />
+    </state>
+    <state x="499" y="194" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.30.1536.834@0.30.1536.834" timestamp="1582485235860" />
+    <state x="283" y="38" key="CommitChangelistDialog2" timestamp="1582739844205">
+      <screen x="0" y="30" width="1536" height="834" />
+    </state>
+    <state x="283" y="38" key="CommitChangelistDialog2/0.30.1536.834@0.30.1536.834" timestamp="1582739844205" />
+    <state x="549" y="164" key="FileChooserDialogImpl" timestamp="1582732839282">
+      <screen x="0" y="30" width="1536" height="834" />
+    </state>
+    <state x="549" y="164" key="FileChooserDialogImpl/0.30.1536.834@0.30.1536.834" timestamp="1582732839282" />
+    <state width="1493" height="213" key="GridCell.Tab.0.bottom" timestamp="1582740365486">
+      <screen x="0" y="30" width="1536" height="834" />
+    </state>
+    <state width="1493" height="213" key="GridCell.Tab.0.bottom/0.30.1536.834@0.30.1536.834" timestamp="1582740365486" />
+    <state width="1493" height="213" key="GridCell.Tab.0.center" timestamp="1582740365486">
+      <screen x="0" y="30" width="1536" height="834" />
+    </state>
+    <state width="1493" height="213" key="GridCell.Tab.0.center/0.30.1536.834@0.30.1536.834" timestamp="1582740365486" />
+    <state width="1493" height="213" key="GridCell.Tab.0.left" timestamp="1582740365486">
+      <screen x="0" y="30" width="1536" height="834" />
+    </state>
+    <state width="1493" height="213" key="GridCell.Tab.0.left/0.30.1536.834@0.30.1536.834" timestamp="1582740365486" />
+    <state width="1493" height="213" key="GridCell.Tab.0.right" timestamp="1582740365486">
+      <screen x="0" y="30" width="1536" height="834" />
+    </state>
+    <state width="1493" height="213" key="GridCell.Tab.0.right/0.30.1536.834@0.30.1536.834" timestamp="1582740365486" />
+    <state x="299" y="102" key="Maven.ArtifactSearchDialog" timestamp="1582737522948">
+      <screen x="0" y="30" width="1536" height="834" />
+    </state>
+    <state x="299" y="102" key="Maven.ArtifactSearchDialog/0.30.1536.834@0.30.1536.834" timestamp="1582737522948" />
+    <state x="451" y="146" key="NewModule_or_Project.wizard" timestamp="1582701844972">
+      <screen x="0" y="30" width="1536" height="834" />
+    </state>
+    <state x="451" y="146" key="NewModule_or_Project.wizard/0.30.1536.834@0.30.1536.834" timestamp="1582701844972" />
+    <state x="377" y="30" key="SettingsEditor" timestamp="1582739541180">
+      <screen x="0" y="30" width="1536" height="834" />
+    </state>
+    <state x="377" y="30" key="SettingsEditor/0.30.1536.834@0.30.1536.834" timestamp="1582739541180" />
+    <state x="465" y="271" key="com.intellij.ide.util.TipDialog" timestamp="1582694714505">
+      <screen x="0" y="30" width="1536" height="834" />
+    </state>
+    <state x="465" y="271" key="com.intellij.ide.util.TipDialog/0.30.1536.834@0.30.1536.834" timestamp="1582694714505" />
+    <state x="962" y="364" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1582574775829">
+      <screen x="0" y="30" width="1536" height="834" />
+    </state>
+    <state x="962" y="364" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.30.1536.834@0.30.1536.834" timestamp="1582574775829" />
+    <state x="209" y="67" key="new project wizard" timestamp="1582731449433">
+      <screen x="0" y="30" width="1536" height="834" />
+    </state>
+    <state x="209" y="67" key="new project wizard/0.30.1536.834@0.30.1536.834" timestamp="1582731449433" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/src/lib/byte-buddy-1.10.7.jar!/net/bytebuddy/agent/builder/AgentBuilder.class</url>
+          <line>5472</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
