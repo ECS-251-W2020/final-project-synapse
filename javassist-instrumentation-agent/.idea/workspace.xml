@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b6bb4058-61a5-421e-ba19-f7a08c3115d6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../java-app/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java-app/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java-app/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java-app/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java-app/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java-instrumentation-sample/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java-instrumentation-sample/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java-profiler-app/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java-profiler-app/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="b6bb4058-61a5-421e-ba19-f7a08c3115d6" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -113,7 +106,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582733652650</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="update pom dependencies bb">
+      <created>1582734298637</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1582734298637</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -122,7 +122,8 @@
     <MESSAGE value="updated MANIFEST.MF" />
     <MESSAGE value="build agent jar" />
     <MESSAGE value="update pom dependencies" />
-    <option name="LAST_COMMIT_MESSAGE" value="update pom dependencies" />
+    <MESSAGE value="update pom dependencies bb" />
+    <option name="LAST_COMMIT_MESSAGE" value="update pom dependencies bb" />
   </component>
   <component name="WindowStateProjectService">
     <state x="382" y="112" key="#Project_Structure" timestamp="1582733618775">
@@ -133,34 +134,34 @@
       <screen x="0" y="30" width="1536" height="834" />
     </state>
     <state x="877" y="139" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.30.1536.834@0.30.1536.834" timestamp="1582732045717" />
-    <state x="481" y="41" key="CommitChangelistDialog2" timestamp="1582733651249">
+    <state x="481" y="41" key="CommitChangelistDialog2" timestamp="1582734297734">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state x="481" y="41" key="CommitChangelistDialog2/0.30.1536.834@0.30.1536.834" timestamp="1582733651249" />
+    <state x="481" y="41" key="CommitChangelistDialog2/0.30.1536.834@0.30.1536.834" timestamp="1582734297734" />
     <state x="494" y="195" key="FileChooserDialogImpl" timestamp="1582733722586">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
     <state x="494" y="195" key="FileChooserDialogImpl/0.30.1536.834@0.30.1536.834" timestamp="1582733722586" />
-    <state width="723" height="214" key="GridCell.Tab.0.bottom" timestamp="1582733630098">
+    <state width="1493" height="214" key="GridCell.Tab.0.bottom" timestamp="1582734631437">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="723" height="214" key="GridCell.Tab.0.bottom/0.30.1536.834@0.30.1536.834" timestamp="1582733630098" />
-    <state width="723" height="214" key="GridCell.Tab.0.center" timestamp="1582733630097">
+    <state width="1493" height="214" key="GridCell.Tab.0.bottom/0.30.1536.834@0.30.1536.834" timestamp="1582734631437" />
+    <state width="1493" height="214" key="GridCell.Tab.0.center" timestamp="1582734631437">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="723" height="214" key="GridCell.Tab.0.center/0.30.1536.834@0.30.1536.834" timestamp="1582733630097" />
-    <state width="723" height="214" key="GridCell.Tab.0.left" timestamp="1582733630097">
+    <state width="1493" height="214" key="GridCell.Tab.0.center/0.30.1536.834@0.30.1536.834" timestamp="1582734631437" />
+    <state width="1493" height="214" key="GridCell.Tab.0.left" timestamp="1582734631437">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="723" height="214" key="GridCell.Tab.0.left/0.30.1536.834@0.30.1536.834" timestamp="1582733630097" />
-    <state width="723" height="214" key="GridCell.Tab.0.right" timestamp="1582733630097">
+    <state width="1493" height="214" key="GridCell.Tab.0.left/0.30.1536.834@0.30.1536.834" timestamp="1582734631437" />
+    <state width="1493" height="214" key="GridCell.Tab.0.right" timestamp="1582734631437">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="723" height="214" key="GridCell.Tab.0.right/0.30.1536.834@0.30.1536.834" timestamp="1582733630097" />
-    <state x="0" y="30" key="SettingsEditor" timestamp="1582731677389">
+    <state width="1493" height="214" key="GridCell.Tab.0.right/0.30.1536.834@0.30.1536.834" timestamp="1582734631437" />
+    <state x="0" y="30" key="SettingsEditor" timestamp="1582734676089">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state x="0" y="30" key="SettingsEditor/0.30.1536.834@0.30.1536.834" timestamp="1582731677389" />
+    <state x="0" y="30" key="SettingsEditor/0.30.1536.834@0.30.1536.834" timestamp="1582734676089" />
     <state x="418" y="70" key="new project wizard" timestamp="1582731602134">
       <screen x="0" y="30" width="1536" height="834" />
     </state>

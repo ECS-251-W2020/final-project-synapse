@@ -9,13 +9,13 @@ public class MyFirstAgent {
     public static void premain(String agentArgs, Instrumentation inst) {
 
         System.out.println("Start!");
-        inst.addTransformer(new MonitorTransformer());
-//        new AgentBuilder.Default()
-//                .type(ElementMatchers.any())
-//                .transform(new ByteBuddyTransformer())
-//                .with(AgentBuilder.Listener.StreamWriting.toSystemOut())
-//                .with(AgentBuilder.TypeStrategy.Default.REDEFINE)
-//                .installOn(inst);
+//        inst.addTransformer(new MonitorTransformer());
+        new AgentBuilder.Default()
+                .type(ElementMatchers.any())
+                .transform(new ByteBuddyTransformer())
+                .with(AgentBuilder.Listener.StreamWriting.toSystemOut())
+                .with(AgentBuilder.TypeStrategy.Default.REDEFINE)
+                .installOn(inst);
     }
 
 }
