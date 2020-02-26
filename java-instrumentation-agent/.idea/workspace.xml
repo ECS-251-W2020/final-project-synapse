@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f84bdb9f-7eb8-4651-80a7-8cb47deb3282" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1Y0cxa9xNLfKBewx0qUCkdQX61J" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../java-instrumentation-sample" />
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.Main" />
+      <module name="java-instrumentation-sample" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="java-instrumentation-sample-1.0-SNAPSHOT.jar" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/target/java-instrumentation-sample-1.0-SNAPSHOT.jar" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="JAR Application.java-instrumentation-sample-1.0-SNAPSHOT.jar" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="JAR Application.java-instrumentation-sample-1.0-SNAPSHOT.jar" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f84bdb9f-7eb8-4651-80a7-8cb47deb3282" name="Default Changelist" comment="" />
+      <created>1582083199090</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582083199090</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="499" y="202" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1582083326566">
+      <screen x="0" y="30" width="1536" height="834" />
+    </state>
+    <state x="499" y="202" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.30.1536.834@0.30.1536.834" timestamp="1582083326566" />
+    <state x="223" y="102" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582085040544">
+      <screen x="0" y="30" width="1536" height="834" />
+    </state>
+    <state x="223" y="102" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.30.1536.834@0.30.1536.834" timestamp="1582085040544" />
+    <state x="548" y="152" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1582084884653">
+      <screen x="0" y="30" width="1536" height="834" />
+    </state>
+    <state x="548" y="152" key="#com.intellij.ide.macro.MacrosDialog/0.30.1536.834@0.30.1536.834" timestamp="1582084884653" />
+    <state x="493" y="136" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1582083362831">
+      <screen x="0" y="30" width="1536" height="834" />
+    </state>
+    <state x="493" y="136" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.30.1536.834@0.30.1536.834" timestamp="1582083362831" />
+    <state x="566" y="332" width="403" height="237" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1582083300266">
+      <screen x="0" y="30" width="1536" height="834" />
+    </state>
+    <state x="566" y="332" width="403" height="237" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.30.1536.834@0.30.1536.834" timestamp="1582083300266" />
+    <state x="549" y="202" key="FileChooserDialogImpl" timestamp="1582592525932">
+      <screen x="0" y="30" width="1536" height="834" />
+    </state>
+    <state x="549" y="202" key="FileChooserDialogImpl/0.30.1536.834@0.30.1536.834" timestamp="1582592525932" />
+    <state width="1493" height="213" key="GridCell.Tab.0.bottom" timestamp="1582085601329">
+      <screen x="0" y="30" width="1536" height="834" />
+    </state>
+    <state width="1493" height="213" key="GridCell.Tab.0.bottom/0.30.1536.834@0.30.1536.834" timestamp="1582085601329" />
+    <state width="1493" height="213" key="GridCell.Tab.0.center" timestamp="1582085601328">
+      <screen x="0" y="30" width="1536" height="834" />
+    </state>
+    <state width="1493" height="213" key="GridCell.Tab.0.center/0.30.1536.834@0.30.1536.834" timestamp="1582085601328" />
+    <state width="1493" height="213" key="GridCell.Tab.0.left" timestamp="1582085601328">
+      <screen x="0" y="30" width="1536" height="834" />
+    </state>
+    <state width="1493" height="213" key="GridCell.Tab.0.left/0.30.1536.834@0.30.1536.834" timestamp="1582085601328" />
+    <state width="1493" height="213" key="GridCell.Tab.0.right" timestamp="1582085601328">
+      <screen x="0" y="30" width="1536" height="834" />
+    </state>
+    <state width="1493" height="213" key="GridCell.Tab.0.right/0.30.1536.834@0.30.1536.834" timestamp="1582085601328" />
+    <state x="209" y="67" key="new project wizard" timestamp="1582085148711">
+      <screen x="0" y="30" width="1536" height="834" />
+    </state>
+    <state x="209" y="67" key="new project wizard/0.30.1536.834@0.30.1536.834" timestamp="1582085148711" />
+  </component>
+</project>

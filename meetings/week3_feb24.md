@@ -4,7 +4,7 @@
 
 ### What did we do last week?
 
-1. Instrumentation agent mostly works - having a few small bugs but should be resolved.
+1. Instrumentation agent works - able to replace functions now.
 
 2. Finished TSC
 
