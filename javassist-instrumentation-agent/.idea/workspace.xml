@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b6bb4058-61a5-421e-ba19-f7a08c3115d6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_26_0_GA.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-app/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-app/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java-app/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-app/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java-app/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-instrumentation-sample/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java-instrumentation-sample/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-profiler-app/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java-profiler-app/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,7 +33,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$MAVEN_REPOSITORY$/org/javassist/javassist/3.26.0-GA" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../java-app" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -101,7 +106,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582733455241</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="update pom dependencies">
+      <created>1582733652650</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1582733652650</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -109,7 +121,8 @@
     <MESSAGE value="added MANIFEST.MF" />
     <MESSAGE value="updated MANIFEST.MF" />
     <MESSAGE value="build agent jar" />
-    <option name="LAST_COMMIT_MESSAGE" value="build agent jar" />
+    <MESSAGE value="update pom dependencies" />
+    <option name="LAST_COMMIT_MESSAGE" value="update pom dependencies" />
   </component>
   <component name="WindowStateProjectService">
     <state x="382" y="112" key="#Project_Structure" timestamp="1582733618775">
@@ -124,10 +137,10 @@
       <screen x="0" y="30" width="1536" height="834" />
     </state>
     <state x="481" y="41" key="CommitChangelistDialog2/0.30.1536.834@0.30.1536.834" timestamp="1582733651249" />
-    <state x="494" y="195" key="FileChooserDialogImpl" timestamp="1582733513745">
+    <state x="494" y="195" key="FileChooserDialogImpl" timestamp="1582733722586">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state x="494" y="195" key="FileChooserDialogImpl/0.30.1536.834@0.30.1536.834" timestamp="1582733513745" />
+    <state x="494" y="195" key="FileChooserDialogImpl/0.30.1536.834@0.30.1536.834" timestamp="1582733722586" />
     <state width="723" height="214" key="GridCell.Tab.0.bottom" timestamp="1582733630098">
       <screen x="0" y="30" width="1536" height="834" />
     </state>

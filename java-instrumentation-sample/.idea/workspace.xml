@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f84bdb9f-7eb8-4651-80a7-8cb47deb3282" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../javassist-instrumentation-agent/target/javassist-instrumentation-agent-0.1-SNAPSHOT.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../javassist-instrumentation-agent/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javassist-instrumentation-agent/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../javassist-instrumentation-agent/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-app/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-app/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java-app/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-app/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java-app/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-profiler-app/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java-profiler-app/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../javassist-instrumentation-agent/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../javassist-instrumentation-agent/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javassist-instrumentation-agent/javassist-instrumentation-agent.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../javassist-instrumentation-agent/javassist-instrumentation-agent.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../javassist-instrumentation-agent/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../javassist-instrumentation-agent/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
