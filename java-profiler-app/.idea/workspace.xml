@@ -3,10 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="894f450b-8b66-42c6-8d67-a9726f315d36" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../java-instrumentation-sample/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java-instrumentation-sample/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java-instrumentation-sample/src/main/java/com/company/MyFirstAgent.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-instrumentation-sample/src/main/java/com/company/MyFirstAgent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java-instrumentation-sample/target/classes/com/company/MyFirstAgent.class" beforeDir="false" afterPath="$PROJECT_DIR$/../java-instrumentation-sample/target/classes/com/company/MyFirstAgent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-instrumentation-sample/target/classes/com/company/MonitorTransformer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../java-instrumentation-sample/target/classes/com/company/MonitorTransformer.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../java-instrumentation-sample/target/java-instrumentation-sample-1.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../java-instrumentation-sample/target/java-instrumentation-sample-1.0.1-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-sample-ap/com/company/ClassToMonitor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-sample-ap/com/company/ClassToMonitor.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,10 +104,10 @@
     <option name="LAST_COMMIT_MESSAGE" value=".class added" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="223" y="102" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582695080391">
+    <state x="223" y="102" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582731398870">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state x="223" y="102" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.30.1536.834@0.30.1536.834" timestamp="1582695080391" />
+    <state x="223" y="102" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.30.1536.834@0.30.1536.834" timestamp="1582731398870" />
     <state x="320" y="41" key="CommitChangelistDialog2" timestamp="1582706127465">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
@@ -116,22 +116,22 @@
       <screen x="0" y="30" width="1536" height="834" />
     </state>
     <state x="549" y="164" key="FileChooserDialogImpl/0.30.1536.834@0.30.1536.834" timestamp="1582701982545" />
-    <state width="1493" height="213" key="GridCell.Tab.0.bottom" timestamp="1582697362482">
+    <state width="1493" height="213" key="GridCell.Tab.0.bottom" timestamp="1582731402769">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.bottom/0.30.1536.834@0.30.1536.834" timestamp="1582697362482" />
-    <state width="1493" height="213" key="GridCell.Tab.0.center" timestamp="1582697362482">
+    <state width="1493" height="213" key="GridCell.Tab.0.bottom/0.30.1536.834@0.30.1536.834" timestamp="1582731402769" />
+    <state width="1493" height="213" key="GridCell.Tab.0.center" timestamp="1582731402769">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.center/0.30.1536.834@0.30.1536.834" timestamp="1582697362482" />
-    <state width="1493" height="213" key="GridCell.Tab.0.left" timestamp="1582697362481">
+    <state width="1493" height="213" key="GridCell.Tab.0.center/0.30.1536.834@0.30.1536.834" timestamp="1582731402769" />
+    <state width="1493" height="213" key="GridCell.Tab.0.left" timestamp="1582731402769">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.left/0.30.1536.834@0.30.1536.834" timestamp="1582697362481" />
-    <state width="1493" height="213" key="GridCell.Tab.0.right" timestamp="1582697362482">
+    <state width="1493" height="213" key="GridCell.Tab.0.left/0.30.1536.834@0.30.1536.834" timestamp="1582731402769" />
+    <state width="1493" height="213" key="GridCell.Tab.0.right" timestamp="1582731402769">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.right/0.30.1536.834@0.30.1536.834" timestamp="1582697362482" />
+    <state width="1493" height="213" key="GridCell.Tab.0.right/0.30.1536.834@0.30.1536.834" timestamp="1582731402769" />
     <state x="451" y="146" key="NewModule_or_Project.wizard" timestamp="1582701984277">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
@@ -144,5 +144,9 @@
       <screen x="0" y="30" width="1536" height="834" />
     </state>
     <state x="498" y="340" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.30.1536.834@0.30.1536.834" timestamp="1582131832466" />
+    <state x="209" y="67" key="new project wizard" timestamp="1582731177673">
+      <screen x="0" y="30" width="1536" height="834" />
+    </state>
+    <state x="209" y="67" key="new project wizard/0.30.1536.834@0.30.1536.834" timestamp="1582731177673" />
   </component>
 </project>
