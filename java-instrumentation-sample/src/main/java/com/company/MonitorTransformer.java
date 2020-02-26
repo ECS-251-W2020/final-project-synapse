@@ -47,7 +47,7 @@ public class MonitorTransformer implements ClassFileTransformer {
             ClassPool pool = ClassPool.getDefault();
             try {
                 System.out.print(pool);
-                CtClass cc = pool.get("com/company/ClassToMonitor");
+                CtClass cc = pool.get("com.company.ClassToMonitor");
 //                CtMethod method = cc.getDeclaredMethod("foo");
 //                method.insertBefore("com.company.Monitor.counter++");
                 return cc.toBytecode();
