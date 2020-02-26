@@ -4,6 +4,7 @@
     <list default="true" id="f84bdb9f-7eb8-4651-80a7-8cb47deb3282" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/company/MonitorTransformer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/MonitorTransformer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../java-profiler-app/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java-profiler-app/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -195,10 +196,10 @@
       <screen x="0" y="30" width="1536" height="834" />
     </state>
     <state x="499" y="194" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.30.1536.834@0.30.1536.834" timestamp="1582485235860" />
-    <state x="283" y="38" key="CommitChangelistDialog2" timestamp="1582647282864">
+    <state x="283" y="38" key="CommitChangelistDialog2" timestamp="1582655756360">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state x="283" y="38" key="CommitChangelistDialog2/0.30.1536.834@0.30.1536.834" timestamp="1582647282864" />
+    <state x="283" y="38" key="CommitChangelistDialog2/0.30.1536.834@0.30.1536.834" timestamp="1582655756360" />
     <state x="549" y="164" key="FileChooserDialogImpl" timestamp="1582592710777">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
@@ -231,10 +232,10 @@
       <screen x="0" y="30" width="1536" height="834" />
     </state>
     <state x="377" y="30" key="SettingsEditor/0.30.1536.834@0.30.1536.834" timestamp="1582592538846" />
-    <state x="465" y="271" key="com.intellij.ide.util.TipDialog" timestamp="1582591822208">
+    <state x="465" y="271" key="com.intellij.ide.util.TipDialog" timestamp="1582694714505">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state x="465" y="271" key="com.intellij.ide.util.TipDialog/0.30.1536.834@0.30.1536.834" timestamp="1582591822208" />
+    <state x="465" y="271" key="com.intellij.ide.util.TipDialog/0.30.1536.834@0.30.1536.834" timestamp="1582694714505" />
     <state x="962" y="364" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1582574775829">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
