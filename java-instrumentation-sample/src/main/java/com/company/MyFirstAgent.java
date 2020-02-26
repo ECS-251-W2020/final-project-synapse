@@ -18,12 +18,12 @@ public class MyFirstAgent {
 //                .with(AgentBuilder.TypeStrategy.Default.REDEFINE)
 //                .installOn(inst);
 
-        new AgentBuilder.Default()
-                .with(new AgentBuilder.InitializationStrategy.SelfInjection.Eager())
-                .type((ElementMatchers.any()))
-                .transform((builder, typeDescription, classLoader, module) -> builder.method(ElementMatchers.any())
-                .intercept(Advice.to(AllMethod.class))
-        ).installOn(inst);
+//        new AgentBuilder.Default()
+//                .with(new AgentBuilder.InitializationStrategy.SelfInjection.Eager())
+//                .type((ElementMatchers.any()))
+//                .transform((builder, typeDescription, classLoader, module) -> builder.method(ElementMatchers.any())
+//                .intercept(Advice.to(AllMethod.class))
+//        ).installOn(inst);
 
     }
 
