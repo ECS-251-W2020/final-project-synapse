@@ -42,25 +42,36 @@ public class MonitorTransformer implements ClassFileTransformer {
 //            return null;
 //        }
 
+        try {
+            boolean anyMethodInstrumented = false;
 
-
-        if (className.equals("com/company/ClassToMonitor")){
-//            System.out.println(className);
-            ClassPool pool = ClassPool.getDefault();
-            try {
-//                System.out.print(pool);
-                CtClass cc = pool.get("com.company.ClassToMonitor");
-                CtMethod method = cc.getDeclaredMethod("foo");
-                method.insertBefore("com.company.Monitor.counter++;");
-                return cc.toBytecode();
-            } catch (NotFoundException | CannotCompileException | IOException e) {
-//            } catch (NotFoundException e) {
-                e.printStackTrace();
-//                System.out.println("Sum Ting Wong");
+            // Behaviors == methods and constructors.
+            for (final CtBehavior method : ctClass.getDeclaredMethods()) {
+                    System.out.printf("%s - will collect metrics\n",
+                            method.getLongName());
             }
-            return classfileBuffer;
 
+        } catch (Exception e) {
+            e.printStackTrace(System.err);
         }
+
+//        if (className.equals("com/company/ClassToMonitor")){
+////            System.out.println(className);
+//            ClassPool pool = ClassPool.getDefault();
+//            try {
+////                System.out.print(pool);
+//                CtClass cc = pool.get("com.company.ClassToMonitor");
+//                CtMethod method = cc.getDeclaredMethod("foo");
+//                method.insertBefore("com.company.Monitor.counter++;");
+//                return cc.toBytecode();
+//            } catch (NotFoundException | CannotCompileException | IOException e) {
+////            } catch (NotFoundException e) {
+//                e.printStackTrace();
+////                System.out.println("Sum Ting Wong");
+//            }
+//            return classfileBuffer;
+//
+//        }
         return null;
     }
 }
