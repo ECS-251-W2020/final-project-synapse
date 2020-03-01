@@ -3,11 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="894f450b-8b66-42c6-8d67-a9726f315d36" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../java-instrumentation-sample/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java-instrumentation-sample/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java-instrumentation-sample/java-instrumentation-sample.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../java-instrumentation-sample/java-instrumentation-sample.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java-instrumentation-sample/out/artifacts/java_instrumentation_sample_jar/java-instrumentation-sample.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../java-instrumentation-sample/out/artifacts/java_instrumentation_sample_jar/java-instrumentation-sample.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java-instrumentation-sample/src/main/java/com/company/MonitorTransformer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-instrumentation-sample/src/main/java/com/company/MonitorTransformer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-instrumentation-sample/target/classes/com/company/MonitorTransformer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../java-instrumentation-sample/target/classes/com/company/MonitorTransformer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-instrumentation-sample/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../java-instrumentation-sample/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/ClassToMonitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/ClassToMonitor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java-sample-ap/com/company/ClassToMonitor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-sample-ap/com/company/ClassToMonitor.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +37,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../javaone2017-bytebuddy-master/javaone2017-bytebuddy-master/projects/fibonacci-bytebuddy" />
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
@@ -96,14 +95,22 @@
       <option name="project" value="LOCAL" />
       <updated>1582706129179</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="print fixed">
+      <created>1583024595693</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1583024595693</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="profiler" />
     <MESSAGE value="debug" />
     <MESSAGE value=".class added" />
-    <option name="LAST_COMMIT_MESSAGE" value=".class added" />
+    <MESSAGE value="print fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="print fixed" />
   </component>
   <component name="WindowStateProjectService">
     <state x="223" y="102" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583023823743">
@@ -114,14 +121,14 @@
       <screen x="0" y="30" width="1536" height="834" />
     </state>
     <state x="548" y="152" key="#com.intellij.ide.macro.MacrosDialog/0.30.1536.834@0.30.1536.834" timestamp="1582734117404" />
-    <state x="320" y="41" key="CommitChangelistDialog2" timestamp="1583024527270">
+    <state x="320" y="41" key="CommitChangelistDialog2" timestamp="1583024593414">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state x="320" y="41" key="CommitChangelistDialog2/0.30.1536.834@0.30.1536.834" timestamp="1583024527270" />
-    <state x="549" y="164" key="FileChooserDialogImpl" timestamp="1582701982545">
+    <state x="320" y="41" key="CommitChangelistDialog2/0.30.1536.834@0.30.1536.834" timestamp="1583024593414" />
+    <state x="549" y="164" key="FileChooserDialogImpl" timestamp="1583026334299">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state x="549" y="164" key="FileChooserDialogImpl/0.30.1536.834@0.30.1536.834" timestamp="1582701982545" />
+    <state x="549" y="164" key="FileChooserDialogImpl/0.30.1536.834@0.30.1536.834" timestamp="1583026334299" />
     <state width="1493" height="213" key="GridCell.Tab.0.bottom" timestamp="1583024527314">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
