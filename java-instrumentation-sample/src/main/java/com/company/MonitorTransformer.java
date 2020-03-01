@@ -34,13 +34,13 @@ public class MonitorTransformer implements ClassFileTransformer {
             return null;
         }
 
-//        // A frozen CtClass is a CtClass
-//        // that was already converted to Java class.
-//        if (ctClass.isFrozen()) {
-//            // No longer need to keep the CtClass object in memory.
-//            ctClass.detach();
-//            return null;
-//        }
+        // A frozen CtClass is a CtClass
+        // that was already converted to Java class.
+        if (ctClass.isFrozen()) {
+            // No longer need to keep the CtClass object in memory.
+            ctClass.detach();
+            return null;
+        }
 
         try {
             boolean anyMethodInstrumented = false;
