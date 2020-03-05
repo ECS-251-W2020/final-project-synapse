@@ -164,3 +164,21 @@ fabric.properties
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+java-instrumentation-sample/.idea/artifacts/java_instrumentation_sample_jar.xml
+java-instrumentation-sample/.idea/artifacts/java_instrumentation_sample_jar.xml
+java-instrumentation-sample/.idea/compiler.xml
+java-instrumentation-sample/.idea/libraries/byte_buddy_1_10_7.xml
+java-instrumentation-sample/.idea/artifacts/java_instrumentation_sample_jar.xml
+java-instrumentation-sample/.idea/artifacts/java_instrumentation_sample_jar.xml
+java-instrumentation-sample/.idea/artifacts/java_instrumentation_sample_jar.xml
+java-instrumentation-sample/.idea/libraries/byte_buddy_1_10_7.xml
+java-instrumentation-sample/.idea/libraries/java_instrumentation_sample.xml
+java-instrumentation-sample/.idea/libraries/java_instrumentation_sample_1_0_1_SNAPSHOT.xml
+java-instrumentation-sample/.idea/libraries/lib.xml
+java-instrumentation-sample/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_10_8.xml
+java-instrumentation-sample/.idea/libraries/target.xml
+java-instrumentation-sample/.idea/misc.xml
+java-instrumentation-sample/java-instrumentation-sample.iml
+java-instrumentation-sample/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst
+java-instrumentation-sample/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst
+java-instrumentation-sample/.idea/libraries/target.xml
