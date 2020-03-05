@@ -24,7 +24,7 @@ public class MonitorTransformer implements ClassFileTransformer {
 //        if (className.equals("com/company/Main")) {
 //            ClassPool classPool = ClassPool.getDefault();
 
-        System.out.println(className);
+//        System.out.println(className);
 
 //      to output all the methods used by the application
 
@@ -53,13 +53,24 @@ public class MonitorTransformer implements ClassFileTransformer {
                 for (CtMethod method : cc.getMethods()) {
                     method.instrument(
                             new ExprEditor() {
-                                public void edit(MethodCall m) {
+                                public void edit(MethodCall m) throws CannotCompileException {
                                     String methodName = m.getClassName() + "." + m.getMethodName();
                                     if (methodName.equals("java.util.ArrayList.add") ) {
                                         System.out.println(methodName);
+                                        String origMethodCall = "$_ = $proceed($$);;\n";
+                                        String bodyToInsert = "System.out.println(\"this is where we call onCall\");";
+                                        origMethodCall = bodyToInsert + origMethodCall;
+                                        m.replace(origMethodCall);
                                     }
                                 }
                             });
+//                    method.instrument(
+//                            new ExprEditor() {
+//                                public void edit(MethodCall m)
+//                                        throws CannotCompileException {
+//                                    System.out.println(m.getClassName() + "." + m.getMethodName() + " " + m.getSignature());
+//                                }
+//                            });
                 }
 //                cc = classPool.get("java.util.ArrayList");
 //                CtMethod DeclaredMethod = cc.getDeclaredMethod("add");
