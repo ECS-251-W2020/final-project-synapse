@@ -9,7 +9,7 @@ import datarace.objects.ListObject;
 
 public class InitDataRace {
 
-	public static void mainStub(/*String[] args*/) throws InterruptedException {
+	public static void datarace(/*String[] args*/) throws InterruptedException {
 		ConcurrentObjects.initObjects();
 		Configuration.init();
 		ListObject listObject = new ListObject("samplestring1");

@@ -13,7 +13,8 @@ public class Configuration {
 	public static void init() {
 		//numThreads = 2;
 		Properties prop = new Properties();
-		String fileName = "conf\\config.properties";
+		System.out.println(System.getProperty("user.dir"));
+		String fileName = System.getProperty("user.dir")+"\\conf\\config.properties";
 		InputStream is = null;
 		try {
 		    is = new FileInputStream(fileName);
