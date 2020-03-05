@@ -16,7 +16,7 @@ public class ByteBuddyTransformer implements AgentBuilder.Transformer {
     public DynamicType.Builder<?> transform(DynamicType.Builder<?> builder, TypeDescription typeDescription,
                                             ClassLoader classLoader, JavaModule javaModule) {
 
-        return builder.method(named("toString"))
+        return builder.method(named("add"))
                 .intercept(FixedValue.value("transformed"));
 //        return null;
     }

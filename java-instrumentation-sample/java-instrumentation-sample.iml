@@ -8,8 +8,25 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+<<<<<<< HEAD
     <orderEntry type="library" name="byte-buddy-1.10.7" level="project" />
     <orderEntry type="library" name="lib" level="project" />
     <orderEntry type="library" name="java-instrumentation-sample" level="project" />
+=======
+    <orderEntry type="library" exported="" name="javassist" level="project" />
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/src/lib/javassist.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="library" exported="" name="byte-buddy-1.10.7" level="project" />
+    <orderEntry type="library" exported="" name="byte-buddy-agent-1.10.8" level="project" />
+    <orderEntry type="library" name="Maven: org.javassist:javassist:3.26.0-GA" level="project" />
+    <orderEntry type="library" name="Maven: net.bytebuddy:byte-buddy:1.10.8" level="project" />
+>>>>>>> e20dda29a59e3ee07cd19415189e353b74f3873c
   </component>
 </module>

@@ -1,2 +1,5 @@
 /.settings/*
 .classpath
+*.jar
+java-instrumentation-sample/.idea/workspace.xml
+java-instrumentation-sample/.idea/workspace.xml
