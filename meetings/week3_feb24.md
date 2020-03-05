@@ -18,4 +18,4 @@
 
 ### Blockers
 
-1. Having a few bugs with agent, but should be fixed soon.
+None
