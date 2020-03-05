@@ -1,8 +1,7 @@
 package com.company;
-import org.jetbrains.annotations.NotNull;
 
-import java.util.Scanner;
-import java.util.stream.IntStream;
+//
+//import datarace.InitDataRace;
 
 public class Main {
 
@@ -13,6 +12,8 @@ public class Main {
             classToMonitor.foo();
         }
         System.out.println("\nafter loop: " + Monitor.counter);
+        //InitDataRace.mainStub();
+
     }
 
 }

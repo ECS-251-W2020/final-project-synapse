@@ -1,0 +1,4 @@
+com\company\AllMethod.class
+com\company\MyFirstAgent.class
+com\company\MonitorTransformer.class
+com\company\ByteBuddyTransformer.class

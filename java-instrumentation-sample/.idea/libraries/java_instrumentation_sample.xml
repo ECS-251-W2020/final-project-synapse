@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="java-instrumentation-sample">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/out/artifacts/java_instrumentation_sample_jar/java-instrumentation-sample.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
