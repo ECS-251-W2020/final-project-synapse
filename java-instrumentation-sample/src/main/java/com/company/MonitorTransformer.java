@@ -25,20 +25,19 @@ public class MonitorTransformer implements ClassFileTransformer {
 
 //        System.out.println(className);
 
-        ClassPool classPool = ClassPool.getDefault();
-//      Javassist uses "." as a separator in class/package names.
-        String classNameDots = className.replaceAll("/", ".");
-
-
+//            to output all the methods used by the application
             try {
+                ClassPool classPool = ClassPool.getDefault();
+//                Javassist uses "." as a separator in class/package names.
+                String classNameDots = className.replaceAll("/", ".");
                 CtClass cc = classPool.get(classNameDots);
-//                CtMethod[] method = cc.getMethods();
                 for (CtMethod method : cc.getMethods()) {
                     method.instrument(
                             new ExprEditor() {
-                                public void edit(MethodCall m)
-                                        throws CannotCompileException {
-                                    System.out.println(m.getClassName() + "." + m.getMethodName() + " " + m.getSignature());
+                                public void edit(MethodCall m) {
+                                    String methodName = m.getClassName() + "." + m.getMethodName();
+                                    if (methodName.equals("java.util.ArrayList.add") )
+                                    System.out.println(methodName);
                                 }
                             });
                 }
