@@ -1,12 +1,12 @@
 package com.company;
 
-import java.io.IOException;
 import java.lang.instrument.ClassFileTransformer;
 import java.lang.instrument.IllegalClassFormatException;
 import java.security.ProtectionDomain;
-import java.lang.Object;
 
 import javassist.*;
+import javassist.expr.ExprEditor;
+import javassist.expr.MethodCall;
 
 
 public class MonitorTransformer implements ClassFileTransformer {
@@ -15,45 +15,56 @@ public class MonitorTransformer implements ClassFileTransformer {
                             Class<?> classBeingRedefined, ProtectionDomain protectionDomain,
                             byte[] classfileBuffer) throws IllegalClassFormatException {
 
-        ClassPool classPool = ClassPool.getDefault();
-
-//        System.out.println(className);
-
         // className can be null, ignoring such classes.
         if (className == null) {
             return null;
         }
 
-        // Javassist uses "." as a separator in class/package names.
-        final String classNameDots = className.replaceAll("/", ".");
-        final CtClass ctClass = classPool.getOrNull(classNameDots);
+//        if (className.equals("com/company/Main")) {
+//            ClassPool classPool = ClassPool.getDefault();
 
-        // Won't find some classes from java.lang.invoke,
-        // but we're not interested in them anyway.
-        if (ctClass == null) {
-            return null;
-        }
+//        System.out.println(className);
 
-        // A frozen CtClass is a CtClass
-        // that was already converted to Java class.
-        if (ctClass.isFrozen()) {
-            // No longer need to keep the CtClass object in memory.
-            ctClass.detach();
-            return null;
-        }
+        ClassPool classPool = ClassPool.getDefault();
+//      Javassist uses "." as a separator in class/package names.
+        String classNameDots = className.replaceAll("/", ".");
 
-        try {
-            boolean anyMethodInstrumented = false;
 
-            // Behaviors == methods and constructors.
-            for (final CtBehavior method : ctClass.getDeclaredMethods()) {
-                    System.out.printf("%s - will collect metrics\n",
-                            method.getLongName());
+            try {
+                CtClass cc = classPool.get(classNameDots);
+//                CtMethod[] method = cc.getMethods();
+                for (CtMethod method : cc.getMethods()) {
+                    method.instrument(
+                            new ExprEditor() {
+                                public void edit(MethodCall m)
+                                        throws CannotCompileException {
+                                    System.out.println(m.getClassName() + "." + m.getMethodName() + " " + m.getSignature());
+                                }
+                            });
+                }
+            } catch (NotFoundException | CannotCompileException e) {
+                e.printStackTrace();
             }
 
-        } catch (Exception e) {
-            e.printStackTrace(System.err);
-        }
+
+//        // Won't find some classes from java.lang.invoke,
+//        // but we're not interested in them anyway.
+//        if (ctClass == null) {
+//            return null;
+//        }
+//
+//        // A frozen CtClass is a CtClass
+//        // that was already converted to Java class.
+//        if (ctClass.isFrozen()) {
+//            // No longer need to keep the CtClass object in memory.
+//            ctClass.detach();
+//            return null;
+
+            // Behaviors == methods and constructors.
+//            for (final CtMethod method : ctClass.getMethods()) {
+////                    System.out.printf("%s - will collect metrics\n", method.getLongName());
+//            }
+
 
 //        if (className.equals("com/company/ClassToMonitor")){
 ////            System.out.println(className);
