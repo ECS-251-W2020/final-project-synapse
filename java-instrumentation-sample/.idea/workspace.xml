@@ -7,7 +7,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f84bdb9f-7eb8-4651-80a7-8cb47deb3282" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/target/classes/com/company/MonitorTransformer$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/company/MonitorTransformer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/MonitorTransformer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../java-profiler-app/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java-profiler-app/.idea/workspace.xml" afterDir="false" />
@@ -222,7 +221,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583038407392</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="inject code before add()">
+      <created>1583377976987</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1583377976987</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -242,7 +248,8 @@
     <MESSAGE value="add AllMethod.java" />
     <MESSAGE value="to monitor all loaded classes" />
     <MESSAGE value="to monitor all loaded classes - methods" />
-    <option name="LAST_COMMIT_MESSAGE" value="to monitor all loaded classes - methods" />
+    <MESSAGE value="inject code before add()" />
+    <option name="LAST_COMMIT_MESSAGE" value="inject code before add()" />
   </component>
   <component name="WindowStateProjectService">
     <state x="537" y="107" key="#HTTP_Proxy" timestamp="1582571188452">
@@ -281,30 +288,30 @@
       <screen x="0" y="30" width="1536" height="834" />
     </state>
     <state x="499" y="194" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.30.1536.834@0.30.1536.834" timestamp="1582485235860" />
-    <state x="283" y="38" key="CommitChangelistDialog2" timestamp="1583038404738">
+    <state x="283" y="38" key="CommitChangelistDialog2" timestamp="1583377974434">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state x="283" y="38" key="CommitChangelistDialog2/0.30.1536.834@0.30.1536.834" timestamp="1583038404738" />
+    <state x="283" y="38" key="CommitChangelistDialog2/0.30.1536.834@0.30.1536.834" timestamp="1583377974434" />
     <state x="549" y="164" key="FileChooserDialogImpl" timestamp="1582743448436">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
     <state x="549" y="164" key="FileChooserDialogImpl/0.30.1536.834@0.30.1536.834" timestamp="1582743448436" />
-    <state width="1493" height="213" key="GridCell.Tab.0.bottom" timestamp="1583377937315">
+    <state width="1493" height="213" key="GridCell.Tab.0.bottom" timestamp="1583377980871">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.bottom/0.30.1536.834@0.30.1536.834" timestamp="1583377937315" />
-    <state width="1493" height="213" key="GridCell.Tab.0.center" timestamp="1583377937315">
+    <state width="1493" height="213" key="GridCell.Tab.0.bottom/0.30.1536.834@0.30.1536.834" timestamp="1583377980871" />
+    <state width="1493" height="213" key="GridCell.Tab.0.center" timestamp="1583377980871">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.center/0.30.1536.834@0.30.1536.834" timestamp="1583377937315" />
-    <state width="1493" height="213" key="GridCell.Tab.0.left" timestamp="1583377937315">
+    <state width="1493" height="213" key="GridCell.Tab.0.center/0.30.1536.834@0.30.1536.834" timestamp="1583377980871" />
+    <state width="1493" height="213" key="GridCell.Tab.0.left" timestamp="1583377980871">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.left/0.30.1536.834@0.30.1536.834" timestamp="1583377937315" />
-    <state width="1493" height="213" key="GridCell.Tab.0.right" timestamp="1583377937315">
+    <state width="1493" height="213" key="GridCell.Tab.0.left/0.30.1536.834@0.30.1536.834" timestamp="1583377980871" />
+    <state width="1493" height="213" key="GridCell.Tab.0.right" timestamp="1583377980871">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.right/0.30.1536.834@0.30.1536.834" timestamp="1583377937315" />
+    <state width="1493" height="213" key="GridCell.Tab.0.right/0.30.1536.834@0.30.1536.834" timestamp="1583377980871" />
     <state x="299" y="102" key="Maven.ArtifactSearchDialog" timestamp="1582737522948">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
