@@ -1,5 +1,6 @@
 package com.company;
 
+import java.io.IOException;
 import java.lang.instrument.ClassFileTransformer;
 import java.lang.instrument.IllegalClassFormatException;
 import java.security.ProtectionDomain;
@@ -23,7 +24,7 @@ public class MonitorTransformer implements ClassFileTransformer {
 //        if (className.equals("com/company/Main")) {
 //            ClassPool classPool = ClassPool.getDefault();
 
-//        System.out.println(className);
+        System.out.println(className);
 
 //      to output all the methods used by the application
 
@@ -39,6 +40,13 @@ public class MonitorTransformer implements ClassFileTransformer {
 //            return classfileBuffer;
 //        }
 
+//        Skip class if it doesn't belong to our Java app
+
+        if (!classNameDots.startsWith("com.company")) {
+            return classfileBuffer;
+        }
+
+        boolean flag = false;
 
             try {
                 CtClass cc = classPool.get(classNameDots);
@@ -47,11 +55,17 @@ public class MonitorTransformer implements ClassFileTransformer {
                             new ExprEditor() {
                                 public void edit(MethodCall m) {
                                     String methodName = m.getClassName() + "." + m.getMethodName();
-                                    if (methodName.equals("java.util.ArrayList.add") )
-                                    System.out.println(methodName);
+                                    if (methodName.equals("java.util.ArrayList.add") ) {
+                                        System.out.println(methodName);
+                                    }
                                 }
                             });
                 }
+//                cc = classPool.get("java.util.ArrayList");
+//                CtMethod DeclaredMethod = cc.getDeclaredMethod("add");
+//                DeclaredMethod.insertBefore("System.out.println(\"this is where we call onCall\");");
+//                return cc.toBytecode();
+
             } catch (NotFoundException | CannotCompileException e) {
                 e.printStackTrace();
             }
