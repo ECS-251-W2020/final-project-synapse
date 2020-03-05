@@ -16,7 +16,7 @@ public class MonitorTransformer implements ClassFileTransformer {
                             Class<?> classBeingRedefined, ProtectionDomain protectionDomain,
                             byte[] classfileBuffer) throws IllegalClassFormatException {
 
-        // className can be null, ignoring such classes.
+//         className can be null, ignoring such classes.
         if (className == null) {
             return null;
         }
@@ -57,8 +57,9 @@ public class MonitorTransformer implements ClassFileTransformer {
                                     String methodName = m.getClassName() + "." + m.getMethodName();
                                     if (methodName.equals("java.util.ArrayList.add") ) {
                                         System.out.println(methodName);
-                                        String origMethodCall = "$_ = $proceed($$);;\n";
-                                        String bodyToInsert = "System.out.println(\"this is where we call onCall\");";
+                                        String origMethodCall = "$_ = $proceed($$);\n";
+                                        System.out.println(origMethodCall);
+                                        String bodyToInsert = "System.out.println(\"this is where we call onCall\");\n";
                                         origMethodCall = bodyToInsert + origMethodCall;
                                         m.replace(origMethodCall);
                                     }
