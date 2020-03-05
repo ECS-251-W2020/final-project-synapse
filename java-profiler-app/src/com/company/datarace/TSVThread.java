@@ -14,8 +14,10 @@ public class TSVThread extends Thread{
 		ArrayList<ListObject> list = ConcurrentObjects.arraylist1;
 		ListObject listObject = new ListObject("samplestring2");
 		listObject.setListAddtime(new Timestamp(System.currentTimeMillis()));
-		int threadnumber = ++Global.threadcounter;
-		TrapHandler.OnCall(String.valueOf(threadnumber) /*change to thread ID later */, "1" /*change to objectId later*/, "add");
+		Global.threadcounter++;
+		int threadnumber = Global.threadcounter;
+		System.out.println("Threadcounter value: "+threadnumber);
+		TrapHandler.OnCall(String.valueOf(threadnumber) , "1" /*NW: TBD: change to objectId later when we have more objects*/, "add");
 		list.add(listObject);
 	}
 }

@@ -6,6 +6,7 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) throws InterruptedException {
+        Global.initGlobal();
         System.out.println("before loop: ");
         ClassToMonitor classToMonitor = new ClassToMonitor();
         for (int i = 0; i < 1; i++) {
