@@ -7,4 +7,5 @@ Thread-Safety Violation Detector is an <i>delay-injection</i> approach which use
 [Trello](https://trello.com/b/UcUVXC8C/ecs251-synapse)
 
 java-profiler-app is the directory containing code with thread safety violation. 
+
 profiler-app/src/com/company/datarace/objects/TSVDArrayList.java is an implementation that extends ArrayList. We overide add so that we can inject trap whenever add is called. 
