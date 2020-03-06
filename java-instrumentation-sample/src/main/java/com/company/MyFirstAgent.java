@@ -1,6 +1,7 @@
 package com.company;
 import java.lang.instrument.Instrumentation;
 
+import net.bytebuddy.ByteBuddy;
 import net.bytebuddy.asm.Advice;
 import net.bytebuddy.description.type.TypeDescription;
 import net.bytebuddy.dynamic.DynamicType;
@@ -16,7 +17,7 @@ public class MyFirstAgent {
     public static void premain(String agentArgs, Instrumentation inst) {
 
         System.out.println("Start!");
-        inst.addTransformer(new MonitorTransformer());
+//        inst.addTransformer(new MonitorTransformer());
 
 
 //        new AgentBuilder.Default()
@@ -26,13 +27,20 @@ public class MyFirstAgent {
 //                .with(AgentBuilder.TypeStrategy.Default.REDEFINE)
 //                .installOn(inst);
 
-//        new AgentBuilder.Default()
-//                .with(new AgentBuilder.InitializationStrategy.SelfInjection.Eager())
-////                .type((ElementMatchers.any()))
-//                .type((ElementMatchers.nameContains("add")))
-//                .transform((builder, typeDescription, classLoader, module) -> builder.method(ElementMatchers.any())
-//                .intercept(Advice.to(AllMethod.class))
-//        ).installOn(inst);
+        new AgentBuilder.Default()
+                .with(new AgentBuilder.InitializationStrategy.SelfInjection.Eager())
+//                .type((ElementMatchers.any()))
+                .type((ElementMatchers.nameStartsWith("com.company")))
+                .transform((builder, typeDescription, classLoader, module) -> builder.method(ElementMatchers.any())
+                .intercept(Advice.to(AllMethod.class))
+        ).installOn(inst);
+
+//        Class<?> dynamicType = new ByteBuddy()
+//                .subclass(Object.class)
+//                .method(ElementMatchers.named("add"))
+//                .intercept(FixedValue.value("Hello! Instrumented"))
+//                .make()
+//                .load
 
     }
 

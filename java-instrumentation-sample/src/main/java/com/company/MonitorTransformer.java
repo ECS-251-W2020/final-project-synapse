@@ -6,8 +6,7 @@ import java.lang.instrument.IllegalClassFormatException;
 import java.security.ProtectionDomain;
 
 import javassist.*;
-import javassist.expr.ExprEditor;
-import javassist.expr.MethodCall;
+import javassist.expr.*;
 
 
 public class MonitorTransformer implements ClassFileTransformer {
@@ -51,19 +50,25 @@ public class MonitorTransformer implements ClassFileTransformer {
             try {
                 CtClass cc = classPool.get(classNameDots);
                 for (CtMethod method : cc.getMethods()) {
+//                    System.out.println(method.getName());
                     method.instrument(
                             new ExprEditor() {
                                 public void edit(MethodCall m) throws CannotCompileException {
                                     String methodName = m.getClassName() + "." + m.getMethodName();
                                     if (methodName.equals("java.util.ArrayList.add") ) {
                                         System.out.println(methodName);
-                                        String origMethodCall = "$_ = $proceed($$);\n";
+                                        String origMethodCall = "{ System.out.println(\"this is where we call onCall\"); $_ = $proceed($$);}";
                                         System.out.println(origMethodCall);
-                                        String bodyToInsert = "System.out.println(\"this is where we call onCall\");\n";
+                                        String bodyToInsert = "System.out.println(\"this is where we call onCall\");";
                                         origMethodCall = bodyToInsert + origMethodCall;
                                         m.replace(origMethodCall);
                                     }
                                 }
+//                                public void edit(FieldAccess e) throws CannotCompileException {
+//                                    System.out.println(e.getFieldName());
+//
+////                                    e.replace("{" + "$_ = $proceed($$);" + "System.out.println($_);" + "}");
+//                                }
                             });
 //                    method.instrument(
 //                            new ExprEditor() {
@@ -119,6 +124,6 @@ public class MonitorTransformer implements ClassFileTransformer {
 //            return classfileBuffer;
 //
 //        }
-        return null;
+        return classfileBuffer;
     }
 }
