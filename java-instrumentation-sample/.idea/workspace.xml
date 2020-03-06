@@ -40,7 +40,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1583448910058</updated>
-      <workItem from="1583448914906" duration="985000" />
+      <workItem from="1583448914906" duration="4329000" />
+      <workItem from="1583530112346" duration="687000" />
     </task>
     <servers />
   </component>
@@ -56,6 +57,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="117" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1583449107135" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1583464084017">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1583464084017" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1583464084016">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1583464084016" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1583464084016">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1583464084016" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1583464084016">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1583464084016" />
     <state x="439" y="117" key="NewModule_or_Project.wizard" timestamp="1583449112088">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -64,5 +81,9 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1583449054634" />
+    <state x="477" y="240" key="com.intellij.ide.util.TipDialog" timestamp="1583530124589">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="477" y="240" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1583530124589" />
   </component>
 </project>

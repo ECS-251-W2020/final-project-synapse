@@ -3,11 +3,8 @@
     <output-path>$PROJECT_DIR$/out/artifacts/java_instrumentation_sample_jar</output-path>
     <root id="archive" name="java-instrumentation-sample.jar">
       <element id="module-output" name="java-instrumentation-sample" />
-      <element id="extracted-dir" path="$PROJECT_DIR$/out/artifacts/java_instrumentation_sample_jar/java-instrumentation-sample.jar" path-in-jar="/" />
-      <element id="extracted-dir" path="$PROJECT_DIR$/byte-buddy-1.10.7.jar" path-in-jar="/" />
-      <element id="extracted-dir" path="$PROJECT_DIR$/src/lib/byte-buddy-agent-1.10.8.jar" path-in-jar="/" />
-      <element id="extracted-dir" path="$PROJECT_DIR$/src/lib/javassist.jar" path-in-jar="/" />
-      <element id="extracted-dir" path="$PROJECT_DIR$/src/lib/byte-buddy-1.10.7.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/javassist/javassist/3.26.0-GA/javassist-3.26.0-GA.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/net/bytebuddy/byte-buddy/1.10.8/byte-buddy-1.10.8.jar" path-in-jar="/" />
     </root>
   </artifact>
 </component>
