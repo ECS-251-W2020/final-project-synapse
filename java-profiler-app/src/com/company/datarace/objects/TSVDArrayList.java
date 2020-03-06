@@ -16,8 +16,8 @@ public class TSVDArrayList extends ArrayList<ListObject> {
 	
 	@Override
 	public boolean add(ListObject obj) {
-
-		//TrapHandler.OnCall("1" /*change to actual threadid*/, "1" /*change to actual object id*/, "add");
+		//System.out.println("Threadid from thread.getcurentthrad: "+Thread.currentThread().getId());
+		TrapHandler.OnCall(String.valueOf(Thread.currentThread().getId()), "1" /*NW: TBD: change to actual object id*/, "add");
 		this.lastWriteTime = new Timestamp(System.currentTimeMillis());
 		return super.add(obj);
 	}

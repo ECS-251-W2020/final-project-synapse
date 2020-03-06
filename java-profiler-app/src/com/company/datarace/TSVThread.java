@@ -16,8 +16,8 @@ public class TSVThread extends Thread{
 		ListObject listObject = new ListObject("samplestring2");
 		listObject.setListAddtime(new Timestamp(System.currentTimeMillis()));
 		Global.threadcounter++;
-		System.out.println("#####Threadcounter value: "+Global.threadcounter);
-		TrapHandler.OnCall(String.valueOf(this.getId()) , "1" /*NW: TBD: change to objectId later when we have more objects*/, "add");
+		//System.out.println("#####Threadcounter value: "+Global.threadcounter);
+		//TrapHandler.OnCall(String.valueOf(this.getId()) , "1" /*NW: TBD: change to objectId later when we have more objects*/, "add");
 		list.add(listObject);
 	}
 }

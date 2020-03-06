@@ -29,8 +29,8 @@ public class MonitorTransformer implements ClassFileTransformer {
         ClassPool classPool = ClassPool.getDefault();
 //      Javassist uses "." as a separator in class/package names.
         String classNameDots = className.replaceAll("/", ".");
-        if (!className.contains("company"))
-            return null;
+//        if (!className.contains("company"))
+//            return null;
 
 
         try {
