@@ -57,11 +57,12 @@ public class MonitorTransformer implements ClassFileTransformer {
                                     String methodName = m.getClassName() + "." + m.getMethodName();
                                     if (methodName.equals("java.util.ArrayList.add") ) {
                                         System.out.println(methodName);
-                                        String origMethodCall = "{ System.out.println(\"this is where we call onCall\"); $_ = $proceed($$);}";
-                                        System.out.println(origMethodCall);
-                                        String bodyToInsert = "System.out.println(\"this is where we call onCall\");";
-                                        origMethodCall = bodyToInsert + origMethodCall;
-                                        m.replace(origMethodCall);
+//                                        String origMethodCall = "{ System.out.println(\"this is where we call onCall\"); $_ = $proceed($$);}";
+//                                        System.out.println(origMethodCall);
+//                                        String bodyToInsert = "System.out.println(\"this is where we call onCall\");";
+//                                        origMethodCall = bodyToInsert + origMethodCall;
+                                        m.replace("{ System.out.println(\"this is where we call onCall\");" +
+                                                " $_ = $proceed($$); }");
                                     }
                                 }
 //                                public void edit(FieldAccess e) throws CannotCompileException {

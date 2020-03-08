@@ -20,20 +20,20 @@ public class MyFirstAgent {
 //        inst.addTransformer(new MonitorTransformer());
 
 
-//        new AgentBuilder.Default()
-//                .type(ElementMatchers.any())
-//                .transform(new ByteBuddyTransformer())
-//                .with(AgentBuilder.Listener.StreamWriting.toSystemOut())
-//                .with(AgentBuilder.TypeStrategy.Default.REDEFINE)
-//                .installOn(inst);
-
         new AgentBuilder.Default()
-                .with(new AgentBuilder.InitializationStrategy.SelfInjection.Eager())
-//                .type((ElementMatchers.any()))
-                .type((ElementMatchers.nameStartsWith("com.company")))
-                .transform((builder, typeDescription, classLoader, module) -> builder.method(ElementMatchers.any())
-                .intercept(Advice.to(AllMethod.class))
-        ).installOn(inst);
+                .type(ElementMatchers.any())
+                .transform(new ByteBuddyTransformer())
+                .with(AgentBuilder.Listener.StreamWriting.toSystemOut())
+                .with(AgentBuilder.TypeStrategy.Default.REDEFINE)
+                .installOn(inst);
+
+//        new AgentBuilder.Default()
+//                .with(new AgentBuilder.InitializationStrategy.SelfInjection.Eager())
+////                .type((ElementMatchers.any()))
+//                .type((ElementMatchers.nameStartsWith("com.company")))
+//                .transform((builder, typeDescription, classLoader, module) -> builder.method(ElementMatchers.any())
+//                .intercept(Advice.to(AllMethod.class))
+//        ).installOn(inst);
 
 //        Class<?> dynamicType = new ByteBuddy()
 //                .subclass(Object.class)

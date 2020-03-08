@@ -7,17 +7,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f84bdb9f-7eb8-4651-80a7-8cb47deb3282" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/MyClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/java_instrumentation_sample_jar/java-instrumentation-sample.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/java_instrumentation_sample_jar/java-instrumentation-sample.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/AllMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/AllMethod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/ByteBuddyTransformer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/ByteBuddyTransformer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/company/MonitorTransformer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/MonitorTransformer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/company/MyFirstAgent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/MyFirstAgent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/company/AllMethod.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/AllMethod.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/company/ByteBuddyTransformer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/ByteBuddyTransformer.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/company/MonitorTransformer$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/MonitorTransformer$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/company/MonitorTransformer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/MonitorTransformer.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/company/MyFirstAgent.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/MyFirstAgent.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/java-instrumentation-sample-1.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/java-instrumentation-sample-1.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-profiler-app/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java-profiler-app/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../java-profiler-app/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java-profiler-app/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-profiler-app/out/production/java-sample-ap/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../java-profiler-app/out/production/java-sample-ap/com/company/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-profiler-app/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-profiler-app/src/com/company/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,11 +57,11 @@
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\coursework quarter 2\OS\project\java-instrumentation-sample\src\lib" />
-    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.company" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\coursework quarter 2\OS\project\java-instrumentation-sample\src\lib" />
     </key>
   </component>
   <component name="RunManager" selected="Application.Main">
@@ -325,22 +330,22 @@
       <screen x="0" y="30" width="1536" height="834" />
     </state>
     <state x="549" y="164" key="FileChooserDialogImpl/0.30.1536.834@0.30.1536.834" timestamp="1582743448436" />
-    <state width="1493" height="214" key="GridCell.Tab.0.bottom" timestamp="1583528327717">
+    <state width="1493" height="213" key="GridCell.Tab.0.bottom" timestamp="1583642401395">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1493" height="214" key="GridCell.Tab.0.bottom/0.30.1536.834@0.30.1536.834" timestamp="1583528327717" />
-    <state width="1493" height="214" key="GridCell.Tab.0.center" timestamp="1583528327717">
+    <state width="1493" height="213" key="GridCell.Tab.0.bottom/0.30.1536.834@0.30.1536.834" timestamp="1583642401395" />
+    <state width="1493" height="213" key="GridCell.Tab.0.center" timestamp="1583642401394">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1493" height="214" key="GridCell.Tab.0.center/0.30.1536.834@0.30.1536.834" timestamp="1583528327717" />
-    <state width="1493" height="214" key="GridCell.Tab.0.left" timestamp="1583528327716">
+    <state width="1493" height="213" key="GridCell.Tab.0.center/0.30.1536.834@0.30.1536.834" timestamp="1583642401394" />
+    <state width="1493" height="213" key="GridCell.Tab.0.left" timestamp="1583642401394">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1493" height="214" key="GridCell.Tab.0.left/0.30.1536.834@0.30.1536.834" timestamp="1583528327716" />
-    <state width="1493" height="214" key="GridCell.Tab.0.right" timestamp="1583528327717">
+    <state width="1493" height="213" key="GridCell.Tab.0.left/0.30.1536.834@0.30.1536.834" timestamp="1583642401394" />
+    <state width="1493" height="213" key="GridCell.Tab.0.right" timestamp="1583642401395">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1493" height="214" key="GridCell.Tab.0.right/0.30.1536.834@0.30.1536.834" timestamp="1583528327717" />
+    <state width="1493" height="213" key="GridCell.Tab.0.right/0.30.1536.834@0.30.1536.834" timestamp="1583642401395" />
     <state x="299" y="102" key="Maven.ArtifactSearchDialog" timestamp="1582737522948">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
@@ -357,10 +362,10 @@
       <screen x="0" y="30" width="1536" height="834" />
     </state>
     <state x="465" y="271" key="com.intellij.ide.util.TipDialog/0.30.1536.834@0.30.1536.834" timestamp="1583446425677" />
-    <state x="962" y="364" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1582574775829">
+    <state x="962" y="364" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1583638413546">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state x="962" y="364" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.30.1536.834@0.30.1536.834" timestamp="1582574775829" />
+    <state x="962" y="364" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.30.1536.834@0.30.1536.834" timestamp="1583638413546" />
     <state x="209" y="67" key="new project wizard" timestamp="1582731449433">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
