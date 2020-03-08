@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="TSVD-Core:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/TSVD_Core_jar</output-path>
+    <root id="archive" name="TSVD-Core.jar">
+      <element id="module-output" name="TSVD-Core" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/javassist/javassist/3.26.0-GA/javassist-3.26.0-GA.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/net/bytebuddy/byte-buddy/1.10.8/byte-buddy-1.10.8.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
