@@ -1,6 +1,9 @@
 package trap;
 
+import java.sql.Timestamp;
 import java.util.ArrayList;
+
+import static java.lang.Math.abs;
 
 public class TrapHandler {
 	private static ArrayList<Trap> traps;
@@ -9,7 +12,21 @@ public class TrapHandler {
 		Trap trap = new Trap(thread_id, objectId, operation_id);
 		System.out.println("Trap created with thread id:" +thread_id);
 		trap.setObjectID(objectId);
-		traps.add(trap);		
+		if(checkNearMiss(trap)){
+			System.out.println("Near Miss Detected!");
+		}
+		traps.add(trap);
+	}
+	private static boolean checkNearMiss(trap.Trap trap){
+		Timestamp trapTime = trap.getCreateTime();
+		for (Trap existingTrap: traps){
+			long diff = trapTime.getTime() - existingTrap.getCreateTime().getTime();
+			if(abs(diff) < 1000){
+				return true;
+			}
+
+		}
+		return false;
 	}
 	
 	public static void OnCall(String thread_id, String object_id, String operation_id) {
