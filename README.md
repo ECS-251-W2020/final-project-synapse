@@ -16,6 +16,4 @@ Thread-Safety Violation Detector is an <i>delay-injection</i> approach which use
 
 java-profiler-app is the directory containing code with thread safety violation. 
 
-profiler-app/src/com/company/datarace/objects/TSVDArrayList.java is an implementation that extends ArrayList. Each element in the list is of type ListObject. We overide add so that we can inject trap whenever add is called. 
-
 ListObject contains the actual data and timestamps that are needed to observe how different threads affect each other.
