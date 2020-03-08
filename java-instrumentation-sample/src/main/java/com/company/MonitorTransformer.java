@@ -47,6 +47,8 @@ public class MonitorTransformer implements ClassFileTransformer {
 
         boolean flag = false;
 
+
+
             try {
                 CtClass cc = classPool.get(classNameDots);
                 for (CtMethod method : cc.getMethods()) {
@@ -57,12 +59,11 @@ public class MonitorTransformer implements ClassFileTransformer {
                                     String methodName = m.getClassName() + "." + m.getMethodName();
                                     if (methodName.equals("java.util.ArrayList.add") ) {
                                         System.out.println(methodName);
-//                                        String origMethodCall = "{ System.out.println(\"this is where we call onCall\"); $_ = $proceed($$);}";
-//                                        System.out.println(origMethodCall);
-//                                        String bodyToInsert = "System.out.println(\"this is where we call onCall\");";
-//                                        origMethodCall = bodyToInsert + origMethodCall;
-                                        m.replace("{ System.out.println(\"this is where we call onCall\");" +
-                                                " $_ = $proceed($$); }");
+                                        String origMethodCall = "{$_ = $proceed($$);}";
+//                                        String printToInsert = "System.out.println(\"this is where we call onCall\");";
+                                        String bodyToInsert = "com.company.MyClass.printLine();";
+                                        origMethodCall = bodyToInsert + origMethodCall;
+                                        m.replace(origMethodCall);
                                     }
                                 }
 //                                public void edit(FieldAccess e) throws CannotCompileException {
@@ -82,9 +83,11 @@ public class MonitorTransformer implements ClassFileTransformer {
 //                cc = classPool.get("java.util.ArrayList");
 //                CtMethod DeclaredMethod = cc.getDeclaredMethod("add");
 //                DeclaredMethod.insertBefore("System.out.println(\"this is where we call onCall\");");
-//                return cc.toBytecode();
+                return cc.toBytecode();
 
             } catch (NotFoundException | CannotCompileException e) {
+                e.printStackTrace();
+            } catch (IOException e) {
                 e.printStackTrace();
             }
 

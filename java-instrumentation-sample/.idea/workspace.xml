@@ -7,11 +7,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f84bdb9f-7eb8-4651-80a7-8cb47deb3282" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/MyClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/AfterBurnerImpossibleException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/Insertable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/InsertableMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/company/MyClass.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/java_instrumentation_sample_jar/java-instrumentation-sample.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/java_instrumentation_sample_jar/java-instrumentation-sample.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/ByteBuddyTransformer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/ByteBuddyTransformer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/company/MonitorTransformer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/MonitorTransformer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/MyClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/MyClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/company/MyFirstAgent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/MyFirstAgent.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/company/ByteBuddyTransformer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/ByteBuddyTransformer.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/company/MonitorTransformer$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/MonitorTransformer$1.class" afterDir="false" />
@@ -19,10 +22,7 @@
       <change beforePath="$PROJECT_DIR$/target/classes/com/company/MyFirstAgent.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/company/MyFirstAgent.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/java-instrumentation-sample-1.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/java-instrumentation-sample-1.0.1-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java-profiler-app/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java-profiler-app/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../java-profiler-app/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java-profiler-app/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java-profiler-app/out/production/java-sample-ap/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../java-profiler-app/out/production/java-sample-ap/com/company/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java-profiler-app/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-profiler-app/src/com/company/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +47,10 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="GenerateAntBuildDialog.backupFiles" value="true" />
+    <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
+    <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
+    <property name="GenerateAntBuildDialog.outputFileNameProperty" value="java-instrumentation-sample" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="findjar.last.used.dir" value="$PROJECT_DIR$" />
@@ -306,10 +310,10 @@
       <screen x="0" y="30" width="1536" height="834" />
     </state>
     <state x="548" y="152" key="#com.intellij.ide.macro.MacrosDialog/0.30.1536.834@0.30.1536.834" timestamp="1582084884653" />
-    <state x="574" y="156" key="#com.intellij.ide.util.MemberChooser" timestamp="1583351840423">
+    <state x="574" y="156" key="#com.intellij.ide.util.MemberChooser" timestamp="1583643496879">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state x="574" y="156" key="#com.intellij.ide.util.MemberChooser/0.30.1536.834@0.30.1536.834" timestamp="1583351840423" />
+    <state x="574" y="156" key="#com.intellij.ide.util.MemberChooser/0.30.1536.834@0.30.1536.834" timestamp="1583643496879" />
     <state x="493" y="136" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1582083362831">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
@@ -330,22 +334,22 @@
       <screen x="0" y="30" width="1536" height="834" />
     </state>
     <state x="549" y="164" key="FileChooserDialogImpl/0.30.1536.834@0.30.1536.834" timestamp="1582743448436" />
-    <state width="1493" height="213" key="GridCell.Tab.0.bottom" timestamp="1583642401395">
+    <state width="1493" height="213" key="GridCell.Tab.0.bottom" timestamp="1583652985052">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.bottom/0.30.1536.834@0.30.1536.834" timestamp="1583642401395" />
-    <state width="1493" height="213" key="GridCell.Tab.0.center" timestamp="1583642401394">
+    <state width="1493" height="213" key="GridCell.Tab.0.bottom/0.30.1536.834@0.30.1536.834" timestamp="1583652985052" />
+    <state width="1493" height="213" key="GridCell.Tab.0.center" timestamp="1583652985051">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.center/0.30.1536.834@0.30.1536.834" timestamp="1583642401394" />
-    <state width="1493" height="213" key="GridCell.Tab.0.left" timestamp="1583642401394">
+    <state width="1493" height="213" key="GridCell.Tab.0.center/0.30.1536.834@0.30.1536.834" timestamp="1583652985051" />
+    <state width="1493" height="213" key="GridCell.Tab.0.left" timestamp="1583652985051">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.left/0.30.1536.834@0.30.1536.834" timestamp="1583642401394" />
-    <state width="1493" height="213" key="GridCell.Tab.0.right" timestamp="1583642401395">
+    <state width="1493" height="213" key="GridCell.Tab.0.left/0.30.1536.834@0.30.1536.834" timestamp="1583652985051" />
+    <state width="1493" height="213" key="GridCell.Tab.0.right" timestamp="1583652985051">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.right/0.30.1536.834@0.30.1536.834" timestamp="1583642401395" />
+    <state width="1493" height="213" key="GridCell.Tab.0.right/0.30.1536.834@0.30.1536.834" timestamp="1583652985051" />
     <state x="299" y="102" key="Maven.ArtifactSearchDialog" timestamp="1582737522948">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
@@ -370,6 +374,10 @@
       <screen x="0" y="30" width="1536" height="834" />
     </state>
     <state x="209" y="67" key="new project wizard/0.30.1536.834@0.30.1536.834" timestamp="1582731449433" />
+    <state x="431" y="186" width="672" height="678" key="search.everywhere.popup" timestamp="1583648515342">
+      <screen x="0" y="30" width="1536" height="834" />
+    </state>
+    <state x="431" y="186" width="672" height="678" key="search.everywhere.popup/0.30.1536.834@0.30.1536.834" timestamp="1583648515342" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

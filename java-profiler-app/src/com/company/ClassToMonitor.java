@@ -15,9 +15,9 @@ public class ClassToMonitor {
 
 //         use add() method to add elements in the list
         arrlist.add(15);
-//        arrlist.add(22);
-//        arrlist.add(30);
-//        arrlist.add(40);
+        arrlist.add(22);
+        arrlist.add(30);
+        arrlist.add(40);
 
 //        adding element 25 at third position
 //        arrlist.add(2,25);

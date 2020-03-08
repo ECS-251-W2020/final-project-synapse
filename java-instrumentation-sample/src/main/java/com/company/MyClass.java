@@ -1,8 +1,8 @@
 package com.company;
 
 public class MyClass {
-    public boolean printLine(){
-        System.out.println("got it");
+    public static boolean printLine(){
+        System.out.println("lmaoo");
         return true;
     }
 

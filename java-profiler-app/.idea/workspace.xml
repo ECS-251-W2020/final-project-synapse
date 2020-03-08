@@ -2,11 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="894f450b-8b66-42c6-8d67-a9726f315d36" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../java-instrumentation-sample/src/main/java/com/company/MyClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-instrumentation-sample/src/main/java/com/company/AfterBurnerImpossibleException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-instrumentation-sample/src/main/java/com/company/Insertable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-instrumentation-sample/src/main/java/com/company/InsertableMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-instrumentation-sample/target/classes/com/company/MyClass.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../java-instrumentation-sample/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java-instrumentation-sample/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../java-instrumentation-sample/out/artifacts/java_instrumentation_sample_jar/java-instrumentation-sample.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../java-instrumentation-sample/out/artifacts/java_instrumentation_sample_jar/java-instrumentation-sample.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java-instrumentation-sample/src/main/java/com/company/ByteBuddyTransformer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-instrumentation-sample/src/main/java/com/company/ByteBuddyTransformer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../java-instrumentation-sample/src/main/java/com/company/MonitorTransformer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-instrumentation-sample/src/main/java/com/company/MonitorTransformer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-instrumentation-sample/src/main/java/com/company/MyClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-instrumentation-sample/src/main/java/com/company/MyClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../java-instrumentation-sample/src/main/java/com/company/MyFirstAgent.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-instrumentation-sample/src/main/java/com/company/MyFirstAgent.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../java-instrumentation-sample/target/classes/com/company/ByteBuddyTransformer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../java-instrumentation-sample/target/classes/com/company/ByteBuddyTransformer.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../java-instrumentation-sample/target/classes/com/company/MonitorTransformer$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../java-instrumentation-sample/target/classes/com/company/MonitorTransformer$1.class" afterDir="false" />
@@ -14,10 +17,8 @@
       <change beforePath="$PROJECT_DIR$/../java-instrumentation-sample/target/classes/com/company/MyFirstAgent.class" beforeDir="false" afterPath="$PROJECT_DIR$/../java-instrumentation-sample/target/classes/com/company/MyFirstAgent.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../java-instrumentation-sample/target/java-instrumentation-sample-1.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../java-instrumentation-sample/target/java-instrumentation-sample-1.0.1-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../java-instrumentation-sample/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../java-instrumentation-sample/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-sample-ap/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-sample-ap/com/company/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/ClassToMonitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/ClassToMonitor.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +43,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
@@ -174,7 +176,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583372447954</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="instrument replace arraylist.add()">
+      <created>1583642606872</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1583642606872</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -184,7 +193,8 @@
     <MESSAGE value="print fixed" />
     <MESSAGE value="instrument arraylist.add()" />
     <MESSAGE value="instrument find arraylist.add()" />
-    <option name="LAST_COMMIT_MESSAGE" value="instrument find arraylist.add()" />
+    <MESSAGE value="instrument replace arraylist.add()" />
+    <option name="LAST_COMMIT_MESSAGE" value="instrument replace arraylist.add()" />
   </component>
   <component name="WindowStateProjectService">
     <state x="223" y="102" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583383526645">
@@ -195,30 +205,30 @@
       <screen x="0" y="30" width="1536" height="834" />
     </state>
     <state x="548" y="152" key="#com.intellij.ide.macro.MacrosDialog/0.30.1536.834@0.30.1536.834" timestamp="1582734117404" />
-    <state x="320" y="41" key="CommitChangelistDialog2" timestamp="1583372445129">
+    <state x="320" y="41" key="CommitChangelistDialog2" timestamp="1583642603560">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state x="320" y="41" key="CommitChangelistDialog2/0.30.1536.834@0.30.1536.834" timestamp="1583372445129" />
+    <state x="320" y="41" key="CommitChangelistDialog2/0.30.1536.834@0.30.1536.834" timestamp="1583642603560" />
     <state x="549" y="164" key="FileChooserDialogImpl" timestamp="1583026334299">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
     <state x="549" y="164" key="FileChooserDialogImpl/0.30.1536.834@0.30.1536.834" timestamp="1583026334299" />
-    <state width="1493" height="214" key="GridCell.Tab.0.bottom" timestamp="1583642417229">
+    <state width="1493" height="214" key="GridCell.Tab.0.bottom" timestamp="1583652999298">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1493" height="214" key="GridCell.Tab.0.bottom/0.30.1536.834@0.30.1536.834" timestamp="1583642417229" />
-    <state width="1493" height="214" key="GridCell.Tab.0.center" timestamp="1583642417229">
+    <state width="1493" height="214" key="GridCell.Tab.0.bottom/0.30.1536.834@0.30.1536.834" timestamp="1583652999298" />
+    <state width="1493" height="214" key="GridCell.Tab.0.center" timestamp="1583652999297">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1493" height="214" key="GridCell.Tab.0.center/0.30.1536.834@0.30.1536.834" timestamp="1583642417229" />
-    <state width="1493" height="214" key="GridCell.Tab.0.left" timestamp="1583642417229">
+    <state width="1493" height="214" key="GridCell.Tab.0.center/0.30.1536.834@0.30.1536.834" timestamp="1583652999297" />
+    <state width="1493" height="214" key="GridCell.Tab.0.left" timestamp="1583652999297">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1493" height="214" key="GridCell.Tab.0.left/0.30.1536.834@0.30.1536.834" timestamp="1583642417229" />
-    <state width="1493" height="214" key="GridCell.Tab.0.right" timestamp="1583642417229">
+    <state width="1493" height="214" key="GridCell.Tab.0.left/0.30.1536.834@0.30.1536.834" timestamp="1583652999297" />
+    <state width="1493" height="214" key="GridCell.Tab.0.right" timestamp="1583652999298">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1493" height="214" key="GridCell.Tab.0.right/0.30.1536.834@0.30.1536.834" timestamp="1583642417229" />
+    <state width="1493" height="214" key="GridCell.Tab.0.right/0.30.1536.834@0.30.1536.834" timestamp="1583652999298" />
     <state width="1493" height="265" key="GridCell.Tab.1.bottom" timestamp="1583416320922">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
@@ -255,5 +265,9 @@
       <screen x="0" y="30" width="1536" height="834" />
     </state>
     <state x="209" y="67" key="new project wizard/0.30.1536.834@0.30.1536.834" timestamp="1582731177673" />
+    <state x="425" y="204" key="run.anything.popup" timestamp="1583652924294">
+      <screen x="0" y="30" width="1536" height="834" />
+    </state>
+    <state x="425" y="204" key="run.anything.popup/0.30.1536.834@0.30.1536.834" timestamp="1583652924294" />
   </component>
 </project>
