@@ -2,9 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="894f450b-8b66-42c6-8d67-a9726f315d36" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../java-instrumentation-sample/src/lib/byte-buddy-1.10.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/final-project-synapse.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java-instrumentation-sample/.idea/libraries/org_jetbrains_annotations_16_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/org_jetbrains_annotations_16_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-profiler-app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bin/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bin/conf/Configuration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bin/datarace/InitDataRace.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bin/datarace/TSVThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bin/datarace/objects/ConcurrentObjects.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bin/datarace/objects/ListObject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bin/datarace/objects/TSVDArrayList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bin/module-info.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bin/trap/Trap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bin/trap/TrapHandler.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../java-instrumentation-sample/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java-instrumentation-sample/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-instrumentation-sample/java-instrumentation-sample.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../java-instrumentation-sample/java-instrumentation-sample.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-instrumentation-sample/out/artifacts/java_instrumentation_sample_jar/java-instrumentation-sample.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../java-instrumentation-sample/out/artifacts/java_instrumentation_sample_jar/java-instrumentation-sample.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-instrumentation-sample/src/main/java/com/company/MyClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-instrumentation-sample/src/main/java/com/company/MyClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-instrumentation-sample/target/classes/com/company/AfterBurnerImpossibleException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-instrumentation-sample/target/classes/com/company/Insertable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-instrumentation-sample/target/classes/com/company/InsertableMethod.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-instrumentation-sample/target/classes/com/company/MyClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/../java-instrumentation-sample/target/classes/com/company/MyClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-instrumentation-sample/target/java-instrumentation-sample-1.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../java-instrumentation-sample/target/java-instrumentation-sample-1.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-instrumentation-sample/target/java-instrumentation-sample-1.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-instrumentation-sample/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../java-instrumentation-sample/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-instrumentation-sample/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../java-instrumentation-sample/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-instrumentation-sample/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-sample-ap.iml" beforeDir="false" afterPath="$PROJECT_DIR$/java-sample-ap.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,62 +65,18 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../javaone2017-bytebuddy-master/javaone2017-bytebuddy-master/projects/fibonacci-bytebuddy" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.company.Main" />
       <module name="java-sample-ap" />
-      <option name="VM_PARAMETERS" value="-javaagent:&quot;D:\coursework quarter 2\OS\project\agent\synapse\final-project-synapse\java-instrumentation-sample\out\artifacts\java_instrumentation_sample_jar\java-instrumentation-sample.jar&quot;" />
+      <option name="VM_PARAMETERS" value="-javaagent:&quot;$PROJECT_DIR$/../java-instrumentation-sample/out/artifacts/java_instrumentation_sample_jar/java-instrumentation-sample.jar&quot;" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
-      <module name="java-sample-ap" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
-      <module name="java-sample-ap" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -194,9 +177,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="instrument replace arraylist.add() with proxy" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="223" y="102" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583383526645">
-      <screen x="0" y="30" width="1536" height="834" />
+    <state x="186" y="69" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583656579093">
+      <screen x="0" y="0" width="1280" height="800" />
     </state>
+    <state x="186" y="69" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.800@0.0.1280.800" timestamp="1583656579093" />
     <state x="223" y="102" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.30.1536.834@0.30.1536.834" timestamp="1583383526645" />
     <state x="548" y="152" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1582734117404">
       <screen x="0" y="30" width="1536" height="834" />
@@ -210,21 +194,25 @@
       <screen x="0" y="30" width="1536" height="834" />
     </state>
     <state x="549" y="164" key="FileChooserDialogImpl/0.30.1536.834@0.30.1536.834" timestamp="1583026334299" />
-    <state width="1493" height="214" key="GridCell.Tab.0.bottom" timestamp="1583652999298">
-      <screen x="0" y="30" width="1536" height="834" />
+    <state width="1238" height="212" key="GridCell.Tab.0.bottom" timestamp="1583662758803">
+      <screen x="0" y="0" width="1280" height="800" />
     </state>
+    <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1583662758803" />
     <state width="1493" height="214" key="GridCell.Tab.0.bottom/0.30.1536.834@0.30.1536.834" timestamp="1583652999298" />
-    <state width="1493" height="214" key="GridCell.Tab.0.center" timestamp="1583652999297">
-      <screen x="0" y="30" width="1536" height="834" />
+    <state width="1238" height="212" key="GridCell.Tab.0.center" timestamp="1583662758802">
+      <screen x="0" y="0" width="1280" height="800" />
     </state>
+    <state width="1238" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1583662758802" />
     <state width="1493" height="214" key="GridCell.Tab.0.center/0.30.1536.834@0.30.1536.834" timestamp="1583652999297" />
-    <state width="1493" height="214" key="GridCell.Tab.0.left" timestamp="1583652999297">
-      <screen x="0" y="30" width="1536" height="834" />
+    <state width="1238" height="212" key="GridCell.Tab.0.left" timestamp="1583662758801">
+      <screen x="0" y="0" width="1280" height="800" />
     </state>
+    <state width="1238" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1583662758801" />
     <state width="1493" height="214" key="GridCell.Tab.0.left/0.30.1536.834@0.30.1536.834" timestamp="1583652999297" />
-    <state width="1493" height="214" key="GridCell.Tab.0.right" timestamp="1583652999298">
-      <screen x="0" y="30" width="1536" height="834" />
+    <state width="1238" height="212" key="GridCell.Tab.0.right" timestamp="1583662758803">
+      <screen x="0" y="0" width="1280" height="800" />
     </state>
+    <state width="1238" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1583662758803" />
     <state width="1493" height="214" key="GridCell.Tab.0.right/0.30.1536.834@0.30.1536.834" timestamp="1583652999298" />
     <state width="1493" height="265" key="GridCell.Tab.1.bottom" timestamp="1583416320922">
       <screen x="0" y="30" width="1536" height="834" />
@@ -246,13 +234,18 @@
       <screen x="0" y="30" width="1536" height="834" />
     </state>
     <state x="451" y="146" key="NewModule_or_Project.wizard/0.30.1536.834@0.30.1536.834" timestamp="1582701984277" />
+    <state x="128" y="0" key="SettingsEditor" timestamp="1583656809049">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="128" y="0" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1583656809049" />
     <state x="849" y="271" key="com.intellij.ide.util.TipDialog" timestamp="1583525133028">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
     <state x="849" y="271" key="com.intellij.ide.util.TipDialog/0.30.1536.834@0.30.1536.834" timestamp="1583525133028" />
-    <state x="498" y="340" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1582131832466">
-      <screen x="0" y="30" width="1536" height="834" />
+    <state x="415" y="297" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1583656802170">
+      <screen x="0" y="0" width="1280" height="800" />
     </state>
+    <state x="415" y="297" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1280.800@0.0.1280.800" timestamp="1583656802170" />
     <state x="498" y="340" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.30.1536.834@0.30.1536.834" timestamp="1582131832466" />
     <state x="578" y="364" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1583449742757">
       <screen x="0" y="30" width="1536" height="834" />

@@ -2,11 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e34e5039-ebeb-44cb-94f1-0899058dcea1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/java-instrumentation-sample/.idea/libraries/org_jetbrains_annotations_16_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-profiler-app/.idea/libraries/org_jetbrains_annotations_16_0_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/conf/Configuration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/datarace/InitDataRace.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/datarace/TSVThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/datarace/objects/ConcurrentObjects.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/datarace/objects/ListObject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/datarace/objects/TSVDArrayList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/module-info.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/trap/Trap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/trap/TrapHandler.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/java-instrumentation-sample/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/java-instrumentation-sample/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-instrumentation-sample/src/main/java/com/company/MonitorTransformer.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-instrumentation-sample/src/main/java/com/company/MonitorTransformer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-instrumentation-sample/target/classes/com/company/MonitorTransformer.class" beforeDir="false" afterPath="$PROJECT_DIR$/java-instrumentation-sample/target/classes/com/company/MonitorTransformer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-instrumentation-sample/java-instrumentation-sample.iml" beforeDir="false" afterPath="$PROJECT_DIR$/java-instrumentation-sample/java-instrumentation-sample.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-instrumentation-sample/out/artifacts/java_instrumentation_sample_jar/java-instrumentation-sample.jar" beforeDir="false" afterPath="$PROJECT_DIR$/java-instrumentation-sample/out/artifacts/java_instrumentation_sample_jar/java-instrumentation-sample.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-instrumentation-sample/src/main/java/com/company/MyClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-instrumentation-sample/src/main/java/com/company/MyClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-instrumentation-sample/target/classes/com/company/AfterBurnerImpossibleException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-instrumentation-sample/target/classes/com/company/Insertable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-instrumentation-sample/target/classes/com/company/InsertableMethod.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-instrumentation-sample/target/classes/com/company/MyClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/java-instrumentation-sample/target/classes/com/company/MyClass.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/java-instrumentation-sample/target/java-instrumentation-sample-1.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/java-instrumentation-sample/target/java-instrumentation-sample-1.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-instrumentation-sample/target/java-instrumentation-sample-1.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-instrumentation-sample/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/java-instrumentation-sample/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-instrumentation-sample/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/java-instrumentation-sample/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-instrumentation-sample/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/java-profiler-app/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/java-profiler-app/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-profiler-app/java-sample-ap.iml" beforeDir="false" afterPath="$PROJECT_DIR$/java-profiler-app/java-sample-ap.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +47,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
