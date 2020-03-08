@@ -1,4 +1,4 @@
-package trap;
+package com.tsvd.trap;
 
 import java.sql.Timestamp;
 import java.util.ArrayList;
@@ -17,7 +17,7 @@ public class TrapHandler {
 		}*/
 		traps.add(trap);
 	}
-	private static boolean checkNearMiss(trap.Trap trap){
+	private static boolean checkNearMiss(Trap trap){
 		Timestamp trapTime = trap.getCreateTime();
 		for (Trap existingTrap: traps){
 			long diff = trapTime.getTime() - existingTrap.getCreateTime().getTime();

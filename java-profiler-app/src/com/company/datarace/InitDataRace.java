@@ -11,6 +11,8 @@ public class InitDataRace {
 
 	public static void datarace(/*String[] args*/) throws InterruptedException {
 		ConcurrentObjects.initObjects();
+		System.out.println("Created aarraylist");
+		Thread.sleep(1000);
 		Configuration.init();
 		ListObject listObject = new ListObject("samplestring1");
 		listObject.setListAddtime(new Timestamp(System.currentTimeMillis()));

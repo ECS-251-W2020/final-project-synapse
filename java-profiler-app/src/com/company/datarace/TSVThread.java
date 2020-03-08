@@ -12,7 +12,7 @@ import datarace.objects.TSVDArrayList;
 public class TSVThread extends Thread{
 	public void run() {
 		System.out.println("#####Added thread and attempting to create TSV");
-		TSVDArrayList list = ConcurrentObjects.arraylist1;
+		ArrayList<ListObject> list = ConcurrentObjects.arraylist1;
 		ListObject listObject = new ListObject("samplestring2");
 		listObject.setListAddtime(new Timestamp(System.currentTimeMillis()));
 		Global.threadcounter++;

@@ -31,14 +31,13 @@ public class MonitorTransformer implements ClassFileTransformer {
 
 //      Skip all agent classes
 
-        if (classNameDots.startsWith("com.instrument.MyAgent")) {
+        if (classNameDots.startsWith("com.instrument")||classNameDots.startsWith("com.tsvd")) {
             return classfileBuffer;
         }
 
         try {
             CtClass cc = classPool.get(classNameDots);
             for (CtMethod method : cc.getMethods()) {
-
 
 //                    System.out.println(method.getName());
                 method.instrument(
@@ -50,11 +49,11 @@ public class MonitorTransformer implements ClassFileTransformer {
 
                                 if (methodName.equals("java.util.ArrayList.add") ) {
 
-//                                    System.out.println(methodName);
+                                    //System.out.println(methodName);
 
                                     String origMethodCall = "{$_ = $proceed($$);}";
 //                                        String printToInsert = "System.out.println(\"this is where we call onCall\");";
-                                    String bodyToInsert = "com.tsvd.MyClass.printLine();";
+                                    String bodyToInsert = "com.tsvd.MyClass.callInstrumentor();";
 
                                     origMethodCall = bodyToInsert + origMethodCall;
                                     m.replace(origMethodCall);
