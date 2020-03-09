@@ -4,7 +4,7 @@ import java.sql.Timestamp;
 import java.util.ArrayList;
 
 import com.company.Global;
-import datarace.objects.ConcurrentObjects;
+import com.company.datarace.objects.ConcurrentObjects;
 import datarace.objects.ListObject;
 //import trap.TrapHandler;
 import datarace.objects.TSVDArrayList;
