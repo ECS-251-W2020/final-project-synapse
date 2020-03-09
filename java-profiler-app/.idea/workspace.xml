@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c44225b6-ec4e-4e80-b5a4-3f0d1f04a6ea" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../TSVD-Core/conf/config.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TSVD-Core/src/main/java/com/conf/Configuration.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TSVD-Core/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TSVD-Core/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TSVD-Core/src/main/java/com/tsvd/trap/TrapHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TSVD-Core/src/main/java/com/tsvd/trap/TrapHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/conf/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/datarace/InitDataRace.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/datarace/InitDataRace.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +39,7 @@
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.Main" />
       <module name="java-profiler-app" />
-      <option name="VM_PARAMETERS" value="-javaagent:&quot;D:\coursework quarter 2\OS\project\agent\synapse\final-project-synapse\TSVD-Core\out\artifacts\TSVD_Core_jar\TSVD-Core.jar&quot;" />
+      <option name="VM_PARAMETERS" value="-javaagent:&quot;D:\github\tsvdjava\final-project-synapse\TSVD-Core\out\artifacts\TSVD_Core_jar\TSVD-Core.jar&quot;" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.company.*" />
@@ -81,9 +80,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="495" y="93" key="#Main/0.0.1536.824@0.0.1536.824" timestamp="1583453117720" />
-    <state x="410" y="117" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583721813086">
-      <screen x="0" y="30" width="1536" height="834" />
+    <state x="191" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583732299412">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
+    <state x="191" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1583732299412" />
     <state x="410" y="86" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1583708997133" />
     <state x="410" y="117" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.30.1536.834@0.30.1536.834" timestamp="1583721813086" />
     <state x="548" y="120" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1582931140477">
@@ -94,24 +94,28 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="117" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1583708598644" />
-    <state width="1493" height="214" key="GridCell.Tab.0.bottom" timestamp="1583721827595">
-      <screen x="0" y="30" width="1536" height="834" />
+    <state width="1237" height="269" key="GridCell.Tab.0.bottom" timestamp="1583732489168">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
+    <state width="1237" height="269" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1583732489168" />
     <state width="1478" height="335" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1583714548156" />
     <state width="1493" height="214" key="GridCell.Tab.0.bottom/0.30.1536.834@0.30.1536.834" timestamp="1583721827595" />
-    <state width="1493" height="214" key="GridCell.Tab.0.center" timestamp="1583721827594">
-      <screen x="0" y="30" width="1536" height="834" />
+    <state width="1237" height="269" key="GridCell.Tab.0.center" timestamp="1583732489168">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
+    <state width="1237" height="269" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1583732489168" />
     <state width="1478" height="335" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1583714548156" />
     <state width="1493" height="214" key="GridCell.Tab.0.center/0.30.1536.834@0.30.1536.834" timestamp="1583721827594" />
-    <state width="1493" height="214" key="GridCell.Tab.0.left" timestamp="1583721827594">
-      <screen x="0" y="30" width="1536" height="834" />
+    <state width="1237" height="269" key="GridCell.Tab.0.left" timestamp="1583732489168">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
+    <state width="1237" height="269" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1583732489168" />
     <state width="1478" height="335" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1583714548156" />
     <state width="1493" height="214" key="GridCell.Tab.0.left/0.30.1536.834@0.30.1536.834" timestamp="1583721827594" />
-    <state width="1493" height="214" key="GridCell.Tab.0.right" timestamp="1583721827594">
-      <screen x="0" y="30" width="1536" height="834" />
+    <state width="1237" height="269" key="GridCell.Tab.0.right" timestamp="1583732489168">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
+    <state width="1237" height="269" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1583732489168" />
     <state width="1478" height="335" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1583714548156" />
     <state width="1493" height="214" key="GridCell.Tab.0.right/0.30.1536.834@0.30.1536.834" timestamp="1583721827594" />
     <state x="439" y="117" key="NewModule_or_Project.wizard" timestamp="1582931185624">
@@ -126,5 +130,16 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1583452067483" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/company/datarace/InitDataRace.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

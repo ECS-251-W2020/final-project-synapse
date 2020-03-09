@@ -9,7 +9,7 @@ import datarace.objects.ListObject;
 
 public class InitDataRace {
 
-	public static void datarace(/*String[] args*/)  {
+	public static void datarace(/*String[] args*/) throws InterruptedException {
 		ConcurrentObjects.initObjects();
 		System.out.println("Created arraylist");
 		try {
@@ -23,11 +23,12 @@ public class InitDataRace {
 		//ConcurrentObjects.arraylist1.add(listObject);
 		int numThreads = Integer.valueOf((String) Configuration.properties.get("numthreads"));
 		for(int n = 0; n < numThreads; n++) {
+			Thread.sleep(1000);
 			Thread newthread = new com.company.datarace.TSVThread();
 			newthread.start();
 		}
 		try {
-			Thread.sleep(5000);
+			Thread.sleep(8000);
 		} catch (InterruptedException e) {
 			e.printStackTrace();
 		}
