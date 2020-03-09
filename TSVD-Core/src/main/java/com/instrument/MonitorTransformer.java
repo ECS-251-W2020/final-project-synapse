@@ -52,7 +52,6 @@ public class MonitorTransformer implements ClassFileTransformer {
                                 if (methodName.equals(operationID) ) {
 
 //                                    System.out.println(methodName);
-//                                    System.out.println("\"" + operationID + "\"");
 
                                     String origMethodCall = "{$_ = $proceed($$);}";
 //                                        String printToInsert = "System.out.println(\"this is where we call onCall\");";

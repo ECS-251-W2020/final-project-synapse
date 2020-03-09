@@ -7,13 +7,13 @@ public class MyClass {
 
 //        System.out.println("This is where we call OnCall");
 
-        try {
-            System.out.println("Instrumenter: Thread" + threadNumber + "Sleeping for 5 seconds before we call OnCall().");
-            java.lang.Thread.sleep(5000);
-        }
-        catch (InterruptedException e) {
-            e.printStackTrace();
-        }
+//        try {
+//            System.out.println("Instrumenter: Thread " + threadNumber + " Sleeping for 5 seconds before we call OnCall().");
+//            java.lang.Thread.sleep(5000);
+//        }
+//        catch (InterruptedException e) {
+//            e.printStackTrace();
+//        }
 
         TrapHandler.OnCall(threadNumber, "1" /*NW: TBD: change to actual object id*/, operationId);
 
