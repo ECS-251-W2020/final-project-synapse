@@ -22,12 +22,16 @@ public class TrapHandler {
 		System.out.println("Trap Set entry with (thread_id, objectId, operation_id): " +
 				thread_id + " " +
 				objectId + " " +
-				operation_id);
+				operation_id +
+				" at time: " +
+				trap.getCreateTime());
 
-		trap.setObjectID(objectId);
-		/*if(checkNearMiss(trap)){
+		trap.setObjectID(objectId);   // is this required?
+
+//		near miss tracking
+		if(checkNearMiss(trap)){
 			System.out.println("Near Miss Detected!");
-		}*/
+		}
 		traps.add(trap);
 	}
 
