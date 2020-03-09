@@ -45,7 +45,9 @@ public class TrapHandler {
 		Timestamp trapTime = trap.getCreateTime();
 		Integer threshold = Configuration.NEAR_MISS_THRESHOLD;
 		for (Trap existingTrap: traps){
+//			System.out.println(trapTime.getTime() + " " + existingTrap.getCreateTime().getTime());
 			long diff = trapTime.getTime() - existingTrap.getCreateTime().getTime();
+//			System.out.println("diff: " + diff);
 			if(abs(diff) < threshold){
 				return true;
 			}

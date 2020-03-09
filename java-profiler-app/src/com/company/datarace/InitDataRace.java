@@ -23,12 +23,12 @@ public class InitDataRace {
 		//ConcurrentObjects.arraylist1.add(listObject);
 		int numThreads = Integer.valueOf((String) Configuration.properties.get("numthreads"));
 		for(int n = 0; n < numThreads; n++) {
-			Thread.sleep(1000);
+			Thread.sleep(10);
 			Thread newthread = new com.company.datarace.TSVThread();
 			newthread.start();
 		}
 		try {
-			Thread.sleep(8000);
+			Thread.sleep(2000);
 		} catch (InterruptedException e) {
 			e.printStackTrace();
 		}
