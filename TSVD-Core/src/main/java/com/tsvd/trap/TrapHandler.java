@@ -17,6 +17,12 @@ public class TrapHandler {
 		}*/
 		traps.add(trap);
 	}
+	public static void clearTrap(String thread_id, String objectId, String operation_id){
+		for(Trap trap: traps){
+			if(trap.getThreadId().equals(thread_id) && trap.getObjectID().equals(objectId) && trap.operationId.equals(operation_id))
+				traps.remove(trap);
+		}
+	}
 	private static boolean checkNearMiss(Trap trap){
 		Timestamp trapTime = trap.getCreateTime();
 		for (Trap existingTrap: traps){

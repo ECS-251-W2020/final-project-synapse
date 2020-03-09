@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import com.company.Global;
 import datarace.objects.ConcurrentObjects;
 import datarace.objects.ListObject;
-import trap.TrapHandler;
+//import trap.TrapHandler;
 import datarace.objects.TSVDArrayList;
 
 public class TSVThread extends Thread{

@@ -6,7 +6,17 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="76a55598-6967-48d3-8a88-848521c9e89e" name="Default Changelist" comment="" />
+    <list default="true" id="76a55598-6967-48d3-8a88-848521c9e89e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/instrument/MonitorTransformer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/instrument/MonitorTransformer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tsvd/MyClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tsvd/MyClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tsvd/trap/TrapHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tsvd/trap/TrapHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-profiler-app/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java-profiler-app/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-profiler-app/src/com/company/datarace/InitDataRace.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-profiler-app/src/com/company/datarace/InitDataRace.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-profiler-app/src/com/company/datarace/TSVThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-profiler-app/src/com/company/datarace/TSVThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-profiler-app/src/com/company/datarace/objects/TSVDArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java-profiler-app/src/com/company/datarace/objects/TSVDArrayList.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,23 +29,35 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1Yri2xLFnlRAWlrKtHwyLcMZY6a" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/tsvd" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\coursework quarter 2\OS\project\TSVD-Core\src" />
-    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.instrument" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\github\tsvdjava\final-project-synapse\TSVD-Core\src\main\java\com\tsvd" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\coursework quarter 2\OS\project\TSVD-Core\src" />
     </key>
   </component>
   <component name="RunManager">
@@ -49,6 +71,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -60,8 +87,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1583706910600</updated>
+      <workItem from="1583708601761" duration="5602000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
     <state x="493" y="136" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1583707234476">
@@ -72,6 +103,26 @@
       <screen x="0" y="30" width="1536" height="834" />
     </state>
     <state x="431" y="372" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.30.1536.834@0.30.1536.834" timestamp="1583707512655" />
+    <state x="549" y="166" key="FileChooserDialogImpl" timestamp="1583708968329">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="166" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1583708968329" />
+    <state width="1478" height="205" key="GridCell.Tab.0.bottom" timestamp="1583714475609">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1478" height="205" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1583714475609" />
+    <state width="1478" height="205" key="GridCell.Tab.0.center" timestamp="1583714475608">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1478" height="205" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1583714475608" />
+    <state width="1478" height="205" key="GridCell.Tab.0.left" timestamp="1583714475608">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1478" height="205" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1583714475608" />
+    <state width="1478" height="205" key="GridCell.Tab.0.right" timestamp="1583714475608">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1478" height="205" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1583714475608" />
     <state x="249" y="30" key="SettingsEditor" timestamp="1583708004636">
       <screen x="0" y="30" width="1536" height="834" />
     </state>

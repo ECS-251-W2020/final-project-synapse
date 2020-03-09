@@ -9,20 +9,28 @@ import datarace.objects.ListObject;
 
 public class InitDataRace {
 
-	public static void datarace(/*String[] args*/) throws InterruptedException {
+	public static void datarace(/*String[] args*/)  {
 		ConcurrentObjects.initObjects();
 		System.out.println("Created aarraylist");
-		Thread.sleep(1000);
+		try {
+			Thread.sleep(1);
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
 		Configuration.init();
 		ListObject listObject = new ListObject("samplestring1");
 		listObject.setListAddtime(new Timestamp(System.currentTimeMillis()));
-		ConcurrentObjects.arraylist1.add(listObject);
+		//ConcurrentObjects.arraylist1.add(listObject);
 		int numThreads = Integer.valueOf((String) Configuration.properties.get("numthreads"));
-		for(int n = 0; n < numThreads-1; n++) {
+		for(int n = 0; n < numThreads; n++) {
 			Thread newthread = new TSVThread();
 			newthread.start();
 		}
-		Thread.sleep(100);
+		try {
+			Thread.sleep(12000);
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
 		for(ListObject obj: ConcurrentObjects.arraylist1) {
 			System.out.println("#####Object Add Timestamp: "+obj.getListAddtime());
 		}
