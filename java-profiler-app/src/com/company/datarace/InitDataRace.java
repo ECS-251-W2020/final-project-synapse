@@ -1,4 +1,4 @@
-package datarace;
+package com.company.datarace;
 
 import java.sql.Timestamp;
 import java.util.ArrayList;
@@ -23,7 +23,7 @@ public class InitDataRace {
 		//ConcurrentObjects.arraylist1.add(listObject);
 		int numThreads = Integer.valueOf((String) Configuration.properties.get("numthreads"));
 		for(int n = 0; n < numThreads; n++) {
-			Thread newthread = new TSVThread();
+			Thread newthread = new com.company.datarace.TSVThread();
 			newthread.start();
 		}
 		try {
@@ -32,7 +32,7 @@ public class InitDataRace {
 			e.printStackTrace();
 		}
 		for(ListObject obj: ConcurrentObjects.arraylist1) {
-			System.out.println("#####Object Add Timestamp: "+obj.getListAddtime());
+			System.out.println("#####Object Add Timestamp: " + obj.getListAddtime());
 		}
 		
 	}

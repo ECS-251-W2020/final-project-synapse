@@ -5,7 +5,7 @@ import java.util.ArrayList;
 
 //import trap.TrapHandler;
 
-public class TSVDArrayList extends ArrayList<ListObject> {
+public class TSVDArrayList extends ArrayList<datarace.objects.ListObject> {
 	String objectId;
 	Timestamp lastReadTime;
 	Timestamp lastWriteTime;
@@ -15,7 +15,7 @@ public class TSVDArrayList extends ArrayList<ListObject> {
 	}
 	
 	@Override
-	public boolean add(ListObject obj) {
+	public boolean add(datarace.objects.ListObject obj) {
 		//System.out.println("Threadid from thread.getcurentthrad: "+Thread.currentThread().getId());
 		//TrapHandler.OnCall(String.valueOf(Thread.currentThread().getId()), "1" /*NW: TBD: change to actual object id*/, "add");
 		this.lastWriteTime = new Timestamp(System.currentTimeMillis());
