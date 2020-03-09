@@ -26,12 +26,15 @@ public class TrapHandler {
 				" at time: " +
 				trap.getCreateTime());
 
-		trap.setObjectID(objectId);   // is this required?
+//		trap.setObjectID(objectId);   // is this required?
 
 //		near miss tracking
-		if(checkNearMiss(trap)){
-			System.out.println("Near Miss Detected!");
-		}
+
+//		if(checkNearMiss(trap)){
+//			System.out.println("Near Miss Detected!");
+//		}
+		checkNearMiss(trap);
+
 		traps.add(trap);
 	}
 
@@ -42,15 +45,31 @@ public class TrapHandler {
 		}
 	}
 	private static boolean checkNearMiss(Trap trap){
+
 		Timestamp trapTime = trap.getCreateTime();
+
 		Integer threshold = Configuration.NEAR_MISS_THRESHOLD;
+
 		for (Trap existingTrap: traps){
 //			System.out.println(trapTime.getTime() + " " + existingTrap.getCreateTime().getTime());
-			long diff = trapTime.getTime() - existingTrap.getCreateTime().getTime();
-//			System.out.println("diff: " + diff);
-			if(abs(diff) < threshold){
-				return true;
+			if(
+					!(trap.getThreadId().equals(existingTrap.getThreadId())) &&
+					trap.getOperationId().equals(existingTrap.getOperationId()) &&
+					trap.getObjectID().equals(existingTrap.getObjectID())
+			){
+
+				long diff = trapTime.getTime() - existingTrap.getCreateTime().getTime();
+//				System.out.println("diff: " + diff);
+				if(abs(diff) < threshold){
+
+					System.out.println("Thread Safety Violation Detected:" +
+							"\n\tThreadID: " + existingTrap.getThreadId() + " and " + trap.getThreadId() +
+							"\n\tObjectID:" + existingTrap.getObjectID() +
+							"\n\tOperationID:" + existingTrap.getOperationId()
+					);
+				}
 			}
+
 		}
 		return false;
 	}
@@ -65,7 +84,7 @@ public class TrapHandler {
 			}
 			System.out.println("Thread " + thread_id + " sleeping for "+ delay +" milliseconds");
 			try {
-				Thread.sleep(delay );
+				Thread.sleep(delay);
 			} catch (InterruptedException e) {
 				e.printStackTrace();
 			}
