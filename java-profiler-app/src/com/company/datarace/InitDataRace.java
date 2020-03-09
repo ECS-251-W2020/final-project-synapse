@@ -11,7 +11,7 @@ public class InitDataRace {
 
 	public static void datarace(/*String[] args*/)  {
 		ConcurrentObjects.initObjects();
-		System.out.println("Created aarraylist");
+		System.out.println("Created arraylist");
 		try {
 			Thread.sleep(1);
 		} catch (InterruptedException e) {

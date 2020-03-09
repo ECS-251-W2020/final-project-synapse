@@ -12,9 +12,11 @@ public class TrapHandler {
 	private static ArrayList<Trap> traps;
 
 	public static void insertTrap(String thread_id, String objectId, String operation_id) {
+
 		if(traps == null) traps = new ArrayList<Trap>();
+
 		Trap trap = new Trap(thread_id, objectId, operation_id);
-		System.out.println("Trap created with thread id:" +thread_id);
+		System.out.println("Entry in TrapSet created with thread id:" +thread_id);
 		trap.setObjectID(objectId);
 		/*if(checkNearMiss(trap)){
 			System.out.println("Near Miss Detected!");
