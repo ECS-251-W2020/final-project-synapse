@@ -19,7 +19,11 @@ public class TrapHandler {
 		if(traps == null) traps = new ArrayList<Trap>();
 
 		Trap trap = new Trap(thread_id, objectId, operation_id);
-		System.out.println("Entry in Trap Set created with thread id: " + thread_id);
+		System.out.println("Trap Set entry with (thread_id, objectId, operation_id): " +
+				thread_id + " " +
+				objectId + " " +
+				operation_id);
+
 		trap.setObjectID(objectId);
 		/*if(checkNearMiss(trap)){
 			System.out.println("Near Miss Detected!");
@@ -27,7 +31,7 @@ public class TrapHandler {
 		traps.add(trap);
 	}
 
-	public static void clearTrap(String thread_id, String objectId, String operation_id){
+	public static void clearTrap(String thread_id, int objectId, String operation_id){
 		for(Trap trap: traps){
 			if(trap.getThreadId().equals(thread_id) && trap.getObjectID().equals(objectId) && trap.operationId.equals(operation_id))
 				traps.remove(trap);

@@ -3,7 +3,7 @@ package com.tsvd;
 import com.tsvd.trap.TrapHandler;
 
 public class MyClass {
-    public static void callInstrumenter(String threadNumber, String operationId){
+    public static void callInstrumenter(String threadNumber, String objId,  String operationId){
         //System.out.println("opid recieved: "+operationId);
 //        System.out.println("This is where we call OnCall");
 
@@ -15,7 +15,7 @@ public class MyClass {
 //            e.printStackTrace();
 //        }
 
-        TrapHandler.OnCall(threadNumber, "1" /*NW: TBD: change to actual object id*/, operationId);
+        TrapHandler.OnCall(threadNumber, objId/* "1" NW: TBD: change to actual object id*/, operationId);
 
     }
 

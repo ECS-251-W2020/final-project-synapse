@@ -9,10 +9,10 @@ public class Main {
         Global.initGlobal();
         System.out.println("before loop: ");
         ClassToMonitor classToMonitor = new ClassToMonitor();
-        for (int i = 0; i < 1; i++) {
-//            classToMonitor.foo();
-        //    classToMonitor.bar();
-        }
+//        for (int i = 0; i < 1; i++) {
+////            classToMonitor.foo();
+//            classToMonitor.bar();
+//        }
         com.company.datarace.InitDataRace.datarace();
         System.out.println("\nafter loop: " + Monitor.counter);
         //InitDataRace.mainStub();
