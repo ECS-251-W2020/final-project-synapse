@@ -1,5 +1,7 @@
 package com.tsvd.trap;
 
+import com.conf.Configuration;
+
 import java.sql.Timestamp;
 import java.util.ArrayList;
 
@@ -25,9 +27,10 @@ public class TrapHandler {
 	}
 	private static boolean checkNearMiss(Trap trap){
 		Timestamp trapTime = trap.getCreateTime();
+		Integer threshold = Integer.valueOf((String) Configuration.properties.get("nearMissThreshold"));
 		for (Trap existingTrap: traps){
 			long diff = trapTime.getTime() - existingTrap.getCreateTime().getTime();
-			if(abs(diff) < 1000){
+			if(abs(diff) < threshold){
 				return true;
 			}
 
