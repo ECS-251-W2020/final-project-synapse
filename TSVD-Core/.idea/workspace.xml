@@ -7,8 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="76a55598-6967-48d3-8a88-848521c9e89e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java-profiler-app/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java-profiler-app/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tsvd/MyClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tsvd/MyClass.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,14 +42,18 @@
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.instrument" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\github\tsvdjava\final-project-synapse\TSVD-Core\src\main\java\com\tsvd" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\coursework quarter 2\OS\project\TSVD-Core\src" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\coursework quarter 2\OS\project\agent\synapse\final-project-synapse\TSVD-Core" />
+      <recent name="D:\github\tsvdjava\final-project-synapse\TSVD-Core\src\main\java\com\tsvd" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.conf" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.instrument" />
     </key>
   </component>
   <component name="RunManager">
@@ -82,10 +85,22 @@
       <updated>1583706910600</updated>
       <workItem from="1583708601761" duration="5602000" />
     </task>
+    <task id="LOCAL-00001" summary="nearMissThreshold added to conf">
+      <created>1583722556594</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1583722556594</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="nearMissThreshold added to conf" />
+    <option name="LAST_COMMIT_MESSAGE" value="nearMissThreshold added to conf" />
   </component>
   <component name="WindowStateProjectService">
     <state x="493" y="136" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1583707234476">
@@ -96,6 +111,10 @@
       <screen x="0" y="30" width="1536" height="834" />
     </state>
     <state x="431" y="372" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.30.1536.834@0.30.1536.834" timestamp="1583707512655" />
+    <state x="325" y="41" key="CommitChangelistDialog2" timestamp="1583722554968">
+      <screen x="0" y="30" width="1536" height="834" />
+    </state>
+    <state x="325" y="41" key="CommitChangelistDialog2/0.30.1536.834@0.30.1536.834" timestamp="1583722554968" />
     <state x="549" y="166" key="FileChooserDialogImpl" timestamp="1583708968329">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

@@ -8,7 +8,9 @@ import java.util.ArrayList;
 import static java.lang.Math.abs;
 
 public class TrapHandler {
+
 	private static ArrayList<Trap> traps;
+
 	public static void insertTrap(String thread_id, String objectId, String operation_id) {
 		if(traps == null) traps = new ArrayList<Trap>();
 		Trap trap = new Trap(thread_id, objectId, operation_id);
@@ -19,6 +21,7 @@ public class TrapHandler {
 		}*/
 		traps.add(trap);
 	}
+
 	public static void clearTrap(String thread_id, String objectId, String operation_id){
 		for(Trap trap: traps){
 			if(trap.getThreadId().equals(thread_id) && trap.getObjectID().equals(objectId) && trap.operationId.equals(operation_id))

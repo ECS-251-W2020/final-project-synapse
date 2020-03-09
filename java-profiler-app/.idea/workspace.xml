@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c44225b6-ec4e-4e80-b5a4-3f0d1f04a6ea" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../TSVD-Core/conf/config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TSVD-Core/src/main/java/com/conf/Configuration.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TSVD-Core/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TSVD-Core/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TSVD-Core/src/main/java/com/tsvd/trap/TrapHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TSVD-Core/src/main/java/com/tsvd/trap/TrapHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
