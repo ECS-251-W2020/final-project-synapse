@@ -52,11 +52,11 @@ public class MonitorTransformer implements ClassFileTransformer {
                                 if (methodName.equals(operationID) ) {
 
 //                                    System.out.println(methodName);
-                                    System.out.println("\"" + operationID + "\"");
+//                                    System.out.println("\"" + operationID + "\"");
 
                                     String origMethodCall = "{$_ = $proceed($$);}";
 //                                        String printToInsert = "System.out.println(\"this is where we call onCall\");";
-                                    String bodyToInsert = "{ com.tsvd.MyClass.callInstrumenter(String.valueOf(Thread.currentThread().getId())" +
+                                    String bodyToInsert = "{ com.tsvd.MyClass.callInstrumenter(String.valueOf(Thread.currentThread().getId()), " +
                                             "\"" + operationID + "\"" +
                                             ");} ";
 //                                            "try { java.lang.Thread.sleep(10000);} catch (InterruptedException e) {e.printStackTrace();};" +
