@@ -4,7 +4,7 @@ import java.sql.Timestamp;
 import java.util.ArrayList;
 
 import conf.Configuration;
-import datarace.objects.ConcurrentObjects;
+import com.company.datarace.objects.ConcurrentObjects;
 import datarace.objects.ListObject;
 
 public class InitDataRace {
