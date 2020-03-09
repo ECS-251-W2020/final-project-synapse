@@ -16,7 +16,7 @@ public class TrapHandler {
 		if(traps == null) traps = new ArrayList<Trap>();
 
 		Trap trap = new Trap(thread_id, objectId, operation_id);
-		System.out.println("Entry in TrapSet created with thread id:" +thread_id);
+		System.out.println("Entry in Trap Set created with thread id:" +thread_id);
 		trap.setObjectID(objectId);
 		/*if(checkNearMiss(trap)){
 			System.out.println("Near Miss Detected!");

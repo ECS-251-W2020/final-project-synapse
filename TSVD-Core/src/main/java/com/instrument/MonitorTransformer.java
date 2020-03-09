@@ -39,7 +39,7 @@ public class MonitorTransformer implements ClassFileTransformer {
             CtClass cc = classPool.get(classNameDots);
             for (CtMethod method : cc.getMethods()) {
 
-//                    System.out.println(method.getName());
+//                System.out.println(method.getName());
                 method.instrument(
                         new ExprEditor() {
 
@@ -47,17 +47,22 @@ public class MonitorTransformer implements ClassFileTransformer {
 
                                 String methodName = m.getClassName() + "." + m.getMethodName();
 
-                                if (methodName.equals("java.util.ArrayList.add") ) {
+                                String operationID = "java.util.ArrayList.add";
 
-                                    //System.out.println(methodName);
+                                if (methodName.equals(operationID) ) {
+
+//                                    System.out.println(methodName);
+                                    System.out.println("\"" + operationID + "\"");
 
                                     String origMethodCall = "{$_ = $proceed($$);}";
 //                                        String printToInsert = "System.out.println(\"this is where we call onCall\");";
-                                    String bodyToInsert = "com.tsvd.MyClass.callInstrumentor(String.valueOf(Thread.currentThread().getId()));";
+                                    String bodyToInsert = "{ com.tsvd.MyClass.callInstrumenter(String.valueOf(Thread.currentThread().getId())" +
+                                            "\"" + operationID + "\"" +
+                                            ");} ";
 //                                            "try { java.lang.Thread.sleep(10000);} catch (InterruptedException e) {e.printStackTrace();};" +
 //                                                    "com.tsvd.MyClass.callInstrumentor(String.valueOf(Thread.currentThread().getId()));";
 
-                                    origMethodCall = bodyToInsert + origMethodCall;
+                                    origMethodCall = "{" + bodyToInsert + origMethodCall + "}";
                                     m.replace(origMethodCall);
 
                                 }
