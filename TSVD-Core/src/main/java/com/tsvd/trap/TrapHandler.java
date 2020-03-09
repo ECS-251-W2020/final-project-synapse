@@ -4,8 +4,11 @@ import com.conf.Configuration;
 
 import java.sql.Timestamp;
 import java.util.ArrayList;
+import java.util.Properties;
+
 
 import static java.lang.Math.abs;
+import static java.lang.Math.random;
 
 public class TrapHandler {
 
@@ -32,7 +35,7 @@ public class TrapHandler {
 	}
 	private static boolean checkNearMiss(Trap trap){
 		Timestamp trapTime = trap.getCreateTime();
-		Integer threshold = Integer.valueOf((String) Configuration.properties.get("nearMissThreshold"));
+		Integer threshold = Configuration.NEAR_MISS_THRESHOLD;
 		for (Trap existingTrap: traps){
 			long diff = trapTime.getTime() - existingTrap.getCreateTime().getTime();
 			if(abs(diff) < threshold){
@@ -46,9 +49,13 @@ public class TrapHandler {
 		//check_for_trap(thread_id, object_id, operation_id);
 		//if(should_delay(operation_id)){
 			insertTrap(thread_id, object_id, operation_id);
-			System.out.println("Thread " + thread_id + " sleeping for 5secs");
+			int delay = Configuration.MAX_RANDOM_DELAY;
+			if(Configuration.RANDOM_DELAYS){
+				delay = (int) (random()*(Configuration.MAX_RANDOM_DELAY));
+			}
+			System.out.println("Thread " + thread_id + " sleeping for "+ delay +" milliseconds");
 			try {
-				Thread.sleep(5000);
+				Thread.sleep(delay );
 			} catch (InterruptedException e) {
 				e.printStackTrace();
 			}

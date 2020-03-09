@@ -4,7 +4,7 @@ import com.tsvd.trap.TrapHandler;
 
 public class MyClass {
     public static void callInstrumenter(String threadNumber, String operationId){
-
+        //System.out.println("opid recieved: "+operationId);
 //        System.out.println("This is where we call OnCall");
 
 //        try {
