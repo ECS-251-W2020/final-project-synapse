@@ -1,4 +1,4 @@
-package datarace;
+package com.company.datarace;
 
 import java.sql.Timestamp;
 import java.util.ArrayList;

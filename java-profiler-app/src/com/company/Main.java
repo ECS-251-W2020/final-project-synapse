@@ -13,7 +13,7 @@ public class Main {
 //            classToMonitor.foo();
         //    classToMonitor.bar();
         }
-        datarace.InitDataRace.datarace();
+        com.company.datarace.InitDataRace.datarace();
         System.out.println("\nafter loop: " + Monitor.counter);
         //InitDataRace.mainStub();
 

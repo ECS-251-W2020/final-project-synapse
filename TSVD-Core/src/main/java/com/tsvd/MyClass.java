@@ -3,19 +3,19 @@ package com.tsvd;
 import com.tsvd.trap.TrapHandler;
 
 public class MyClass {
-    public static void callInstrumentor(String threadNumber){
+    public static void callInstrumenter(String threadNumber, String operationId){
 
-        System.out.println("This is where we call OnCall");
+//        System.out.println("This is where we call OnCall");
 
-        try {
-            System.out.println("Instrumentor: Sleeping now for 5 seconds .");
-            java.lang.Thread.sleep(5000);
-        }
-        catch (InterruptedException e) {
-            e.printStackTrace();
-        }
+//        try {
+//            System.out.println("Instrumenter: Thread " + threadNumber + " Sleeping for 5 seconds before we call OnCall().");
+//            java.lang.Thread.sleep(5000);
+//        }
+//        catch (InterruptedException e) {
+//            e.printStackTrace();
+//        }
 
-        TrapHandler.OnCall(threadNumber, "1" /*NW: TBD: change to actual object id*/, "add");
+        TrapHandler.OnCall(threadNumber, "1" /*NW: TBD: change to actual object id*/, operationId);
 
     }
 
