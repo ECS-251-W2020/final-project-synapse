@@ -7,7 +7,9 @@ Thread-Safety Violation Detector is an <i>delay-injection</i> approach which use
 <b>Definitions: </b>
 
 <b>Data Race: </b> A data race occurs when two threads concurrently access the same variable and at least one of these accesses is a write.
+
 <b>Thread Safety Contract: </b> Each class or library specifies, sometimes implicitly, a thread-safety contract that determines the set of functions that can be called concurrently by threads in the program.
+
 <b>Thread Safety Violation: </b> A thread-safety violation occurs when the client fails to meet the thread-safety contract of a class or library
 
 
