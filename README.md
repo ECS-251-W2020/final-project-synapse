@@ -16,6 +16,8 @@ Thread-Safety Violation Detector is an <i>delay-injection</i> approach which use
 
 [Trello](https://trello.com/b/UcUVXC8C/ecs251-synapse)
 
+<b>source code structure and how your code maps to the concepts in your project </b>
+
 java-profiler-app is the directory containing code with thread safety violation. 
 
 ListObject contains the actual data and timestamps that are needed to observe how different threads affect each other.
