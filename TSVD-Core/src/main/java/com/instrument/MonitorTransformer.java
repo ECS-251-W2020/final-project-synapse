@@ -46,8 +46,8 @@ public class MonitorTransformer implements ClassFileTransformer {
                             public void edit(MethodCall m) throws CannotCompileException {
 
                                 String methodName = m.getClassName() + "." + m.getMethodName();
-                                System.out.println(classNameDots + " " + methodName + " Line " + String.valueOf(m.getLineNumber())
-                                + " " + m.getFileName());
+//                                System.out.println(classNameDots + " " + methodName + " Line " + String.valueOf(m.getLineNumber())
+//                                + " " + m.getFileName());
 
                                 String operationID = "java.util.ArrayList.add";
 
