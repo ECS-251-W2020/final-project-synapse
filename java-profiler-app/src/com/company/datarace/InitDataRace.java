@@ -3,9 +3,9 @@ package com.company.datarace;
 import java.sql.Timestamp;
 import java.util.ArrayList;
 
-import conf.Configuration;
+import com.company.conf.Configuration;
 import com.company.datarace.objects.ConcurrentObjects;
-import datarace.objects.ListObject;
+import com.company.datarace.objects.ListObject;
 
 public class InitDataRace {
 

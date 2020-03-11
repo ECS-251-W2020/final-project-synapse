@@ -1,4 +1,4 @@
-package datarace.objects;
+package com.company.datarace.objects;
 
 import java.sql.Timestamp;
 

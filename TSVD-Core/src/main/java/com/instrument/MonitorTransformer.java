@@ -46,6 +46,8 @@ public class MonitorTransformer implements ClassFileTransformer {
                             public void edit(MethodCall m) throws CannotCompileException {
 
                                 String methodName = m.getClassName() + "." + m.getMethodName();
+                                System.out.println(classNameDots + " " + methodName + " Line " + String.valueOf(m.getLineNumber())
+                                + " " + m.getFileName());
 
                                 String operationID = "java.util.ArrayList.add";
 
@@ -61,6 +63,7 @@ public class MonitorTransformer implements ClassFileTransformer {
                                             ");} ";
 //                                            "try { java.lang.Thread.sleep(10000);} catch (InterruptedException e) {e.printStackTrace();};" +
 //                                                    "com.tsvd.MyClass.callInstrumentor(String.valueOf(Thread.currentThread().getId()));";
+
 
 
 

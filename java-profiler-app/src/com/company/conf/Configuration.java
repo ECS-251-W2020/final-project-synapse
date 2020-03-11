@@ -1,4 +1,4 @@
-package conf;
+package com.company.conf;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
