@@ -30,4 +30,4 @@ TSVD-Core is the Java Instrumentor.
 
 TSVD-Core/src/main/java/com/tsvd/trap/Trap.java records the creation time of a trap.
 
-TSVD-Core/src/main/java/com/tsvd/trap/TrapHandler.java corresponds to the trap mechanism used by TSVD. TrapHandler contains an array of traps. checkNearMiss is the check_for_trap function in figure 5 of the paper. If 2 different threads operate on the same object and one of the operations is a write, then a TSV will be detected. 
+TSVD-Core/src/main/java/com/tsvd/trap/TrapHandler.java corresponds to the trap mechanism used by TSVD. TrapHandler contains an array of traps. checkNearMiss is the check_for_trap function in figure 5 of the paper. If 2 different threads operate on the same object and one of the operations is a write, then a TSV will be detected. Here we only consider java.util.ArrayList.add, which is a write and we only have one object arraylist1 as described above. 
