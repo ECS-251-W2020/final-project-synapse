@@ -24,4 +24,4 @@ ListObject contains the actual data and timestamps that are needed to observe ho
 
 java-profiler-app/src/com/company/datarace/objects/ConcurrentObjects.java contains a global variable arraylist1, an array of ListObject.
 
-java-profiler-app/src/com/company/datarace/TSVThread.java has a run() method that adds a ListObject to arraylist1.
+java-profiler-app/src/com/company/datarace/TSVThread.java has a run() method that adds a ListObject to arraylist1 and increments a global variable threadcounter.
