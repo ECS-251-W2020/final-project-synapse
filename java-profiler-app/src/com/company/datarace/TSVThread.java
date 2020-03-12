@@ -5,9 +5,9 @@ import java.util.ArrayList;
 
 import com.company.Global;
 import com.company.datarace.objects.ConcurrentObjects;
-import datarace.objects.ListObject;
+import com.company.datarace.objects.ListObject;
 //import trap.TrapHandler;
-import datarace.objects.TSVDArrayList;
+import com.company.datarace.objects.TSVDArrayList;
 
 public class TSVThread extends Thread{
 	public void run() {
