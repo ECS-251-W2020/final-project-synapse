@@ -25,3 +25,9 @@ ListObject contains the actual data and timestamps that are needed to observe ho
 java-profiler-app/src/com/company/datarace/objects/ConcurrentObjects.java contains a global variable arraylist1, an array of ListObject.
 
 java-profiler-app/src/com/company/datarace/TSVThread.java has a run() method that adds a ListObject to arraylist1 and increments a global variable threadcounter.
+
+TSVD-Core is the Java Instrumentor.
+
+TSVD-Core/src/main/java/com/tsvd/trap/Trap.java records the creation time of a trap.
+
+TSVD-Core/src/main/java/com/tsvd/trap/TrapHandler.java corresponds to the trap mechanism used by TSVD. TrapHandler contains an array of traps. 
