@@ -2,13 +2,21 @@ package com.instrument;
 
 import com.tsvd.MyClass;
 
+import java.io.BufferedReader;
+import java.io.InputStream;
+import java.io.InputStreamReader;
 import java.lang.instrument.ClassFileTransformer;
 import java.io.IOException;
 import java.lang.instrument.IllegalClassFormatException;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
 import java.security.ProtectionDomain;
+import java.util.Properties;
 
 import javassist.*;
 import javassist.expr.*;
+import org.json.JSONObject;
 
 
 public class MonitorTransformer implements ClassFileTransformer {
@@ -37,6 +45,23 @@ public class MonitorTransformer implements ClassFileTransformer {
 
         try {
             CtClass cc = classPool.get(classNameDots);
+
+//            //String userDir = Paths.get(System.getProperty("user.dir")).toString();
+//            InputStream inputStream = this.getClass().getResourceAsStream("tsc.json");
+//            //String contents = new String(Files.readAllBytes(fileName));
+//
+//            BufferedReader bR = new BufferedReader(new InputStreamReader(inputStream));
+//            String line = "";
+//            StringBuilder responseStrBuilder = new StringBuilder();
+//            while ((line = bR.readLine()) != null) {
+//                responseStrBuilder.append(line);
+//            }
+//            inputStream.close();
+//
+//            JSONObject tsc = new JSONObject(responseStrBuilder.toString());
+
+            //JSONObject tsc = new JSONObject(contents);
+            //System.out.println(tsc.toString());
             for (CtMethod method : cc.getMethods()) {
 
 //                System.out.println(method.getName());
@@ -50,8 +75,7 @@ public class MonitorTransformer implements ClassFileTransformer {
 //                                + " " + m.getFileName());
 
                                 String operationID = "java.util.ArrayList.add";
-
-                                if (methodName.equals(operationID) ) {
+                                if (methodName.equals(operationID)) {
 
 //                                    System.out.println(methodName);
 
@@ -59,7 +83,7 @@ public class MonitorTransformer implements ClassFileTransformer {
 //                                        String printToInsert = "System.out.println(\"this is where we call onCall\");";
                                     String bodyToInsert = "{ com.tsvd.MyClass.callInstrumenter(String.valueOf(Thread.currentThread().getId())," +
                                             "Integer.toString(System.identityHashCode($0))," +
-                                            "\"" + operationID + "\"" +
+                                            "\"" + methodName + "\"" +
                                             ");} ";
 //                                            "try { java.lang.Thread.sleep(10000);} catch (InterruptedException e) {e.printStackTrace();};" +
 //                                                    "com.tsvd.MyClass.callInstrumentor(String.valueOf(Thread.currentThread().getId()));";
