@@ -15,11 +15,11 @@ public class MyAgent {
 
         System.out.println("Start!");
 
-//        inst.addTransformer(new MonitorTransformer());
-
         ThreadSafetyContract.readTSC();
-        JSONObject object = ThreadSafetyContract.object;
-        System.out.println("Name: " + object.getString("java.util.HashSet.add"));
+
+        inst.addTransformer(new MonitorTransformer());
+
+//        System.out.println("hashset.add: " + ThreadSafetyContract.object.has("java.util.HashSet.add"));
     }
 
 

@@ -14,9 +14,12 @@ import java.nio.file.Paths;
 import java.security.ProtectionDomain;
 import java.util.Properties;
 
+import com.tsvd.ThreadSafetyContract;
 import javassist.*;
 import javassist.expr.*;
 import org.json.JSONObject;
+
+import static com.tsvd.ThreadSafetyContract.*;
 
 
 public class MonitorTransformer implements ClassFileTransformer {
@@ -74,8 +77,9 @@ public class MonitorTransformer implements ClassFileTransformer {
 //                                System.out.println(classNameDots + " " + methodName + " Line " + String.valueOf(m.getLineNumber())
 //                                + " " + m.getFileName());
 
-                                String operationID = "java.util.ArrayList.add";
-                                if (methodName.equals(operationID)) {
+//                                String operationID = "java.util.ArrayList.add";
+//                                if (methodName.equals(operationID)) {
+                                if(object.has(methodName)){
 
 //                                    System.out.println(methodName);
 

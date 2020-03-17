@@ -28,7 +28,7 @@ public class Configuration {
 		} catch (IOException ex) {
 			System.out.println("Exception: "+ex);
 		}
-		System.out.println("num threads: "+prop.getProperty("numthreads"));
+		System.out.println("num threads: " + prop.getProperty("numthreads"));
 		properties = prop;
 
 	}
