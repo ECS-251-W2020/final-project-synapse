@@ -85,7 +85,8 @@ public class MonitorTransformer implements ClassFileTransformer {
 
                                     String origMethodCall = "{$_ = $proceed($$);}";
 //                                        String printToInsert = "System.out.println(\"this is where we call onCall\");";
-                                    String bodyToInsert = "{ com.tsvd.MyClass.callInstrumenter(String.valueOf(Thread.currentThread().getId())," +
+                                    String bodyToInsert = "{ com.tsvd.MyClass.callInstrumenter(" +
+                                            "String.valueOf(Thread.currentThread().getId())," +
                                             "Integer.toString(System.identityHashCode($0))," +
                                             "\"" + methodName + "\"" +
                                             ");} ";
