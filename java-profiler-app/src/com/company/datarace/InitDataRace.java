@@ -26,6 +26,9 @@ public class InitDataRace {
 		listObject.setListAddtime(new Timestamp(System.currentTimeMillis()));
 		//ConcurrentObjects.arraylist1.add(listObject);
 		int numThreads = Integer.valueOf((String) Configuration.properties.get("numthreads"));
+
+		System.out.println("num threads: " + numThreads);
+
 		for(int n = 0; n < numThreads; n++) {
 			Thread.sleep(10);
 			Thread newthread = new com.company.datarace.TSVThread();
