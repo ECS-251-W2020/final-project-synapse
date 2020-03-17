@@ -3,22 +3,21 @@ package com.company;
 //
 //import datarace.InitDataRace;
 
+import java.sql.Timestamp;
+
 public class Main {
 
     public static void main(String[] args) throws InterruptedException {
-        Global.initGlobal();
-        System.out.println("before loop: ");
-        ClassToMonitor classToMonitor = new ClassToMonitor();
-//        for (int i = 0; i < 1; i++) {
-////            classToMonitor.foo();
-//            classToMonitor.bar();
-//        }
-        com.company.datarace.InitDataRace.datarace();
-        System.out.println("\nafter loop: " + Monitor.counter);
-        //InitDataRace.mainStub();
 
-//        ClassToMonitor classToMonitor = new ClassToMonitor();
- //       classToMonitor.bar();
+        Timestamp startTime = new Timestamp(System.currentTimeMillis());
+
+        Global.initGlobal();
+
+        com.company.datarace.InitDataRace.datarace();
+
+        Timestamp endTime = new Timestamp(System.currentTimeMillis());
+
+        System.out.println(endTime.getTime() - startTime.getTime());
     }
 
 }
