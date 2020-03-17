@@ -89,14 +89,14 @@ public class MonitorTransformer implements ClassFileTransformer {
                                             "Integer.toString(System.identityHashCode($0))," +
                                             "\"" + methodName + "\"" +
                                             ");} ";
+
 //                                            "try { java.lang.Thread.sleep(10000);} catch (InterruptedException e) {e.printStackTrace();};" +
 //                                                    "com.tsvd.MyClass.callInstrumentor(String.valueOf(Thread.currentThread().getId()));";
 
-
-
-
 //                                    String s = "System.out.println(System.identityHashCode($0));";
+
                                     origMethodCall = "{" + bodyToInsert + origMethodCall + "}";
+
 //                                    origMethodCall = "{" + s + origMethodCall + "}";
 
                                     m.replace(origMethodCall);
