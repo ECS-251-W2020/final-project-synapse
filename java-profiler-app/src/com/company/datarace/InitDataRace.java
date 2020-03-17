@@ -10,14 +10,18 @@ import com.company.datarace.objects.ListObject;
 public class InitDataRace {
 
 	public static void datarace(/*String[] args*/) throws InterruptedException {
+
 		ConcurrentObjects.initObjects();
 		System.out.println("Created arraylist");
+
 		try {
 			Thread.sleep(1);
 		} catch (InterruptedException e) {
 			e.printStackTrace();
 		}
+
 		Configuration.init();
+
 		ListObject listObject = new ListObject("samplestring1");
 		listObject.setListAddtime(new Timestamp(System.currentTimeMillis()));
 		//ConcurrentObjects.arraylist1.add(listObject);

@@ -1,5 +1,6 @@
 package com.instrument;
 
+import com.tsvd.ThreadSafetyContract;
 import org.json.JSONObject;
 
 import java.io.BufferedReader;
@@ -14,24 +15,9 @@ public class MyAgent {
 
         System.out.println("Start!");
 
-                    //String userDir = Paths.get(System.getProperty("user.dir")).toString();
-            InputStream inputStream = this.getClass().getResourceAsStream("tsc.json");
-            //String contents = new String(Files.readAllBytes(fileName));
+//        inst.addTransformer(new MonitorTransformer());
 
-            BufferedReader bR = new BufferedReader(new InputStreamReader(inputStream));
-            String line = "";
-            StringBuilder responseStrBuilder = new StringBuilder();
-            while ((line = bR.readLine()) != null) {
-                responseStrBuilder.append(line);
-            }
-            inputStream.close();
-
-            JSONObject tsc = new JSONObject(responseStrBuilder.toString());
-//
-//        JSONObject tsc = new JSONObject(contents);
-        System.out.println(tsc.toString());
-
-        inst.addTransformer(new MonitorTransformer());
+        ThreadSafetyContract.readTSC();
 
     }
 
