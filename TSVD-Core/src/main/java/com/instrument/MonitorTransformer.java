@@ -14,9 +14,12 @@ import java.nio.file.Paths;
 import java.security.ProtectionDomain;
 import java.util.Properties;
 
+import com.tsvd.ThreadSafetyContract;
 import javassist.*;
 import javassist.expr.*;
 import org.json.JSONObject;
+
+import static com.tsvd.ThreadSafetyContract.*;
 
 
 public class MonitorTransformer implements ClassFileTransformer {
@@ -74,8 +77,9 @@ public class MonitorTransformer implements ClassFileTransformer {
 //                                System.out.println(classNameDots + " " + methodName + " Line " + String.valueOf(m.getLineNumber())
 //                                + " " + m.getFileName());
 
-                                String operationID = "java.util.ArrayList.add";
-                                if (methodName.equals(operationID)) {
+//                                String operationID = "java.util.ArrayList.add";
+//                                if (methodName.equals(operationID)) {
+                                if(object.has(methodName)){
 
 //                                    System.out.println(methodName);
 
@@ -85,14 +89,14 @@ public class MonitorTransformer implements ClassFileTransformer {
                                             "Integer.toString(System.identityHashCode($0))," +
                                             "\"" + methodName + "\"" +
                                             ");} ";
+
 //                                            "try { java.lang.Thread.sleep(10000);} catch (InterruptedException e) {e.printStackTrace();};" +
 //                                                    "com.tsvd.MyClass.callInstrumentor(String.valueOf(Thread.currentThread().getId()));";
 
-
-
-
 //                                    String s = "System.out.println(System.identityHashCode($0));";
+
                                     origMethodCall = "{" + bodyToInsert + origMethodCall + "}";
+
 //                                    origMethodCall = "{" + s + origMethodCall + "}";
 
                                     m.replace(origMethodCall);

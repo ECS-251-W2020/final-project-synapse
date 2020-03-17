@@ -15,7 +15,7 @@ public class Configuration {
 		Properties prop = new Properties();
 		Path userDir = Paths.get(System.getProperty("user.dir"));
 		System.out.println(userDir.toString());
-		String fileName = Paths.get(userDir.getParent().toString(),"conf", "config.properties").toString();
+		String fileName = Paths.get(userDir.toString(),"conf", "config.properties").toString();
 		System.out.println(fileName);
 		InputStream is = null;
 		try {
@@ -28,7 +28,7 @@ public class Configuration {
 		} catch (IOException ex) {
 			System.out.println("Exception: "+ex);
 		}
-		System.out.println("num threads: "+prop.getProperty("numthreads"));
+		System.out.println("num threads: " + prop.getProperty("numthreads"));
 		properties = prop;
 
 	}
