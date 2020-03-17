@@ -1,6 +1,7 @@
 package com.tsvd.trap;
 
 import com.conf.Configuration;
+import com.tsvd.ThreadSafetyContract;
 
 import java.sql.Timestamp;
 import java.util.ArrayList;
@@ -57,24 +58,28 @@ public class TrapHandler {
 			String currentOperationID = trap.getOperationId();
 			String currentObjectID = trap.getObjectID();
 
+//			System.out.println(currentOperationID.substring(0,currentOperationID.lastIndexOf('.')));
+
 			if(
 					!(currentThreadID.equals(existingTrapThreadID)) &&
-					(currentOperationID.substring(0,15)).equals(existingTrapOperationID.substring(0,15)) &&
 					currentObjectID.equals(existingTrapObjectID)
 			){
+				if(
+						ThreadSafetyContract.object.getString(currentOperationID).equals("write") ||
+						ThreadSafetyContract.object.getString(existingTrapOperationID).equals("write")
+				){
+					long diff = trapTime.getTime() - existingTrap.getCreateTime().getTime();
+//					System.out.println("diff: " + diff);
+					if(abs(diff) < threshold){
 
-				long diff = trapTime.getTime() - existingTrap.getCreateTime().getTime();
-//				System.out.println("diff: " + diff);
-				if(abs(diff) < threshold){
-
-					System.out.println("Thread Safety Violation Detected:" +
-							"\n\tThreadID: " + existingTrapThreadID + " and " + currentThreadID +
-							"\n\tObjectID:" + existingTrapObjectID +
-							"\n\tOperationID:" + existingTrapOperationID
-					);
+						System.out.println("\nThread Safety Violation Detected:" +
+								"\n\tThreadID: " + existingTrapThreadID + " and " + currentThreadID +
+								"\n\tObjectID:" + existingTrapObjectID +
+								"\n\tOperationID:" + existingTrapOperationID
+						);
+					}
 				}
 			}
-
 		}
 		return false;
 	}
