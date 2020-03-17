@@ -18,7 +18,8 @@ public class MyAgent {
 //        inst.addTransformer(new MonitorTransformer());
 
         ThreadSafetyContract.readTSC();
-
+        JSONObject object = ThreadSafetyContract.object;
+        System.out.println("Name: " + object.getString("java.util.HashSet.add"));
     }
 
 
