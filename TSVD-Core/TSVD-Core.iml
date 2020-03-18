@@ -11,9 +11,9 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="json-20190722" level="project" />
+    <orderEntry type="library" name="json-20190722" level="project" />
     <orderEntry type="library" name="Maven: org.javassist:javassist:3.26.0-GA" level="project" />
     <orderEntry type="library" name="Maven: net.bytebuddy:byte-buddy:1.10.8" level="project" />
-    <orderEntry type="library" name="Maven: org.json:json:20190722" level="project" />
-    <orderEntry type="library" name="json-20190722" level="project" />
   </component>
 </module>

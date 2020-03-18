@@ -1,5 +1,4 @@
 .classpath
-*.jar
 .DS_Store
 
 ## Eclipse 
@@ -154,7 +153,6 @@ fabric.properties
 .mtj.tmp/
 
 # Package Files #
-*.jar
 *.war
 *.nar
 *.ear

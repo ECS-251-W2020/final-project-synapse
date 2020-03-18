@@ -5,8 +5,8 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>groupId</groupId>
-    <artifactId>java-instrumentation-sample</artifactId>
-    <version>1.0.1-SNAPSHOT</version>
+    <artifactId>tsvd-core</artifactId>
+    <version>1.0.0</version>
 
 
 
@@ -20,11 +20,6 @@
             <groupId>net.bytebuddy</groupId>
             <artifactId>byte-buddy</artifactId>
             <version>LATEST</version>
-        </dependency>
-        <dependency>
-            <groupId>org.json</groupId>
-            <artifactId>json</artifactId>
-            <version>20190722</version>
         </dependency>
     </dependencies>
     <build>
