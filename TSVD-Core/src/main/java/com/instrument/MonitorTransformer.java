@@ -23,10 +23,15 @@ import static com.tsvd.ThreadSafetyContract.*;
 
 
 public class MonitorTransformer implements ClassFileTransformer {
+
+    public String implementedClassName;
+
     @Override
     public byte[] transform(ClassLoader loader, String className,
                             Class<?> classBeingRedefined, ProtectionDomain protectionDomain,
                             byte[] classfileBuffer) throws IllegalClassFormatException {
+
+
 
 //         className can be null, ignoring such classes.
 
@@ -74,8 +79,52 @@ public class MonitorTransformer implements ClassFileTransformer {
                             public void edit(MethodCall m) throws CannotCompileException {
 
                                 String methodName = m.getClassName() + "." + m.getMethodName();
+
+//                                System.out.println(methodName);
 //                                System.out.println(classNameDots + " " + methodName + " Line " + String.valueOf(m.getLineNumber())
 //                                + " " + m.getFileName());
+
+//                                if(methodName.startsWith("java.util.list")){
+//
+//                                    System.out.println(methodName);
+//
+//                                    String origMethodCall = "{$_ = $proceed($$);}";
+//                                    String s = "System.out.println(\"instrumented 0: \" + ($0).getClass() );";
+////                                    origMethodCall = "{" + s + origMethodCall + "}";
+//                                    String classOfObject = "{ com.instrument.MonitorTransformer.implementedClassName = ($0).getClass().getName(); }"
+//                                    + "{ System.out.println(\"instrumented 0: \" + com.instrument.MonitorTransformer.implementedClassName ); }";
+//
+//                                    String insertedMethodCall = "{" + s + origMethodCall + "}";
+//
+//                                    m.replace(insertedMethodCall);
+//                                }
+
+
+
+
+//                                    String origMethodCall = "{$_ = $proceed($$);}";
+//                                    String printToInsert = "System.out.println(\"this is where we call onCall\"  + $_ = $proceed($$) );";
+//
+//                                    String classOfObject = "com.instrument.MonitorTransformer.implementedClassName = ($0).getClass().getName();";
+//                                    +
+//                                            "System.out.println(\"instrumented 0: \" + com.instrument.MonitorTransformer.implementedClassName );";
+//
+//                                    String bodyToInsert = "{ com.tsvd.MyClass.callInstrumenter(" +
+//                                            "String.valueOf(Thread.currentThread().getName())," +
+//                                            "Integer.toString(System.identityHashCode($0))," +
+//                                            "\"" + methodName + "\"" +
+//                                            ");} ";
+//
+//
+////                                    String insertedMethodCall = "{" + bodyToInsert + origMethodCall + "}";
+//
+//                                    String insertedMethodCall = "{" + printToInsert + "}";
+
+//                                    m.replace(insertedMethodCall);
+
+
+
+
 
 //                                String operationID = "java.util.ArrayList.add";
 //                                if (methodName.equals(operationID)) {
@@ -86,24 +135,20 @@ public class MonitorTransformer implements ClassFileTransformer {
                                     String origMethodCall = "{$_ = $proceed($$);}";
 //                                        String printToInsert = "System.out.println(\"this is where we call onCall\");";
                                     String bodyToInsert = "{ com.tsvd.MyClass.callInstrumenter(" +
-                                            "String.valueOf(Thread.currentThread().getId())," +
+                                            "String.valueOf(Thread.currentThread().getName())," +
                                             "Integer.toString(System.identityHashCode($0))," +
                                             "\"" + methodName + "\"" +
                                             ");} ";
 
-//                                            "try { java.lang.Thread.sleep(10000);} catch (InterruptedException e) {e.printStackTrace();};" +
-//                                                    "com.tsvd.MyClass.callInstrumentor(String.valueOf(Thread.currentThread().getId()));";
+                                    String s = "System.out.println($0);";
 
-//                                    String s = "System.out.println(System.identityHashCode($0));";
+//                                    origMethodCall = "{" + bodyToInsert + origMethodCall + "}";
 
-                                    origMethodCall = "{" + bodyToInsert + origMethodCall + "}";
-
-//                                    origMethodCall = "{" + s + origMethodCall + "}";
+                                    origMethodCall = "{" + s + origMethodCall + "}";
 
                                     m.replace(origMethodCall);
-
-
                                 }
+
                             }
                         });
             }

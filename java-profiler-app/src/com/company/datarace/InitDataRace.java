@@ -30,7 +30,7 @@ public class InitDataRace {
 
 //		System.out.println("num threads: " + numThreads);
 
-		int numThreads = 8;
+		int numThreads = 3;
 
 		System.out.println("\nCreating " + 10 + " threads:");
 
@@ -40,7 +40,7 @@ public class InitDataRace {
 		int i=0, j=0;
 		for(int n = 0; n < numThreads; n++) {
 //			Thread.sleep(1000);
-			if(random() < 0.5){
+			if(random() < 0.0){
 				normalThreads[i] = new com.company.datarace.NormalThread();
 				normalThreads[i].start();
 				i++;
