@@ -2,6 +2,7 @@ package com.company.datarace;
 
 import java.sql.Timestamp;
 import java.util.ArrayList;
+import java.util.List;
 
 import com.company.Global;
 import com.company.datarace.objects.ConcurrentObjects;
@@ -11,13 +12,21 @@ import com.company.datarace.objects.TSVDArrayList;
 
 public class TSVThread extends Thread{
 	public void run() {
-		System.out.println("#####Added thread and attempting to create TSV");
+
+//		System.out.println("#####Added thread and attempting to create TSV");
+
 		ArrayList<ListObject> list = ConcurrentObjects.arraylist1;
+
+//		System.out.println("\nList ObjectID: " +
+//				System.identityHashCode(list) +
+//				" Name: " +
+//				list.getClass().getName());
+
 		ListObject listObject = new ListObject("samplestring2");
 		listObject.setListAddtime(new Timestamp(System.currentTimeMillis()));
+
 		Global.threadcounter++;
-		//System.out.println("#####Threadcounter value: "+Global.threadcounter);
-		//TrapHandler.OnCall(String.valueOf(this.getId()) , "1" /*NW: TBD: change to objectId later when we have more objects*/, "add");
+
 		list.add(listObject);
 	}
 }

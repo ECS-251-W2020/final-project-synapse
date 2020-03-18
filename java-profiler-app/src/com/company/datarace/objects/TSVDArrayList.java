@@ -19,11 +19,11 @@ public class TSVDArrayList extends ArrayList<com.company.datarace.objects.ListOb
 		//System.out.println("Threadid from thread.getcurentthrad: "+Thread.currentThread().getId());
 		//TrapHandler.OnCall(String.valueOf(Thread.currentThread().getId()), "1" /*NW: TBD: change to actual object id*/, "add");
 		this.lastWriteTime = new Timestamp(System.currentTimeMillis());
-		try {
-			Thread.sleep(1000);
-		} catch (InterruptedException e) {
-			e.printStackTrace();
-		}
+//		try {
+//			Thread.sleep(1000);
+//		} catch (InterruptedException e) {
+//			e.printStackTrace();
+//		}
 
 		return super.add(obj);
 

@@ -39,6 +39,7 @@
                     </archive>
                 </configuration>
             </plugin>
+
         </plugins>
     </build>
     <properties>
