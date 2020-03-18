@@ -140,11 +140,11 @@ public class MonitorTransformer implements ClassFileTransformer {
                                             "\"" + methodName + "\"" +
                                             ");} ";
 
-                                    String s = "System.out.println($0);";
+//                                    String s = "System.out.println($0);";
 
 //                                    origMethodCall = "{" + bodyToInsert + origMethodCall + "}";
 
-                                    origMethodCall = "{" + s + origMethodCall + "}";
+                                    origMethodCall = "{" + bodyToInsert + origMethodCall + "}";
 
                                     m.replace(origMethodCall);
                                 }
