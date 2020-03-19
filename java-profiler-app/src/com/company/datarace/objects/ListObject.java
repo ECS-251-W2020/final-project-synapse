@@ -2,10 +2,15 @@ package com.company.datarace.objects;
 
 import java.sql.Timestamp;
 
+/**
+ * ListObject.java
+ *
+ * Specifies the type of object to be added into the arraylists
+ */
 public class ListObject {
-	String data;
-	Timestamp creationTime;
-	Timestamp listAddtime;
+	private String data;
+	private Timestamp creationTime;
+	private Timestamp listAddtime;
 	
 	public ListObject(String data) {
 		this.data = data;
@@ -24,5 +29,12 @@ public class ListObject {
 	public Timestamp getCreationTime() {
 		return creationTime;
 	}
-	
+
+	public void setCreationTime(Timestamp creationTime) {
+		this.creationTime = creationTime;
+	}
+
+	public void setData(String data) {
+		this.data = data;
+	}
 }
