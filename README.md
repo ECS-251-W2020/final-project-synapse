@@ -1,6 +1,7 @@
-# tsvd4j: A Thread Safety Violation detector for Java applications
+# tsvd4j: Thread Safety Violation detection for Java
 
 **Trello**: [link](https://trello.com/b/UcUVXC8C/ecs251-synapse)
+
 **Slides**: [link](https://docs.google.com/presentation/d/1SkQxILhSvI8lSgbs36Hn3DgG-Ot8Ey2qLZS7KThloS0/edit?usp=sharing)
 
 tsvd4j is a Thread-Safety Violation detection tool for Java-based applications and programs. It is a Java implementation of the original [Thread Safety Violation Detector (TSVD)](https://github.com/microsoft/tsvd) system by Microsoft, first described in Lu et al's [SOSP'19 Best Paper](https://www.microsoft.com/en-us/research/uploads/prod/2019/09/sosp19-final193.pdf), titled "Efficient and Scalable Thread-Safety Violation Detection --- Finding thousands of concurrency bugs during testing".
@@ -14,10 +15,10 @@ A thread-safety contract (TSC) determines when and how can/cannot threads call i
 A TSV is said to occur *only* when its corresponding TSC is violated. For example: in Java, `java.util.HashMap.put` is not thread-safe during concurrent accesses, when atleast one of the operations is a write operation. Thus, the following is a thread-safety violation (even if key1 and key2 are different):
 
 ```
-//HashMap hMap;
+// HashMap hashMap;
 
-hMap.put(key1, value); // Thread 1
-hMap.containsKey(key2); // Thread 2
+hashMap.put(key1, value); // Thread 1
+hashMap.containsKey(key2); // Thread 2
 ```
 
 For our TSC implementation, we focused on the classes from `java.util` - most of which are thread-unsafe (except the classes extending `Vector` and `Dictionary`).
@@ -54,7 +55,7 @@ The project has been divided into two modules:
 
 The following is a schematic of our project structure. **NB:** auto-generated files and folders (.idea, target etc) are not a part of this schema (except `TSVD-Core.jar`, which can be directly used to run tsvd4j on Java applications). 
 
-A brief description of the folders is also given. Usage of individual files and functions is given as `javadoc` within the files; to know more about the code and functions in the files, please open them.
+A brief description of the folders is also given. Usage of individual files and functions is given as `javadoc` within the files; to know more about the code and functions in the files, please open them, our code is well-commented :)
 
 ```
 ├── README.md
