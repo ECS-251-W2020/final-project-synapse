@@ -1,4 +1,4 @@
-package com.company.datarace;
+package com.company.datarace.tests;
 
 import com.company.Global;
 

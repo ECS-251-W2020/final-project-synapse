@@ -2,6 +2,9 @@ package com.company.datarace;
 
 import com.company.conf.Configuration;
 import com.company.datarace.objects.ConcurrentObjects;
+import com.company.datarace.tests.NormalThread;
+import com.company.datarace.tests.TSVLockThread;
+import com.company.datarace.tests.TSVThread;
 
 /**
  * InitDataRace.java
@@ -39,21 +42,22 @@ public class InitDataRace {
 			double prob = Math.random();
 
 			if(prob <= 0.33){
-				normalThreads[i] = new com.company.datarace.NormalThread();
+				normalThreads[i] = new NormalThread();
 				normalThreads[i].start();
 				i++;
 			} else if (prob > 0.33 && prob <= 0.66){
-				tsvLockThreads[k] = new com.company.datarace.TSVLockThread();
+				tsvLockThreads[k] = new TSVLockThread();
 				tsvLockThreads[k].start();
 				k++;
 			}
 			else {
-				TSVthreads[j] = new com.company.datarace.TSVThread();
+				TSVthreads[j] = new TSVThread();
 				TSVthreads[j].start();
 				j++;
 			}
 		}
 
+		// for simulating the HashMap (dict) TSV scenario
 		com.company.datarace.InitDictTSV.dictTSV();
 
 		for(int n = 0; n < i; n++) {

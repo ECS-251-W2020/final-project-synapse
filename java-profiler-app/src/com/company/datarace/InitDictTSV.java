@@ -1,5 +1,8 @@
 package com.company.datarace;
 
+import com.company.datarace.tests.addDict;
+import com.company.datarace.tests.getDict;
+
 /**
  * InitDictTSV.java
  *
