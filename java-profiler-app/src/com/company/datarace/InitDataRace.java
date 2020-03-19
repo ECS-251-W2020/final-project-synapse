@@ -30,7 +30,7 @@ public class InitDataRace {
 
 		int numThreads = 5;
 
-		System.out.println("\nCreating " + 10 + " threads:");
+		System.out.println("\nCreating " + (numThreads + 2) + " threads:");
 
 		TSVThread[] TSVthreads = new TSVThread[numThreads];
 		NormalThread[] normalThreads = new NormalThread[numThreads];
