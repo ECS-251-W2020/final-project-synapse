@@ -4,7 +4,7 @@
 
 **Slides**: [link](https://docs.google.com/presentation/d/1SkQxILhSvI8lSgbs36Hn3DgG-Ot8Ey2qLZS7KThloS0/edit?usp=sharing)
 
-tsvd4j is a Thread-Safety Violation detection tool for Java-based applications and programs. It is a Java implementation of the original [Thread Safety Violation Detector (TSVD)](https://github.com/microsoft/tsvd) system by Microsoft, first described in Lu et al's [SOSP'19 Best Paper](https://www.microsoft.com/en-us/research/uploads/prod/2019/09/sosp19-final193.pdf), titled "Efficient and Scalable Thread-Safety Violation Detection --- Finding thousands of concurrency bugs during testing".
+tsvd4j is a Thread-Safety Violation detection tool for Java-based applications and programs. It is a Java implementation of the original [Thread Safety Violation Detector (TSVD)](https://github.com/microsoft/tsvd) system by Microsoft, first described in Li et al's [SOSP'19 Best Paper](https://www.microsoft.com/en-us/research/uploads/prod/2019/09/sosp19-final193.pdf), titled "Efficient and Scalable Thread-Safety Violation Detection - Finding thousands of concurrency bugs during testing".
 
 ### What is a Thread-Safety Violation?
 
