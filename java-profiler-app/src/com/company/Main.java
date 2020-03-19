@@ -1,10 +1,12 @@
 package com.company;
 
-//
-//import datarace.InitDataRace;
-
 import java.sql.Timestamp;
 
+/**
+ * Main.java
+ *
+ * Driver class
+ */
 public class Main {
 
     public static void main(String[] args) throws InterruptedException {
@@ -17,7 +19,7 @@ public class Main {
 
         Timestamp endTime = new Timestamp(System.currentTimeMillis());
 
-        System.out.println(endTime.getTime() - startTime.getTime());
+        System.out.println("Program execution time: " + (endTime.getTime() - startTime.getTime()));
     }
 
 }

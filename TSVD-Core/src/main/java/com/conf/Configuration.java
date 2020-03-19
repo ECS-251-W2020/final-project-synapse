@@ -1,15 +1,15 @@
 package com.conf;
 
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.IOException;
-import java.io.InputStream;
-import java.util.Properties;
+/** Configuration.java
+ *
+ * This consists of all the configuration parameters used in tsvd4j.
+ * We can also use a config file and parse it, but this was more convenient.
+ */
 
 public class Configuration {
 
-	public static final boolean RANDOM_DELAYS= true;
-	public static final int MAX_RANDOM_DELAY= 100;
-	public static final int NEAR_MISS_THRESHOLD= 100;
+	public static final boolean RANDOM_DELAYS = true;
+	public static final int MAX_RANDOM_DELAY = 100;
+	public static final int NEAR_MISS_THRESHOLD = 100;
 
 }
