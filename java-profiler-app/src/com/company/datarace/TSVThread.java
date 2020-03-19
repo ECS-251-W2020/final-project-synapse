@@ -15,7 +15,7 @@ public class TSVThread extends Thread{
 
 //		System.out.println("#####Added thread and attempting to create TSV");
 		System.out.println(Thread.currentThread().getName() + " Working on shared arraylist");
-		ArrayList<ListObject> list = ConcurrentObjects.arraylist1;
+		//ArrayList<ListObject> list = ConcurrentObjects.arraylist1;
 
 //		System.out.println("\nList ObjectID: " +
 //				System.identityHashCode(list) +
@@ -27,6 +27,7 @@ public class TSVThread extends Thread{
 
 		Global.threadcounter++;
 
-		list.add(listObject);
+		//list.add(listObject);
+		ConcurrentObjects.arraylist1.add(listObject);
 	}
 }

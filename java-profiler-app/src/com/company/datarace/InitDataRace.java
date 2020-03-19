@@ -5,8 +5,6 @@ import java.sql.Timestamp;
 import com.company.datarace.objects.ConcurrentObjects;
 import com.company.datarace.objects.ListObject;
 
-import static java.lang.Math.random;
-
 public class InitDataRace {
 
 	public static void datarace(/*String[] args*/) throws InterruptedException {
@@ -30,20 +28,28 @@ public class InitDataRace {
 
 //		System.out.println("num threads: " + numThreads);
 
-		int numThreads = 3;
+		int numThreads = 5;
 
 		System.out.println("\nCreating " + 10 + " threads:");
 
 		TSVThread[] TSVthreads = new TSVThread[numThreads];
 		NormalThread[] normalThreads = new NormalThread[numThreads];
+		TSVLockThread[] tsvLockThreads = new TSVLockThread[numThreads];
 
-		int i=0, j=0;
+		int i=0, j=0, k=0;
+
 		for(int n = 0; n < numThreads; n++) {
-//			Thread.sleep(1000);
-			if(random() < 0.5){
+
+			double prob = Math.random();
+
+			if(prob <= 0.33){
 				normalThreads[i] = new com.company.datarace.NormalThread();
 				normalThreads[i].start();
 				i++;
+			} else if (prob > 0.33 && prob <= 0.66){
+				tsvLockThreads[k] = new com.company.datarace.TSVLockThread();
+				tsvLockThreads[k].start();
+				k++;
 			}
 			else {
 				TSVthreads[j] = new com.company.datarace.TSVThread();
@@ -66,10 +72,9 @@ public class InitDataRace {
 		for(int n = 0; n < j; n++) {
 			TSVthreads[n].join();
 		}
-
-//		for(ListObject obj: ConcurrentObjects.arraylist1) {
-//			System.out.println("#####Object Add Timestamp: " + obj.getListAddtime());
-//		}
+		for(int n = 0; n < k; n++) {
+			tsvLockThreads[n].join();
+		}
 		
 	}
 }
