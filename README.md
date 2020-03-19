@@ -4,7 +4,7 @@
 
 **Slides**: [link](https://docs.google.com/presentation/d/1SkQxILhSvI8lSgbs36Hn3DgG-Ot8Ey2qLZS7KThloS0/edit?usp=sharing)
 
-tsvd4j is a Thread-Safety Violation detection tool for Java-based applications and programs. It is a Java implementation of the original [Thread Safety Violation Detector (TSVD)](https://github.com/microsoft/tsvd) system by Microsoft, first described in Li et al's [SOSP'19 Best Paper](https://www.microsoft.com/en-us/research/uploads/prod/2019/09/sosp19-final193.pdf), titled "Efficient and Scalable Thread-Safety Violation Detection - Finding thousands of concurrency bugs during testing".
+tsvd4j is a Thread-Safety Violation detection tool for Java-based applications and programs. It is inspired from the original [Thread Safety Violation Detector (TSVD)](https://github.com/microsoft/tsvd) system by Microsoft for .NET applications, first described in Li et al's [SOSP'19 Best Paper](https://www.microsoft.com/en-us/research/uploads/prod/2019/09/sosp19-final193.pdf), titled "Efficient and Scalable Thread-Safety Violation Detection - Finding thousands of concurrency bugs during testing".
 
 ### What is a Thread-Safety Violation?
 
@@ -59,55 +59,55 @@ A brief description of the folders is also given. Usage of individual files and 
 
 ```
 ├── README.md
-├── TSVD-Core (instrumenter + core)
+├── TSVD-Core 																	(instrumenter + core)
 │   ├── conf
-│   │   └── config.properties (config file)
+│   │   └── config.properties 													(config file)
 │   ├── out
 │   │   └── artifacts
 │   │       └── TSVD_Core_jar
-│   │           └── TSVD-Core.jar (packaged jar)
-│   ├── pom.xml (dependency file)
+│   │           └── TSVD-Core.jar 												(packaged jar)
+│   ├── pom.xml 																(dependency file)
 │   ├── src
 │      ├── lib
-│      │   └── json-20190722.jar (used as dependency)
+│      │   └── json-20190722.jar 												(used as dependency)
 │      └── main
 │          ├── java
 │          │   └── com
-│          │       ├── conf (setting config)
+│          │       ├── conf 													(setting config)
 │          │       │   └── Configuration.java
-│          │       ├── instrument (instrumenter code)
-│          │       │   ├── MonitorTransformer.java
-│          │       │   └── MyAgent.java
-│          │       └── tsvd (core algorithm)
-│          │           ├── ProxyClass.java
-│          │           ├── ThreadSafetyContract.java
+│          │       ├── instrument 												(instrumenter code)
+│          │       │   ├── MonitorTransformer.java 								(performs the instrumentation)
+│          │       │   └── MyAgent.java 										(instantiates the instrumenter)
+│          │       └── tsvd 													(core algorithm)
+│          │           ├── ProxyClass.java 										(links the instrumenter with calls to the core functionality)
+│          │           ├── ThreadSafetyContract.java 							(parses the Thread Safety Contract)
 │          │           └── trap
-│          │               ├── Trap.java
-│          │               └── TrapHandler.java
+│          │               ├── Trap.java 										(defines an entry in the trap set)
+│          │               └── TrapHandler.java 								(contains the core functionality)
 │          └── resources
-│              └── tsc.json (Thread-Safety Contract)
+│              └── tsc.json 													(Thread-Safety Contract)
 ├── java-profiler-app
    ├── conf
-   │   └── config.properties (config file)
+   │   └── config.properties 													(config file)
    └── src
        └── com
            └── company
-               ├── Global.java (global variables)
-               ├── Main.java (driver class)
+               ├── Global.java 													(global variables)
+               ├── Main.java 													(driver class)
                ├── conf
-               │   └── Configuration.java (parsing config)
+               │   └── Configuration.java 										(parsing config)
                └── datarace
-                   ├── InitDataRace.java (creates TSVs)
-                   ├── InitDictTSV.java (creates TSV for HashMap)
-                   ├── objects (objects to be inserted)
+                   ├── InitDataRace.java 										(creates TSVs)
+                   ├── InitDictTSV.java 										(creates TSV for HashMap)
+                   ├── objects 													(objects to be inserted)
                    │   ├── ConcurrentObjects.java
                    │   └── ListObject.java
-                   └── tests (TSVD tests - simulate TSVs)
-                       ├── NormalThread.java
-                       ├── TSVLockThread.java
-                       ├── TSVThread.java
-                       ├── addDict.java
-                       └── getDict.java
+                   └── tests 													(TSVD tests - simulate TSVs)
+                       ├── NormalThread.java 									(simulates local arraylist scenario)
+                       ├── TSVLockThread.java 									(simulates concurrent arraylist with locks)
+                       ├── TSVThread.java 										(simulates concurrent arraylist)
+                       ├── addDict.java 										(adding to HashMap in the concurrent HashMap scenario)
+                       └── getDict.java 										(containsKey in HashMap in the concurrent HashMap scenario)
 ```
 
 
